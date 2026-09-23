@@ -73,7 +73,7 @@ for r in rows:
     mb = f"{r[7]/1048576:.1f}" if r[7] else "-"
     print(f"{r[0]:<6}{r[1]:<24}{r[2]:<9}{r[3]:<7}{r[4]:<26}{str(r[5]):>5}{r[6]:>5}{mb:>9}  {r[8]}")
 
-with open(sys.argv[1] if len(sys.argv) > 1 else "availability.tsv", "w", encoding="utf-8") as f:
+with open(sys.argv[1] if len(sys.argv) > 1 else "availability.tsv", "w", encoding="utf-8", newline="\n") as f:
     f.write("axis\tpkg\twhere\trepo\tversion\tvotes\tdepends_n\tinstalled_bytes\tdesc\n")
     for r in rows:
         f.write("\t".join(str(x) for x in r) + "\n")

@@ -76,7 +76,7 @@ def main():
         report[label] = {"total": len(want), "official": len(roots) - len([r for r in roots if r[0] == "aur"]),
                          "aur": {n: aur[n] for n in want if n in aur}, "unknown": unknown}
 
-    json.dump(stacks, open(out_path, "w", encoding="utf-8"), indent=1)
+    json.dump(stacks, open(out_path, "w", encoding="utf-8", newline="\n"), indent=1)
     for label, r in report.items():
         print(f"\n=== {label} — {r['total']} declared, {r['official']} official, {len(r['aur'])} AUR, "
               f"{len(r['unknown'])} unknown ===")

@@ -264,10 +264,10 @@ def main():
                "external_virtuals_hit": {k: sorted(v) for k, v in ext_hits.items()},
                "parents": {k: v["parents"] for k, v in result.items()},
                "detail": {k: sorted(v["seen"]) for k, v in result.items()}},
-              open(os.path.join(OUTDIR, OUT_NAME + ".json"), "w", encoding="utf-8"), indent=1)
-    json.dump(guesses, open(os.path.join(OUTDIR, OUT_NAME + "-guesses.json"), "w", encoding="utf-8"), indent=1)
+              open(os.path.join(OUTDIR, OUT_NAME + ".json"), "w", encoding="utf-8", newline="\n"), indent=1)
+    json.dump(guesses, open(os.path.join(OUTDIR, OUT_NAME + "-guesses.json"), "w", encoding="utf-8", newline="\n"), indent=1)
 
-    with open(os.path.join(OUTDIR, OUT_NAME + ".tsv"), "w", encoding="utf-8") as f:
+    with open(os.path.join(OUTDIR, OUT_NAME + ".tsv"), "w", encoding="utf-8", newline="\n") as f:
         f.write("stack\tpkgs\tinstalled_MB\tmarginal_pkgs\tmarginal_MB\taur_roots\taur_unresolved\n")
         for r in rows:
             f.write(f"{r['stack']}\t{r['pkgs']}\t{r['installed_MB']}\t{r['marginal_pkgs']}\t"
