@@ -11,6 +11,8 @@ packages to install. Run them from the repository root.
 | `closure-inspect.py` | reports what a stack pulls in that it probably should not: 32-bit packages, GPU drivers, toolkits the stack does not use. |
 | `classify-stack.py` | takes another project's package list and classifies every entry official-repo vs AUR, emitting a stack file the resolver can consume. This is how a build found in the wild gets costed. |
 | `pkg-availability.py` | probes a candidate list against both the official databases and the AUR RPC and reports where each component actually lives, plus votes, dependency count and installed size. Records misses explicitly. |
+| `pkg-features.py` | feature-hunt stage 1. Reads `data/features-catalog.json` (feature → candidate packages), probes every candidate, drops the ones that do not exist, and writes `data/features-availability.tsv` plus a resolver input file. |
+| `feature-report.py` | feature-hunt stage 2. Merges measured closures with availability into `docs/features.md`: one table per feature, cheapest-to-dearest, with unmeasurable AUR candidates marked rather than ranked. |
 | `recon-repos.sh` | repository provenance facts via `gh api`: stars, language, last push, archived flag, license, open issues. Writes a TSV. |
 
 ## Options

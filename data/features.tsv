@@ -1,0 +1,146 @@
+stack	pkgs	installed_MB	marginal_pkgs	marginal_MB	aur_roots	aur_unresolved
+brightness :: light	0	0.0	0	0.0	light	
+fonts :: adwaita-fonts	1	7.3	1	7.3		
+fonts :: noto-fonts-emoji	1	10.2	1	10.2		
+fonts :: inter-font	1	14.3	1	14.3		
+colour / theme :: wallust	6	63.5	6	63.5	wallust	
+update check :: topgrade	6	63.5	6	63.5	topgrade	
+system monitor :: fastfetch	7	66.1	7	66.1		
+clipboard :: wl-clip-persist	7	66.5	7	66.5		
+system monitor :: btop	9	68.1	9	68.1		
+file manager TUI :: lf	6	69.0	6	69.0		
+search tools :: fd	9	70.9	9	70.9		
+colour / theme :: matugen	7	74.9	7	74.9		
+brightness :: brillo	18	75.8	18	75.8	brillo	
+wallpaper :: awww	9	76.4	9	76.4		
+brightness :: brightnessctl	15	78.3	15	78.3		
+file manager TUI :: nnn	14	83.0	14	83.0		
+search tools :: ripgrep	13	83.7	13	83.7		
+search tools :: fzf	11	87.0	11	87.0		
+fonts :: noto-fonts	1	106.8	1	106.8		
+file manager TUI :: yazi	13	108.6	13	108.6		
+clipboard :: wl-clipboard	18	129.6	18	129.6		
+night light :: wlsunset	18	129.6	18	129.6		
+on-screen display :: wob	20	129.9	20	129.9		
+night light :: hyprsunset	21	131.4	21	131.4		
+clipboard :: cliphist	19	131.9	19	131.9		
+idle / timeout :: hypridle	29	145.0	29	145.0		
+audio :: playerctl	19	145.9	19	145.9		
+login / DM :: ly	43	151.8	43	151.8		
+system monitor :: htop	51	157.5	51	157.5		
+wallpaper :: wbg	30	159.8	30	159.8	wbg	
+editor :: neovim	45	168.4	45	168.4		
+terminal :: alacritty	36	170.4	36	170.4		
+bluetooth :: bluez-utils	40	190.6	40	190.6		
+bluetooth :: bluez	43	191.4	43	191.4		
+audio :: pipewire	41	193.9	41	193.9		
+emoji picker :: bemoji	61	195.4	61	195.4	bemoji	
+audio :: wireplumber	44	198.5	44	198.5		
+emoji picker :: rofimoji-git	36	207.5	36	207.5	rofimoji-git	
+file manager TUI :: ranger	36	209.8	36	209.8		
+night light :: gammastep	35	211.9	35	211.9		
+terminal :: foot	35	216.3	35	216.3		
+audio :: pamixer	68	217.2	68	217.2		
+screenshot :: grim	40	219.8	40	219.8		
+screenshot :: slurp	41	228.5	41	228.5		
+colour picker :: hyprpicker	42	229.3	42	229.3		
+fonts :: ttf-jetbrains-mono-nerd	1	231.9	1	231.9		
+launcher :: tofi	47	238.1	47	238.1	tofi	
+notifications :: fnott	52	244.3	52	244.3		
+editor :: helix	9	273.0	9	273.0		
+bar / shell :: yambar	88	282.8	88	282.8	yambar	
+brightness :: ddcutil	58	285.7	58	285.7		
+OCR :: tesseract	80	291.5	80	291.5		
+fonts :: noto-fonts-cjk	1	298.8	1	298.8		
+power profiles :: tlp	69	299.9	69	299.9		
+login / DM :: greetd	85	302.2	85	302.2		
+OCR :: tesseract-data-eng	80	306.3	80	306.3		
+wallpaper :: swaybg	89	337.4	89	337.4		
+notifications :: mako	89	337.5	89	337.5		
+lock screen :: swaylock-effects	88	347.8	88	347.8	swaylock-effects	
+idle / timeout :: swayidle	88	348.3	88	348.3		
+lock screen :: swaylock	91	348.7	91	348.7		
+launcher :: rofi	101	350.9	101	350.9		
+battery :: upower	105	359.6	105	359.6		
+power profiles :: power-profiles-daemon	106	359.8	106	359.8		
+screenshot :: hyprshot-git	107	359.8	107	359.8	hyprshot-git	
+cursor :: hyprcursor	99	362.7	99	362.7		
+launcher :: fuzzel	94	364.0	94	364.0		
+terminal :: wezterm	49	368.8	49	368.8		
+colour / theme :: python-pywal	72	370.4	72	370.4	python-pywal	
+colour / theme :: python-pywal16	76	379.7	76	379.7	python-pywal16	
+network :: networkmanager	127	423.1	127	423.1		
+icons :: papirus-icon-theme	89	448.1	89	448.1		
+update check :: pacman-contrib	110	483.0	110	483.0		
+notifications :: dunst	132	485.1	132	485.1		
+X11 apps :: xorg-xwayland	130	583.8	130	583.8		
+compositor :: river	152	600.4	152	600.4		
+river+yambar+wallust	172	622.4	172	622.4	yambar;wallust	
+visualiser :: cava	159	624.5	159	624.5		
+lock screen :: hyprlock	131	647.4	131	647.4		
+compositor :: labwc	152	652.0	152	652.0		
+compositor :: sway	151	656.8	151	656.8		
+power menu :: hyprshutdown	152	663.4	152	663.4		
+wallpaper :: hyprpaper	154	664.4	154	664.4		
+compositor :: wayfire	142	675.1	142	675.1		
+Qt theme :: qt6ct	142	684.4	142	684.4		
+screenshot :: flameshot	144	687.7	144	687.7		
+Qt theme :: kvantum	144	692.9	144	692.9		
+login / DM :: lightdm	154	699.9	154	699.9		
+terminal :: kitty	120	710.7	120	710.7		
+compositor :: hyprland	186	763.2	186	763.2		
+launcher :: wofi	172	768.8	172	768.8		
+lock screen :: gtklock	173	768.8	173	768.8		
+screenshot :: swappy	172	768.8	172	768.8		
+launcher :: sirula	172	769.1	172	769.1	sirula	
+bar / shell :: sfwbar	173	770.0	173	770.0	sfwbar	
+polkit agent :: lxqt-policykit	163	770.7	163	770.7		
+dock :: nwg-dock	173	774.3	173	774.3		
+dock :: plank	180	778.0	180	778.0		
+file manager GUI :: pcmanfm	178	778.0	178	778.0		
+dock :: nwg-dock-hyprland	173	782.4	173	782.4		
+secrets :: gnome-keyring	177	790.3	177	790.3		
+file manager GUI :: thunar	184	790.5	184	790.5		
+network :: nm-connection-editor	183	802.5	183	802.5		
+portals :: xdg-desktop-portal-wlr	176	803.1	176	803.1		
+screen record :: wf-recorder	214	812.7	214	812.7		
+login / DM :: sddm	160	821.1	160	821.1		
+power menu :: wlogout	190	858.5	190	858.5	wlogout	
+polkit agent :: polkit-gnome	188	864.1	188	864.1		
+bluetooth :: blueman	186	870.4	186	870.4		
+polkit agent :: hyprpolkitagent	162	891.3	162	891.3		
+portals :: xdg-desktop-portal-hyprland	199	893.2	199	893.2		
+portals :: xdg-desktop-portal-gtk	200	900.0	200	900.0		
+bar / shell :: quickshell	167	915.5	167	915.5		
+compositor :: niri	208	929.6	208	929.6		
+bar / shell :: noctalia	185	933.8	185	933.8		
+mangowm+quickshell+matugen	203	948.6	203	948.6	mangowm-git	scenefx0.5
+polkit agent :: polkit-kde-agent	186	964.0	186	964.0		
+launcher :: anyrun	212	979.1	212	979.1	anyrun	
+screen record :: wl-screenrec	241	990.1	241	990.1	wl-screenrec	
+on-screen display :: swayosd	230	1005.7	230	1005.7		
+bar / shell :: wayle-bin	226	1007.7	226	1007.7	wayle-bin	
+launcher :: walker	226	1026.4	226	1026.4	walker	
+wallpaper :: mpvpaper	259	1040.5	259	1040.5	mpvpaper	
+hyprland+noctalia+matugen	234	1053.6	234	1053.6		
+bar / shell :: hyprpanel	255	1085.1	255	1085.1	hyprpanel	
+audio :: pavucontrol	236	1094.3	236	1094.3		
+screenshot :: satty	234	1099.0	234	1099.0		
+notifications :: swaync	249	1111.2	249	1111.2		
+bar / shell :: waybar	264	1115.2	264	1115.2		
+labwc+waybar+wallust	275	1120.1	275	1120.1	wallust	
+terminal :: ghostty	238	1124.1	238	1124.1		
+sway+waybar+wallust	274	1124.9	274	1124.9	wallust	
+niri+noctalia+matugen	240	1131.6	240	1131.6		
+bar / shell :: dms-shell	232	1156.8	232	1156.8		
+screen record :: obs-studio	291	1157.4	291	1157.4		
+hyprland+dms+matugen	233	1168.2	233	1168.2		
+screen record :: kooha	297	1182.1	297	1182.1		
+niri+dms+matugen	238	1242.2	238	1242.2		
+bar / shell :: aylurs-gtk-shell	242	1242.7	242	1242.7	aylurs-gtk-shell	libastal;libastal-4
+file manager GUI :: nautilus	397	1533.8	397	1533.8		
+portals :: xdg-desktop-portal-gnome	398	1534.7	398	1534.7		
+file manager GUI :: dolphin	405	1695.8	405	1695.8		
+bar / shell :: caelestia-shell	362	1749.3	362	1749.3	caelestia-shell	caelestia-cli;libcava;qt6-m3shapes-git;quickshell-git;ttf-rubik-vf
+hyprland+caelestia+matugen	393	1839.5	393	1839.5	caelestia-shell	caelestia-cli;libcava;qt6-m3shapes-git;quickshell-git;ttf-rubik-vf
+portals :: xdg-desktop-portal-kde	518	2245.5	518	2245.5		

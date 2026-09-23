@@ -1,0 +1,818 @@
+{
+ "OCR :: tesseract": [
+  [
+   "repo",
+   "tesseract"
+  ]
+ ],
+ "OCR :: tesseract-data-eng": [
+  [
+   "repo",
+   "tesseract-data-eng"
+  ]
+ ],
+ "Qt theme :: kvantum": [
+  [
+   "repo",
+   "kvantum"
+  ]
+ ],
+ "Qt theme :: qt6ct": [
+  [
+   "repo",
+   "qt6ct"
+  ]
+ ],
+ "X11 apps :: xorg-xwayland": [
+  [
+   "repo",
+   "xorg-xwayland"
+  ]
+ ],
+ "audio :: pamixer": [
+  [
+   "repo",
+   "pamixer"
+  ]
+ ],
+ "audio :: pavucontrol": [
+  [
+   "repo",
+   "pavucontrol"
+  ]
+ ],
+ "audio :: pipewire": [
+  [
+   "repo",
+   "pipewire"
+  ]
+ ],
+ "audio :: playerctl": [
+  [
+   "repo",
+   "playerctl"
+  ]
+ ],
+ "audio :: wireplumber": [
+  [
+   "repo",
+   "wireplumber"
+  ]
+ ],
+ "bar / shell :: aylurs-gtk-shell": [
+  [
+   "aur",
+   "aylurs-gtk-shell"
+  ]
+ ],
+ "bar / shell :: caelestia-shell": [
+  [
+   "aur",
+   "caelestia-shell"
+  ]
+ ],
+ "bar / shell :: dms-shell": [
+  [
+   "repo",
+   "dms-shell"
+  ]
+ ],
+ "bar / shell :: hyprpanel": [
+  [
+   "aur",
+   "hyprpanel"
+  ]
+ ],
+ "bar / shell :: noctalia": [
+  [
+   "repo",
+   "noctalia"
+  ]
+ ],
+ "bar / shell :: quickshell": [
+  [
+   "repo",
+   "quickshell"
+  ]
+ ],
+ "bar / shell :: sfwbar": [
+  [
+   "aur",
+   "sfwbar"
+  ]
+ ],
+ "bar / shell :: waybar": [
+  [
+   "repo",
+   "waybar"
+  ]
+ ],
+ "bar / shell :: wayle-bin": [
+  [
+   "aur",
+   "wayle-bin"
+  ]
+ ],
+ "bar / shell :: yambar": [
+  [
+   "aur",
+   "yambar"
+  ]
+ ],
+ "battery :: upower": [
+  [
+   "repo",
+   "upower"
+  ]
+ ],
+ "bluetooth :: blueman": [
+  [
+   "repo",
+   "blueman"
+  ]
+ ],
+ "bluetooth :: bluez": [
+  [
+   "repo",
+   "bluez"
+  ]
+ ],
+ "bluetooth :: bluez-utils": [
+  [
+   "repo",
+   "bluez-utils"
+  ]
+ ],
+ "brightness :: brightnessctl": [
+  [
+   "repo",
+   "brightnessctl"
+  ]
+ ],
+ "brightness :: brillo": [
+  [
+   "aur",
+   "brillo"
+  ]
+ ],
+ "brightness :: ddcutil": [
+  [
+   "repo",
+   "ddcutil"
+  ]
+ ],
+ "brightness :: light": [
+  [
+   "aur",
+   "light"
+  ]
+ ],
+ "clipboard :: cliphist": [
+  [
+   "repo",
+   "cliphist"
+  ]
+ ],
+ "clipboard :: wl-clip-persist": [
+  [
+   "repo",
+   "wl-clip-persist"
+  ]
+ ],
+ "clipboard :: wl-clipboard": [
+  [
+   "repo",
+   "wl-clipboard"
+  ]
+ ],
+ "colour / theme :: matugen": [
+  [
+   "repo",
+   "matugen"
+  ]
+ ],
+ "colour / theme :: python-pywal": [
+  [
+   "aur",
+   "python-pywal"
+  ]
+ ],
+ "colour / theme :: python-pywal16": [
+  [
+   "aur",
+   "python-pywal16"
+  ]
+ ],
+ "colour / theme :: wallust": [
+  [
+   "aur",
+   "wallust"
+  ]
+ ],
+ "colour picker :: hyprpicker": [
+  [
+   "repo",
+   "hyprpicker"
+  ]
+ ],
+ "compositor :: hyprland": [
+  [
+   "repo",
+   "hyprland"
+  ]
+ ],
+ "compositor :: labwc": [
+  [
+   "repo",
+   "labwc"
+  ]
+ ],
+ "compositor :: niri": [
+  [
+   "repo",
+   "niri"
+  ]
+ ],
+ "compositor :: river": [
+  [
+   "repo",
+   "river"
+  ]
+ ],
+ "compositor :: sway": [
+  [
+   "repo",
+   "sway"
+  ]
+ ],
+ "compositor :: wayfire": [
+  [
+   "repo",
+   "wayfire"
+  ]
+ ],
+ "cursor :: hyprcursor": [
+  [
+   "repo",
+   "hyprcursor"
+  ]
+ ],
+ "dock :: nwg-dock": [
+  [
+   "repo",
+   "nwg-dock"
+  ]
+ ],
+ "dock :: nwg-dock-hyprland": [
+  [
+   "repo",
+   "nwg-dock-hyprland"
+  ]
+ ],
+ "dock :: plank": [
+  [
+   "repo",
+   "plank"
+  ]
+ ],
+ "editor :: helix": [
+  [
+   "repo",
+   "helix"
+  ]
+ ],
+ "editor :: neovim": [
+  [
+   "repo",
+   "neovim"
+  ]
+ ],
+ "emoji picker :: bemoji": [
+  [
+   "aur",
+   "bemoji"
+  ]
+ ],
+ "emoji picker :: rofimoji-git": [
+  [
+   "aur",
+   "rofimoji-git"
+  ]
+ ],
+ "file manager GUI :: dolphin": [
+  [
+   "repo",
+   "dolphin"
+  ]
+ ],
+ "file manager GUI :: nautilus": [
+  [
+   "repo",
+   "nautilus"
+  ]
+ ],
+ "file manager GUI :: pcmanfm": [
+  [
+   "repo",
+   "pcmanfm"
+  ]
+ ],
+ "file manager GUI :: thunar": [
+  [
+   "repo",
+   "thunar"
+  ]
+ ],
+ "file manager TUI :: lf": [
+  [
+   "repo",
+   "lf"
+  ]
+ ],
+ "file manager TUI :: nnn": [
+  [
+   "repo",
+   "nnn"
+  ]
+ ],
+ "file manager TUI :: ranger": [
+  [
+   "repo",
+   "ranger"
+  ]
+ ],
+ "file manager TUI :: yazi": [
+  [
+   "repo",
+   "yazi"
+  ]
+ ],
+ "fonts :: adwaita-fonts": [
+  [
+   "repo",
+   "adwaita-fonts"
+  ]
+ ],
+ "fonts :: inter-font": [
+  [
+   "repo",
+   "inter-font"
+  ]
+ ],
+ "fonts :: noto-fonts": [
+  [
+   "repo",
+   "noto-fonts"
+  ]
+ ],
+ "fonts :: noto-fonts-cjk": [
+  [
+   "repo",
+   "noto-fonts-cjk"
+  ]
+ ],
+ "fonts :: noto-fonts-emoji": [
+  [
+   "repo",
+   "noto-fonts-emoji"
+  ]
+ ],
+ "fonts :: ttf-jetbrains-mono-nerd": [
+  [
+   "repo",
+   "ttf-jetbrains-mono-nerd"
+  ]
+ ],
+ "icons :: papirus-icon-theme": [
+  [
+   "repo",
+   "papirus-icon-theme"
+  ]
+ ],
+ "idle / timeout :: hypridle": [
+  [
+   "repo",
+   "hypridle"
+  ]
+ ],
+ "idle / timeout :: swayidle": [
+  [
+   "repo",
+   "swayidle"
+  ]
+ ],
+ "launcher :: anyrun": [
+  [
+   "aur",
+   "anyrun"
+  ]
+ ],
+ "launcher :: fuzzel": [
+  [
+   "repo",
+   "fuzzel"
+  ]
+ ],
+ "launcher :: rofi": [
+  [
+   "repo",
+   "rofi"
+  ]
+ ],
+ "launcher :: sirula": [
+  [
+   "aur",
+   "sirula"
+  ]
+ ],
+ "launcher :: tofi": [
+  [
+   "aur",
+   "tofi"
+  ]
+ ],
+ "launcher :: walker": [
+  [
+   "aur",
+   "walker"
+  ]
+ ],
+ "launcher :: wofi": [
+  [
+   "repo",
+   "wofi"
+  ]
+ ],
+ "lock screen :: gtklock": [
+  [
+   "repo",
+   "gtklock"
+  ]
+ ],
+ "lock screen :: hyprlock": [
+  [
+   "repo",
+   "hyprlock"
+  ]
+ ],
+ "lock screen :: swaylock": [
+  [
+   "repo",
+   "swaylock"
+  ]
+ ],
+ "lock screen :: swaylock-effects": [
+  [
+   "aur",
+   "swaylock-effects"
+  ]
+ ],
+ "login / DM :: greetd": [
+  [
+   "repo",
+   "greetd"
+  ]
+ ],
+ "login / DM :: lightdm": [
+  [
+   "repo",
+   "lightdm"
+  ]
+ ],
+ "login / DM :: ly": [
+  [
+   "repo",
+   "ly"
+  ]
+ ],
+ "login / DM :: sddm": [
+  [
+   "repo",
+   "sddm"
+  ]
+ ],
+ "network :: networkmanager": [
+  [
+   "repo",
+   "networkmanager"
+  ]
+ ],
+ "network :: nm-connection-editor": [
+  [
+   "repo",
+   "nm-connection-editor"
+  ]
+ ],
+ "night light :: gammastep": [
+  [
+   "repo",
+   "gammastep"
+  ]
+ ],
+ "night light :: hyprsunset": [
+  [
+   "repo",
+   "hyprsunset"
+  ]
+ ],
+ "night light :: wlsunset": [
+  [
+   "repo",
+   "wlsunset"
+  ]
+ ],
+ "notifications :: dunst": [
+  [
+   "repo",
+   "dunst"
+  ]
+ ],
+ "notifications :: fnott": [
+  [
+   "repo",
+   "fnott"
+  ]
+ ],
+ "notifications :: mako": [
+  [
+   "repo",
+   "mako"
+  ]
+ ],
+ "notifications :: swaync": [
+  [
+   "repo",
+   "swaync"
+  ]
+ ],
+ "on-screen display :: swayosd": [
+  [
+   "repo",
+   "swayosd"
+  ]
+ ],
+ "on-screen display :: wob": [
+  [
+   "repo",
+   "wob"
+  ]
+ ],
+ "polkit agent :: hyprpolkitagent": [
+  [
+   "repo",
+   "hyprpolkitagent"
+  ]
+ ],
+ "polkit agent :: lxqt-policykit": [
+  [
+   "repo",
+   "lxqt-policykit"
+  ]
+ ],
+ "polkit agent :: polkit-gnome": [
+  [
+   "repo",
+   "polkit-gnome"
+  ]
+ ],
+ "polkit agent :: polkit-kde-agent": [
+  [
+   "repo",
+   "polkit-kde-agent"
+  ]
+ ],
+ "portals :: xdg-desktop-portal-gnome": [
+  [
+   "repo",
+   "xdg-desktop-portal-gnome"
+  ]
+ ],
+ "portals :: xdg-desktop-portal-gtk": [
+  [
+   "repo",
+   "xdg-desktop-portal-gtk"
+  ]
+ ],
+ "portals :: xdg-desktop-portal-hyprland": [
+  [
+   "repo",
+   "xdg-desktop-portal-hyprland"
+  ]
+ ],
+ "portals :: xdg-desktop-portal-kde": [
+  [
+   "repo",
+   "xdg-desktop-portal-kde"
+  ]
+ ],
+ "portals :: xdg-desktop-portal-wlr": [
+  [
+   "repo",
+   "xdg-desktop-portal-wlr"
+  ]
+ ],
+ "power menu :: hyprshutdown": [
+  [
+   "repo",
+   "hyprshutdown"
+  ]
+ ],
+ "power menu :: wlogout": [
+  [
+   "aur",
+   "wlogout"
+  ]
+ ],
+ "power profiles :: power-profiles-daemon": [
+  [
+   "repo",
+   "power-profiles-daemon"
+  ]
+ ],
+ "power profiles :: tlp": [
+  [
+   "repo",
+   "tlp"
+  ]
+ ],
+ "screen record :: kooha": [
+  [
+   "repo",
+   "kooha"
+  ]
+ ],
+ "screen record :: obs-studio": [
+  [
+   "repo",
+   "obs-studio"
+  ]
+ ],
+ "screen record :: wf-recorder": [
+  [
+   "repo",
+   "wf-recorder"
+  ]
+ ],
+ "screen record :: wl-screenrec": [
+  [
+   "aur",
+   "wl-screenrec"
+  ]
+ ],
+ "screenshot :: flameshot": [
+  [
+   "repo",
+   "flameshot"
+  ]
+ ],
+ "screenshot :: grim": [
+  [
+   "repo",
+   "grim"
+  ]
+ ],
+ "screenshot :: hyprshot-git": [
+  [
+   "aur",
+   "hyprshot-git"
+  ]
+ ],
+ "screenshot :: satty": [
+  [
+   "repo",
+   "satty"
+  ]
+ ],
+ "screenshot :: slurp": [
+  [
+   "repo",
+   "slurp"
+  ]
+ ],
+ "screenshot :: swappy": [
+  [
+   "repo",
+   "swappy"
+  ]
+ ],
+ "search tools :: fd": [
+  [
+   "repo",
+   "fd"
+  ]
+ ],
+ "search tools :: fzf": [
+  [
+   "repo",
+   "fzf"
+  ]
+ ],
+ "search tools :: ripgrep": [
+  [
+   "repo",
+   "ripgrep"
+  ]
+ ],
+ "secrets :: gnome-keyring": [
+  [
+   "repo",
+   "gnome-keyring"
+  ]
+ ],
+ "system monitor :: btop": [
+  [
+   "repo",
+   "btop"
+  ]
+ ],
+ "system monitor :: fastfetch": [
+  [
+   "repo",
+   "fastfetch"
+  ]
+ ],
+ "system monitor :: htop": [
+  [
+   "repo",
+   "htop"
+  ]
+ ],
+ "terminal :: alacritty": [
+  [
+   "repo",
+   "alacritty"
+  ]
+ ],
+ "terminal :: foot": [
+  [
+   "repo",
+   "foot"
+  ]
+ ],
+ "terminal :: ghostty": [
+  [
+   "repo",
+   "ghostty"
+  ]
+ ],
+ "terminal :: kitty": [
+  [
+   "repo",
+   "kitty"
+  ]
+ ],
+ "terminal :: wezterm": [
+  [
+   "repo",
+   "wezterm"
+  ]
+ ],
+ "update check :: pacman-contrib": [
+  [
+   "repo",
+   "pacman-contrib"
+  ]
+ ],
+ "update check :: topgrade": [
+  [
+   "aur",
+   "topgrade"
+  ]
+ ],
+ "visualiser :: cava": [
+  [
+   "repo",
+   "cava"
+  ]
+ ],
+ "wallpaper :: awww": [
+  [
+   "repo",
+   "awww"
+  ]
+ ],
+ "wallpaper :: hyprpaper": [
+  [
+   "repo",
+   "hyprpaper"
+  ]
+ ],
+ "wallpaper :: mpvpaper": [
+  [
+   "aur",
+   "mpvpaper"
+  ]
+ ],
+ "wallpaper :: swaybg": [
+  [
+   "repo",
+   "swaybg"
+  ]
+ ],
+ "wallpaper :: wbg": [
+  [
+   "aur",
+   "wbg"
+  ]
+ ]
+}

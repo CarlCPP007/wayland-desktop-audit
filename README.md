@@ -101,6 +101,53 @@ Two things this table shows that the packages' own sizes do not:
 
 ---
 
+## Feature hunt: what each slot costs on its own
+
+The stack race compares whole desktops. This compares the **parts**: [docs/features.md](docs/features.md)
+costs **136 candidate packages across 41 desktop features** — bar, launcher, notification daemon,
+lock screen, terminal, file manager, portal and the rest — each one probed for real availability
+first and then resolved as a full closure.
+
+Five candidate names looked plausible and did not exist. They were replaced with the real package
+rather than dropped quietly: `swww` (gone from both repositories, superseded by `awww`),
+`rofi-wayland` (folded into `rofi`), `hyprshot` → `hyprshot-git`, `rofimoji` → `rofimoji-git`,
+`pywal16` → `python-pywal16`. One candidate, `adw-gtk3`, is packaged in neither repository and so
+appears in no table.
+
+| slot | cheapest measured | MB | dearest measured | MB | swing |
+|---|---|---|---|---|---|
+| compositor | `river` | 600.4 | `niri` | 929.6 | 329.2 |
+| bar / shell | `yambar` † | 282.8 | `caelestia-shell` † | 1,749.3 | 1,466.5 |
+| launcher | `tofi` † | 238.1 | `walker` † | 1,026.4 | 788.3 |
+| notifications | `fnott` | 244.3 | `swaync` | 1,111.2 | 866.9 |
+| lock screen | `swaylock` | 348.7 | `gtklock` | 768.8 | 421.0 |
+| on-screen display | `wob` | 129.9 | `swayosd` | 1,005.7 | 875.8 |
+| wallpaper | `awww` | 76.4 | `mpvpaper` † | 1,040.5 | 964.1 |
+| colour engine | `wallust` † | 63.5 | `python-pywal16` † | 379.7 | 316.2 |
+| login screen | `ly` | 151.8 | `sddm` | 821.1 | 669.3 |
+| terminal | `alacritty` | 170.4 | `ghostty` | 1,124.1 | 953.7 |
+| file manager | `pcmanfm` | 778.0 | `dolphin` | 1,695.8 | 917.8 |
+| portal | `xdg-desktop-portal-wlr` | 803.1 | `xdg-desktop-portal-kde` | 2,245.5 | 1,442.4 |
+
+† AUR: requires building from source at install time.
+
+Three things this shows that per-package sizes do not:
+
+* **The splits are not GTK vs Qt; they are "is that toolkit already on the system".** Every
+  candidate in a row that shares a toolkit with a candidate already installed is nearly free, and
+  the absolute figures overlap so heavily that a bare-system comparison exaggerates every
+  difference. Compare candidates within a row, not across rows.
+* **The compositor is the cheapest slot.** `hyprland` is 763.2 MB of closure, `river` 600.4 — but
+  a notification daemon or an OSD can each cost more than the compositor does.
+* **Impasto's picks are aesthetic-first, and measurably so.** It takes the cheapest official bar
+  (`quickshell`) and the cheapest wallpaper (`awww`), but also the dearest login screen (`sddm`,
+  +669.3 MB over `ly`), the dearest polkit agent (`polkit-kde-agent`, +193.3 MB over
+  `lxqt-policykit`) and the dearest terminal it ships besides `ghostty` (`kitty`, +540.3 MB over
+  `alacritty`). That is a coherent trade, not an error — it is simply 1.4 GB of the install that
+  a cost-first build would not have spent.
+
+---
+
 ## Why the numbers look like that
 
 Five chains, each traced from the stack root to the package with the exact dependency token.

@@ -39,7 +39,9 @@ def get(url, tries=3):
 def official(name):
     d = get(ARCH + urllib.parse.quote(name))
     for res in d.get("results", []):
-        if res.get("pkgname") == name and res.get("arch") == "x86_64":
+        # accept arch-independent packages too: fonts, icon themes and tools such as
+        # tlp/ranger ship as "any" and are just as installable as x86_64 ones
+        if res.get("pkgname") == name and res.get("arch") in ("x86_64", "any"):
             return res
     return None
 

@@ -1,0 +1,5286 @@
+[
+ {
+  "stack": "hyprland+noctalia+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+noctalia+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+noctalia+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+noctalia+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+noctalia+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+noctalia+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+noctalia+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+dms+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+dms+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+dms+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+dms+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+dms+matugen",
+  "dep": "dms-shell-compositor",
+  "chose": "dms-shell-hyprland",
+  "candidates": [
+   "dms-shell-hyprland",
+   "dms-shell-niri"
+  ]
+ },
+ {
+  "stack": "hyprland+dms+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+dms+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+dms+matugen",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "hyprland+dms+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+dms+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "niri+noctalia+matugen",
+  "dep": "xdg-desktop-portal-impl",
+  "chose": "xdg-desktop-portal-gtk",
+  "candidates": [
+   "xdg-desktop-portal-cosmic",
+   "xdg-desktop-portal-dde",
+   "xdg-desktop-portal-gnome",
+   "xdg-desktop-portal-gtk",
+   "xdg-desktop-portal-hyprland",
+   "xdg-desktop-portal-kde",
+   "xdg-desktop-portal-lxqt",
+   "xdg-desktop-portal-phosh",
+   "xdg-desktop-portal-wlr",
+   "xdg-desktop-portal-xapp"
+  ],
+  "rule": "portal follows compositor"
+ },
+ {
+  "stack": "niri+noctalia+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "niri+noctalia+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "niri+noctalia+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "niri+noctalia+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "niri+noctalia+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "niri+noctalia+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "niri+noctalia+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "niri+dms+matugen",
+  "dep": "xdg-desktop-portal-impl",
+  "chose": "xdg-desktop-portal-gtk",
+  "candidates": [
+   "xdg-desktop-portal-cosmic",
+   "xdg-desktop-portal-dde",
+   "xdg-desktop-portal-gnome",
+   "xdg-desktop-portal-gtk",
+   "xdg-desktop-portal-hyprland",
+   "xdg-desktop-portal-kde",
+   "xdg-desktop-portal-lxqt",
+   "xdg-desktop-portal-phosh",
+   "xdg-desktop-portal-wlr",
+   "xdg-desktop-portal-xapp"
+  ],
+  "rule": "portal follows compositor"
+ },
+ {
+  "stack": "niri+dms+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "niri+dms+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "niri+dms+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "niri+dms+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "niri+dms+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "niri+dms+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "niri+dms+matugen",
+  "dep": "dms-shell-compositor",
+  "chose": "dms-shell-niri",
+  "candidates": [
+   "dms-shell-hyprland",
+   "dms-shell-niri"
+  ]
+ },
+ {
+  "stack": "niri+dms+matugen",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "niri+dms+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "niri+dms+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "sway+waybar+wallust",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "sway+waybar+wallust",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "sway+waybar+wallust",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "sway+waybar+wallust",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "sway+waybar+wallust",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "sway+waybar+wallust",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "sway+waybar+wallust",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "sway+waybar+wallust",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "sway+waybar+wallust",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "labwc+waybar+wallust",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "labwc+waybar+wallust",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "labwc+waybar+wallust",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "labwc+waybar+wallust",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "labwc+waybar+wallust",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "labwc+waybar+wallust",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "labwc+waybar+wallust",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "labwc+waybar+wallust",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "labwc+waybar+wallust",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "river+yambar+wallust",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "river+yambar+wallust",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "river+yambar+wallust",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "mangowm+quickshell+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "mangowm+quickshell+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "mangowm+quickshell+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "mangowm+quickshell+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "mangowm+quickshell+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "mangowm+quickshell+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "mangowm+quickshell+matugen",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "mangowm+quickshell+matugen",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "OCR :: tesseract",
+  "dep": "tessdata",
+  "chose": "tesseract-data-afr",
+  "candidates": [
+   "tesseract-data-afr",
+   "tesseract-data-amh",
+   "tesseract-data-ara",
+   "tesseract-data-asm",
+   "tesseract-data-aze",
+   "tesseract-data-aze_cyrl",
+   "tesseract-data-bel",
+   "tesseract-data-ben",
+   "tesseract-data-bod",
+   "tesseract-data-bos",
+   "tesseract-data-bre",
+   "tesseract-data-bul",
+   "tesseract-data-cat",
+   "tesseract-data-ceb",
+   "tesseract-data-ces",
+   "tesseract-data-chi_sim",
+   "tesseract-data-chi_sim_vert",
+   "tesseract-data-chi_tra",
+   "tesseract-data-chi_tra_vert",
+   "tesseract-data-chr",
+   "tesseract-data-cos",
+   "tesseract-data-cym",
+   "tesseract-data-dan",
+   "tesseract-data-dan_frak",
+   "tesseract-data-deu",
+   "tesseract-data-deu_frak",
+   "tesseract-data-div",
+   "tesseract-data-dzo",
+   "tesseract-data-ell",
+   "tesseract-data-eng",
+   "tesseract-data-enm",
+   "tesseract-data-epo",
+   "tesseract-data-equ",
+   "tesseract-data-est",
+   "tesseract-data-eus",
+   "tesseract-data-fao",
+   "tesseract-data-fas",
+   "tesseract-data-fil",
+   "tesseract-data-fin",
+   "tesseract-data-fra",
+   "tesseract-data-frk",
+   "tesseract-data-frm",
+   "tesseract-data-fry",
+   "tesseract-data-gla",
+   "tesseract-data-gle",
+   "tesseract-data-glg",
+   "tesseract-data-grc",
+   "tesseract-data-guj",
+   "tesseract-data-hat",
+   "tesseract-data-heb",
+   "tesseract-data-hin",
+   "tesseract-data-hrv",
+   "tesseract-data-hun",
+   "tesseract-data-hye",
+   "tesseract-data-iku",
+   "tesseract-data-ind",
+   "tesseract-data-isl",
+   "tesseract-data-ita",
+   "tesseract-data-ita_old",
+   "tesseract-data-jav",
+   "tesseract-data-jpn",
+   "tesseract-data-jpn_vert",
+   "tesseract-data-kan",
+   "tesseract-data-kat",
+   "tesseract-data-kat_old",
+   "tesseract-data-kaz",
+   "tesseract-data-khm",
+   "tesseract-data-kir",
+   "tesseract-data-kmr",
+   "tesseract-data-kor",
+   "tesseract-data-kor_vert",
+   "tesseract-data-lao",
+   "tesseract-data-lat",
+   "tesseract-data-lav",
+   "tesseract-data-lit",
+   "tesseract-data-ltz",
+   "tesseract-data-mal",
+   "tesseract-data-mar",
+   "tesseract-data-mkd",
+   "tesseract-data-mlt",
+   "tesseract-data-mon",
+   "tesseract-data-mri",
+   "tesseract-data-msa",
+   "tesseract-data-mya",
+   "tesseract-data-nep",
+   "tesseract-data-nld",
+   "tesseract-data-nor",
+   "tesseract-data-oci",
+   "tesseract-data-ori",
+   "tesseract-data-pan",
+   "tesseract-data-pol",
+   "tesseract-data-por",
+   "tesseract-data-pus",
+   "tesseract-data-que",
+   "tesseract-data-ron",
+   "tesseract-data-rus",
+   "tesseract-data-san",
+   "tesseract-data-sin",
+   "tesseract-data-slk",
+   "tesseract-data-slk_frak",
+   "tesseract-data-slv",
+   "tesseract-data-snd",
+   "tesseract-data-spa",
+   "tesseract-data-spa_old",
+   "tesseract-data-sqi",
+   "tesseract-data-srp",
+   "tesseract-data-srp_latn",
+   "tesseract-data-sun",
+   "tesseract-data-swa",
+   "tesseract-data-swe",
+   "tesseract-data-syr",
+   "tesseract-data-tam",
+   "tesseract-data-tat",
+   "tesseract-data-tel",
+   "tesseract-data-tgk",
+   "tesseract-data-tgl",
+   "tesseract-data-tha",
+   "tesseract-data-tir",
+   "tesseract-data-ton",
+   "tesseract-data-tur",
+   "tesseract-data-uig",
+   "tesseract-data-ukr",
+   "tesseract-data-urd",
+   "tesseract-data-uzb",
+   "tesseract-data-uzb_cyrl",
+   "tesseract-data-vie",
+   "tesseract-data-yid",
+   "tesseract-data-yor"
+  ]
+ },
+ {
+  "stack": "OCR :: tesseract",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "OCR :: tesseract",
+  "dep": "libxml2.so",
+  "chose": "libxml2-legacy",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "OCR :: tesseract",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "OCR :: tesseract",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "OCR :: tesseract",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "OCR :: tesseract-data-eng",
+  "dep": "tessdata",
+  "chose": "tesseract-data-eng",
+  "candidates": [
+   "tesseract-data-afr",
+   "tesseract-data-amh",
+   "tesseract-data-ara",
+   "tesseract-data-asm",
+   "tesseract-data-aze",
+   "tesseract-data-aze_cyrl",
+   "tesseract-data-bel",
+   "tesseract-data-ben",
+   "tesseract-data-bod",
+   "tesseract-data-bos",
+   "tesseract-data-bre",
+   "tesseract-data-bul",
+   "tesseract-data-cat",
+   "tesseract-data-ceb",
+   "tesseract-data-ces",
+   "tesseract-data-chi_sim",
+   "tesseract-data-chi_sim_vert",
+   "tesseract-data-chi_tra",
+   "tesseract-data-chi_tra_vert",
+   "tesseract-data-chr",
+   "tesseract-data-cos",
+   "tesseract-data-cym",
+   "tesseract-data-dan",
+   "tesseract-data-dan_frak",
+   "tesseract-data-deu",
+   "tesseract-data-deu_frak",
+   "tesseract-data-div",
+   "tesseract-data-dzo",
+   "tesseract-data-ell",
+   "tesseract-data-eng",
+   "tesseract-data-enm",
+   "tesseract-data-epo",
+   "tesseract-data-equ",
+   "tesseract-data-est",
+   "tesseract-data-eus",
+   "tesseract-data-fao",
+   "tesseract-data-fas",
+   "tesseract-data-fil",
+   "tesseract-data-fin",
+   "tesseract-data-fra",
+   "tesseract-data-frk",
+   "tesseract-data-frm",
+   "tesseract-data-fry",
+   "tesseract-data-gla",
+   "tesseract-data-gle",
+   "tesseract-data-glg",
+   "tesseract-data-grc",
+   "tesseract-data-guj",
+   "tesseract-data-hat",
+   "tesseract-data-heb",
+   "tesseract-data-hin",
+   "tesseract-data-hrv",
+   "tesseract-data-hun",
+   "tesseract-data-hye",
+   "tesseract-data-iku",
+   "tesseract-data-ind",
+   "tesseract-data-isl",
+   "tesseract-data-ita",
+   "tesseract-data-ita_old",
+   "tesseract-data-jav",
+   "tesseract-data-jpn",
+   "tesseract-data-jpn_vert",
+   "tesseract-data-kan",
+   "tesseract-data-kat",
+   "tesseract-data-kat_old",
+   "tesseract-data-kaz",
+   "tesseract-data-khm",
+   "tesseract-data-kir",
+   "tesseract-data-kmr",
+   "tesseract-data-kor",
+   "tesseract-data-kor_vert",
+   "tesseract-data-lao",
+   "tesseract-data-lat",
+   "tesseract-data-lav",
+   "tesseract-data-lit",
+   "tesseract-data-ltz",
+   "tesseract-data-mal",
+   "tesseract-data-mar",
+   "tesseract-data-mkd",
+   "tesseract-data-mlt",
+   "tesseract-data-mon",
+   "tesseract-data-mri",
+   "tesseract-data-msa",
+   "tesseract-data-mya",
+   "tesseract-data-nep",
+   "tesseract-data-nld",
+   "tesseract-data-nor",
+   "tesseract-data-oci",
+   "tesseract-data-ori",
+   "tesseract-data-pan",
+   "tesseract-data-pol",
+   "tesseract-data-por",
+   "tesseract-data-pus",
+   "tesseract-data-que",
+   "tesseract-data-ron",
+   "tesseract-data-rus",
+   "tesseract-data-san",
+   "tesseract-data-sin",
+   "tesseract-data-slk",
+   "tesseract-data-slk_frak",
+   "tesseract-data-slv",
+   "tesseract-data-snd",
+   "tesseract-data-spa",
+   "tesseract-data-spa_old",
+   "tesseract-data-sqi",
+   "tesseract-data-srp",
+   "tesseract-data-srp_latn",
+   "tesseract-data-sun",
+   "tesseract-data-swa",
+   "tesseract-data-swe",
+   "tesseract-data-syr",
+   "tesseract-data-tam",
+   "tesseract-data-tat",
+   "tesseract-data-tel",
+   "tesseract-data-tgk",
+   "tesseract-data-tgl",
+   "tesseract-data-tha",
+   "tesseract-data-tir",
+   "tesseract-data-ton",
+   "tesseract-data-tur",
+   "tesseract-data-uig",
+   "tesseract-data-ukr",
+   "tesseract-data-urd",
+   "tesseract-data-uzb",
+   "tesseract-data-uzb_cyrl",
+   "tesseract-data-vie",
+   "tesseract-data-yid",
+   "tesseract-data-yor"
+  ]
+ },
+ {
+  "stack": "OCR :: tesseract-data-eng",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "OCR :: tesseract-data-eng",
+  "dep": "libxml2.so",
+  "chose": "libxml2-legacy",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "OCR :: tesseract-data-eng",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "OCR :: tesseract-data-eng",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "OCR :: tesseract-data-eng",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "Qt theme :: kvantum",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "Qt theme :: kvantum",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "Qt theme :: kvantum",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "Qt theme :: kvantum",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "Qt theme :: qt6ct",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "Qt theme :: qt6ct",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "Qt theme :: qt6ct",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "Qt theme :: qt6ct",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "X11 apps :: xorg-xwayland",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "X11 apps :: xorg-xwayland",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "X11 apps :: xorg-xwayland",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "audio :: pavucontrol",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "audio :: pavucontrol",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "audio :: pavucontrol",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "audio :: pavucontrol",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "audio :: pavucontrol",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "audio :: pavucontrol",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "audio :: pavucontrol",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: dms-shell",
+  "dep": "dms-shell-compositor",
+  "chose": "dms-shell-hyprland",
+  "candidates": [
+   "dms-shell-hyprland",
+   "dms-shell-niri"
+  ]
+ },
+ {
+  "stack": "bar / shell :: dms-shell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: dms-shell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: dms-shell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: dms-shell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: dms-shell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: dms-shell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: dms-shell",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "bar / shell :: dms-shell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: dms-shell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: noctalia",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: noctalia",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: noctalia",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: noctalia",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: noctalia",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: noctalia",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: noctalia",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: quickshell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: quickshell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: quickshell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: quickshell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: quickshell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: quickshell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: quickshell",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "bar / shell :: quickshell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: waybar",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "bar / shell :: waybar",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "bar / shell :: waybar",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: waybar",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: waybar",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: waybar",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: waybar",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: waybar",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: waybar",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "battery :: upower",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "battery :: upower",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "battery :: upower",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "battery :: upower",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "battery :: upower",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bluetooth :: blueman",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bluetooth :: blueman",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bluetooth :: blueman",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "brightness :: ddcutil",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: hyprland",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: hyprland",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: hyprland",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: hyprland",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: labwc",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: labwc",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: labwc",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: niri",
+  "dep": "xdg-desktop-portal-impl",
+  "chose": "xdg-desktop-portal-gtk",
+  "candidates": [
+   "xdg-desktop-portal-cosmic",
+   "xdg-desktop-portal-dde",
+   "xdg-desktop-portal-gnome",
+   "xdg-desktop-portal-gtk",
+   "xdg-desktop-portal-hyprland",
+   "xdg-desktop-portal-kde",
+   "xdg-desktop-portal-lxqt",
+   "xdg-desktop-portal-phosh",
+   "xdg-desktop-portal-wlr",
+   "xdg-desktop-portal-xapp"
+  ],
+  "rule": "portal follows compositor"
+ },
+ {
+  "stack": "compositor :: niri",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: niri",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: niri",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: niri",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: niri",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: niri",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: river",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: river",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: river",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: sway",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: sway",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: sway",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: wayfire",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: wayfire",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "compositor :: wayfire",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "cursor :: hyprcursor",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "cursor :: hyprcursor",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "dock :: nwg-dock",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "dock :: nwg-dock",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "dock :: nwg-dock",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "dock :: nwg-dock-hyprland",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "dock :: nwg-dock-hyprland",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "dock :: nwg-dock-hyprland",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "dock :: plank",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "dock :: plank",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "dock :: plank",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "qt6-multimedia-backend",
+  "chose": "qt6-multimedia-ffmpeg",
+  "candidates": [
+   "qt6-multimedia-ffmpeg",
+   "qt6-multimedia-gstreamer"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: dolphin",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: nautilus",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: pcmanfm",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: pcmanfm",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: pcmanfm",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: thunar",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: thunar",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "file manager GUI :: thunar",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "icons :: papirus-icon-theme",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "icons :: papirus-icon-theme",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "idle / timeout :: swayidle",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "idle / timeout :: swayidle",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "idle / timeout :: swayidle",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "idle / timeout :: swayidle",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "idle / timeout :: swayidle",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: fuzzel",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: fuzzel",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: rofi",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: rofi",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: wofi",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: wofi",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: wofi",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "lock screen :: gtklock",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "lock screen :: gtklock",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "lock screen :: gtklock",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "lock screen :: hyprlock",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "lock screen :: hyprlock",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "lock screen :: hyprlock",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "lock screen :: hyprlock",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "lock screen :: swaylock",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "lock screen :: swaylock",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: greetd",
+  "dep": "greetd-greeter",
+  "chose": "greetd-agreety",
+  "candidates": [
+   "greetd-agreety",
+   "greetd-regreet",
+   "greetd-tuigreet"
+  ]
+ },
+ {
+  "stack": "login / DM :: greetd",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: greetd",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: greetd",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: greetd",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: greetd",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: lightdm",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: lightdm",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: lightdm",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: lightdm",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: lightdm",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: ly",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: sddm",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: sddm",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: sddm",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "login / DM :: sddm",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "network :: networkmanager",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "network :: networkmanager",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "network :: networkmanager",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "network :: networkmanager",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "network :: networkmanager",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "network :: networkmanager",
+  "dep": "libxtables.so",
+  "chose": "iptables-legacy",
+  "candidates": [
+   "iptables",
+   "iptables-legacy"
+  ]
+ },
+ {
+  "stack": "network :: nm-connection-editor",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "network :: nm-connection-editor",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "network :: nm-connection-editor",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "network :: nm-connection-editor",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "network :: nm-connection-editor",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: dunst",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: dunst",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: dunst",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: dunst",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: dunst",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: dunst",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: fnott",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: mako",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: mako",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: swaync",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: swaync",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: swaync",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: swaync",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: swaync",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: swaync",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "notifications :: swaync",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "notifications :: swaync",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "on-screen display :: swayosd",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "on-screen display :: swayosd",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "on-screen display :: swayosd",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "on-screen display :: swayosd",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "on-screen display :: swayosd",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "on-screen display :: swayosd",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: hyprpolkitagent",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: hyprpolkitagent",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: hyprpolkitagent",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: hyprpolkitagent",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: hyprpolkitagent",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: hyprpolkitagent",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: lxqt-policykit",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: lxqt-policykit",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: lxqt-policykit",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: lxqt-policykit",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: lxqt-policykit",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: lxqt-policykit",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: polkit-gnome",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: polkit-gnome",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: polkit-gnome",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: polkit-gnome",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: polkit-gnome",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: polkit-gnome",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: polkit-kde-agent",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: polkit-kde-agent",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: polkit-kde-agent",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: polkit-kde-agent",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: polkit-kde-agent",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "polkit agent :: polkit-kde-agent",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gnome",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gtk",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gtk",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gtk",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gtk",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gtk",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-gtk",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-hyprland",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-hyprland",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-hyprland",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-hyprland",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-hyprland",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-hyprland",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "qt6-multimedia-backend",
+  "chose": "qt6-multimedia-ffmpeg",
+  "candidates": [
+   "qt6-multimedia-ffmpeg",
+   "qt6-multimedia-gstreamer"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-kde",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-wlr",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-wlr",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-wlr",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-wlr",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-wlr",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "portals :: xdg-desktop-portal-wlr",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "power menu :: hyprshutdown",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "power menu :: hyprshutdown",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "power menu :: hyprshutdown",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "power menu :: hyprshutdown",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "power profiles :: power-profiles-daemon",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "power profiles :: power-profiles-daemon",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "power profiles :: power-profiles-daemon",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "power profiles :: power-profiles-daemon",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "power profiles :: power-profiles-daemon",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "power profiles :: tlp",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "power profiles :: tlp",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "power profiles :: tlp",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "power profiles :: tlp",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "power profiles :: tlp",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: kooha",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: kooha",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: kooha",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: kooha",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: kooha",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: kooha",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: kooha",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "screen record :: kooha",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: obs-studio",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "screen record :: obs-studio",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: obs-studio",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: obs-studio",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: obs-studio",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: obs-studio",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "screen record :: obs-studio",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: obs-studio",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: obs-studio",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "screen record :: obs-studio",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "screen record :: wf-recorder",
+  "dep": "libavcodec.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "screen record :: wf-recorder",
+  "dep": "libavdevice.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "screen record :: wf-recorder",
+  "dep": "libavfilter.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "screen record :: wf-recorder",
+  "dep": "libavformat.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "screen record :: wf-recorder",
+  "dep": "libavutil.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "screen record :: wf-recorder",
+  "dep": "libswresample.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "screen record :: wf-recorder",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "screen record :: wf-recorder",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: wf-recorder",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: wf-recorder",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: flameshot",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: flameshot",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: flameshot",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: flameshot",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: satty",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: satty",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: satty",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: satty",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: satty",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: satty",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: satty",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "screenshot :: satty",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: swappy",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: swappy",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: swappy",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "secrets :: gnome-keyring",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "secrets :: gnome-keyring",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "secrets :: gnome-keyring",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "secrets :: gnome-keyring",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "secrets :: gnome-keyring",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "system monitor :: htop",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "terminal :: foot",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "terminal :: ghostty",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "terminal :: ghostty",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "terminal :: ghostty",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "terminal :: ghostty",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "terminal :: ghostty",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "terminal :: ghostty",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "terminal :: ghostty",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "terminal :: ghostty",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "terminal :: kitty",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "terminal :: kitty",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "terminal :: kitty",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "update check :: pacman-contrib",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "update check :: pacman-contrib",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "update check :: pacman-contrib",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "update check :: pacman-contrib",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "update check :: pacman-contrib",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "update check :: pacman-contrib",
+  "dep": "libxml2.so",
+  "chose": "libxml2-legacy",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "update check :: pacman-contrib",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "visualiser :: cava",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "visualiser :: cava",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "visualiser :: cava",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "visualiser :: cava",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "visualiser :: cava",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "wallpaper :: hyprpaper",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: hyprpaper",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: hyprpaper",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: hyprpaper",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: swaybg",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: swaybg",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libxtables.so",
+  "chose": "iptables-legacy",
+  "candidates": [
+   "iptables",
+   "iptables-legacy"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libavcodec.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libavformat.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libavutil.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libswresample.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "hyprland+caelestia+matugen",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "bar / shell :: aylurs-gtk-shell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: aylurs-gtk-shell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: aylurs-gtk-shell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: aylurs-gtk-shell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: aylurs-gtk-shell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: aylurs-gtk-shell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libxtables.so",
+  "chose": "iptables-legacy",
+  "candidates": [
+   "iptables",
+   "iptables-legacy"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libavcodec.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libavformat.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libavutil.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libswresample.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "bar / shell :: caelestia-shell",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "bar / shell :: hyprpanel",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: hyprpanel",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: hyprpanel",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: hyprpanel",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: hyprpanel",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: hyprpanel",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: sfwbar",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: sfwbar",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: sfwbar",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: wayle-bin",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: wayle-bin",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: wayle-bin",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: wayle-bin",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: wayle-bin",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: wayle-bin",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "bar / shell :: yambar",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "colour / theme :: python-pywal",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "colour / theme :: python-pywal16",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "emoji picker :: bemoji",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "emoji picker :: bemoji",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: anyrun",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: anyrun",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: anyrun",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: anyrun",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: anyrun",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: anyrun",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: sirula",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: sirula",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: sirula",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: tofi",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: walker",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: walker",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: walker",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: walker",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: walker",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "launcher :: walker",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "lock screen :: swaylock-effects",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "lock screen :: swaylock-effects",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "power menu :: wlogout",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "power menu :: wlogout",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "power menu :: wlogout",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: wl-screenrec",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "screen record :: wl-screenrec",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: wl-screenrec",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: wl-screenrec",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: wl-screenrec",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: wl-screenrec",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: wl-screenrec",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screen record :: wl-screenrec",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "screen record :: wl-screenrec",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "screenshot :: hyprshot-git",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "screenshot :: hyprshot-git",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libavcodec.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libavdevice.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libavfilter.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libavformat.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libavutil.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libswresample.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libswscale.so",
+  "chose": "ffmpeg4.4",
+  "candidates": [
+   "ffmpeg",
+   "ffmpeg4.4"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libxml2.so",
+  "chose": "libxml2",
+  "candidates": [
+   "libxml2",
+   "libxml2-legacy"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libcrypt.so",
+  "chose": "libxcrypt",
+  "candidates": [
+   "libxcrypt",
+   "libxcrypt-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libz.so",
+  "chose": "zlib",
+  "candidates": [
+   "zlib",
+   "zlib-ng-compat"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "jack",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ },
+ {
+  "stack": "wallpaper :: mpvpaper",
+  "dep": "libjack.so",
+  "chose": "pipewire-jack",
+  "candidates": [
+   "jack2",
+   "pipewire-jack"
+  ]
+ }
+]
