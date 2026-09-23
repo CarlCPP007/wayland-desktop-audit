@@ -286,7 +286,16 @@ python3 tools/feature-report.py docs/features.md
 # 6. probe an ad-hoc candidate list before costing it — "does this even exist?"
 python3 tools/probe-names.py data/probe-shake-to-find.txt data/shake-to-find.tsv
 python3 tools/pkg-closure-v2.py --stacks data/shake-to-find-stacks.json --out shake
+
+# 7. check the claim that all of this regenerates: same snapshot in, same bytes out
+bash tools/verify-reproducibility.sh
 ```
+
+That last one is the gate, and it tests two separate things. **Determinism** — one database
+snapshot in, byte-identical artifacts out, and a failure there is a defect in these tools.
+**Drift** — a later snapshot gives the same package membership with moved sizes, because the Arch
+databases update continuously; that is reported, not failed, and the `db_vintage` block in each
+JSON says which snapshot produced a number.
 
 Tools accept `--stacks <file.json>` to add stack definitions and `--out <name>` to name the
 output set. `tools/why.py` prints raw `DEPENDS` lines from the cached databases — the ground
