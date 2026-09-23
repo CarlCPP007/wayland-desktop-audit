@@ -23,7 +23,8 @@ FILES="data/features-availability.tsv data/features-stacks.json data/features.js
        data/features.tsv data/features-guesses.json docs/features.md data/availability.tsv
        data/shake-to-find.tsv data/shake.tsv data/shake.json data/shake-guesses.json
        data/closure.tsv data/closure.json data/closure-guesses.json
-       data/combos.tsv data/combos.json data/builds.tsv data/builds.json"
+       data/combos.tsv data/combos.json data/builds.tsv data/builds.json
+       data/ricelin.tsv data/ricelin.json data/ricelin-availability.tsv"
 
 cd "$SCRATCH" 2>/dev/null || { mkdir -p "$SCRATCH" && cd "$SCRATCH"; } || exit 1
 echo "=== cloning $REPO into $SCRATCH ==="
@@ -42,6 +43,8 @@ pipeline() {
   $PY tools/pkg-closure-v2.py --stacks data/combo-stacks.json --out combos > /dev/null 2>&1        || return 7
   $PY tools/pkg-closure-v2.py --stacks data/builds-stacks.json --out builds > /dev/null 2>&1       || return 8
   $PY tools/pkg-availability.py data/availability.tsv > /dev/null 2>&1                             || return 9
+  $PY tools/probe-names.py data/probe-ricelin.txt data/ricelin-availability.tsv > /dev/null 2>&1   || return 10
+  $PY tools/pkg-closure-v2.py --stacks data/ricelin-stacks.json --out ricelin > /dev/null 2>&1     || return 11
 }
 
 echo; echo "=== run 1 ==="

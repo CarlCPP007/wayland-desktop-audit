@@ -1,0 +1,14 @@
+stack	pkgs	installed_MB	marginal_pkgs	marginal_MB	aur_roots	aur_unresolved
+river+yambar+wallust	172	622.4	48	38.8	yambar;wallust	
+ricelin extras (brave theme, AUR)	177	777.6	53	194.0	brave-bin	
+mangowm+quickshell+matugen	203	948.6	79	365.0	mangowm-git	scenefx0.5
+ricelin AUR set (helper required)	259	1040.5	135	456.9	bibata-cursor-theme-bin;dotool;gpu-screen-recorder;mpvpaper	
+hyprland+noctalia+matugen	234	1053.6	110	470.0		
+labwc+waybar+wallust	275	1120.1	151	536.5	wallust	
+sway+waybar+wallust	274	1124.9	150	541.3	wallust	
+niri+noctalia+matugen	240	1131.6	116	548.0		
+hyprland+dms+matugen	233	1168.2	109	584.6		
+niri+dms+matugen	238	1242.2	114	658.6		
+hyprland+caelestia+matugen	393	1839.5	269	1256.0	caelestia-shell	caelestia-cli;libcava;qt6-m3shapes-git;quickshell-git;ttf-rubik-vf
+ricelin core (hand-written Quickshell rice)	527	2878.5	403	2294.9		
+ricelin core + full profile (44 native)	593	3282.3	469	2698.8		

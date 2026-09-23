@@ -33,20 +33,20 @@ facts read from their public interfaces (package lists, manifests, install scrip
 
 ## Audited builds at a glance
 
-| | [impasto] | [wayle] | [rust-dock] |
-|---|---|---|---|
-| **scope** | whole desktop (compositor, shell, terminal, editors, login screen) | shell (bar, notifications, OSD, wallpaper, devices) | dock only |
-| **implementation** | QML on Quickshell | Rust, GTK4 + Relm4 | Rust, GTK4 |
-| **license** | GPL-3.0 | MIT | conflict: `LICENSE` = GPL-3.0, `Cargo.toml` = MIT |
-| **packages in closure** | **629** | **226** | **213** |
-| **installed size** | **3,863.8 MB** | **1,007.7 MB** | **979.1 MB** |
-| **AUR in mandatory path** | 0 of 85 declared | 1 (`wayle-bin`, 2 votes) | 0 |
-| **last commit** | 2026-09-22 | 2026-07-25 | 2026-08-26 |
-| **commits / last 90 days** | 100 | 3 | 2 |
-| **contributors** | 1 | 25 | 1 |
-| **open issues** | 1 | 166 | 0 |
-| **latest release** | v0.3.2 | v0.7.0 | none |
-| **verdict** | [Adopt](docs/audit-impasto.md) | [Watch](docs/audit-wayle.md) | [Adopt w/ conditions](docs/audit-rust-dock.md) |
+| | [impasto] | [wayle] | [rust-dock] | [ricelin] |
+|---|---|---|---|---|
+| **scope** | whole desktop (compositor, shell, terminal, editors, login screen) | shell (bar, notifications, OSD, wallpaper, devices) | dock only | whole desktop (compositor, hand-written shell, terminal, login theme) |
+| **implementation** | QML on Quickshell | Rust, GTK4 + Relm4 | Rust, GTK4 | hand-written QML on Quickshell (110 files) |
+| **license** | GPL-3.0 | MIT | conflict: `LICENSE` = GPL-3.0, `Cargo.toml` = MIT | MIT |
+| **packages in closure** | **629** | **226** | **213** | **527** |
+| **installed size** | **3,863.8 MB** | **1,007.7 MB** | **979.1 MB** | **2,878.5 MB** |
+| **AUR in mandatory path** | 0 of 85 declared | 1 (`wayle-bin`, 2 votes) | 0 | 4 of 38 core (helper bootstrapped) |
+| **last commit** | 2026-09-22 | 2026-07-25 | 2026-08-26 | 2026-09-18 |
+| **commits / last 90 days** | 100 | 3 | 2 | 100 |
+| **contributors** | 1 | 25 | 1 | 1 |
+| **open issues** | 1 | 166 | 0 | 1 |
+| **latest release** | v0.3.2 | v0.7.0 | none | none |
+| **verdict** | [Adopt](docs/audit-impasto.md) | [Watch](docs/audit-wayle.md) | [Adopt w/ conditions](docs/audit-rust-dock.md) | [Adopt, then trim the fonts](docs/audit-ricelin.md) |
 
 The *installed size* column is the complete transitive closure resolved from the official
 repositories — not the size of the app itself. It is the number that matters when the stack is
@@ -252,6 +252,15 @@ Tiers are assigned against a stated rubric, not by feel. Full reasoning in each 
 * **[rust-dock](docs/audit-rust-dock.md) — Adopt with conditions.** Effectively free beside any
   GTK4 shell (one package). Conditions: from a bare base it costs its own full GTK4 closure, and
   its colour sync reads **pywal**, which is archived and has not released since 2019-01-21.
+* **[ricelin](docs/audit-ricelin.md) — Adopt, then trim the fonts.** MIT, one maintainer, active
+  (100 commits in 90 days), 201 files, and the shell is written from scratch rather than assembled
+  from existing bars. Its manifest is data (`installer/packages.json`) and its hardware specifics
+  are neutralised upstream (`monitors.lua.example`), which is why it can be measured at all. Two
+  conditions: **4 of its 38 core packages are AUR-only**, so a helper gets bootstrapped even on the
+  "core" path; and **749 MB of its 2.88 GB is fonts**, of which `noto-fonts-cjk` alone is ~300 MB
+  and is pointless without CJK text on screen. Its installer is the author's own admission young —
+  read `install.sh` before piping it, and note it moves replaced configs to `<name>.bak`, never
+  deletes them.
 
 ## Install guide
 
@@ -314,7 +323,9 @@ probably should not.
 | [`data/shake.tsv`](data/shake.tsv) | what the plugin class does cost (its build toolchain) |
 | [`data/closure.tsv`](data/closure.tsv) | the nine-stack race, resolved |
 | [`data/combos.tsv`](data/combos.tsv) | combinations, including the two-component case |
-| [`data/builds.tsv`](data/builds.tsv) | the three audited builds, costed |
+| [`data/builds.tsv`](data/builds.tsv) | the audited builds, costed |
+| [`data/ricelin.tsv`](data/ricelin.tsv) | ricelin's core / full / AUR sets, costed |
+| [`data/ricelin-availability.tsv`](data/ricelin-availability.tsv) | every package name ricelin resolves to, and where it lives |
 | `data/*.json` | full detail: per-stack membership, recorded parent chains, and every resolver guess |
 | [`data/README.md`](data/README.md) | column meanings and provenance of every file |
 
@@ -344,3 +355,4 @@ their own licenses. See [LICENSE](LICENSE).
 [impasto]: https://github.com/andreumassanet/impasto
 [wayle]: https://github.com/wayle-rs/wayle
 [rust-dock]: https://github.com/rhythmcreative/rust-dock
+[ricelin]: https://github.com/Gakuseei/Ricelin

@@ -184,6 +184,7 @@ def main():
             providers[prov.split("=")[0]].append(name)
 
     guesses = []
+    substitutions = []    # roots resolved through a package that Provides them
     ext_hits = defaultdict(set)
     parents = {}          # child -> (parent, dep token), per stack, cleared each stack
 
@@ -227,6 +228,29 @@ def main():
             guesses.append({"stack": stack, "dep": base, "chose": pick, "candidates": cands})
         return note(pick)
 
+    def root_provided_by(name, stack):
+        """Resolve a stack root that is not a package name but IS provided by one.
+
+        swww is the case that found this: no package of that name exists in the Arch
+        databases any more, but awww declares both Provides: swww and Replaces: swww, so
+        `pacman -S swww` is a real, working target. Reporting that as unresolved would
+        understate the closure, and silently picking a provider would overstate it, so the
+        substitution is made only when exactly one package provides the name and it is
+        recorded in the output either way. Several providers is a choice no tool should
+        make on the user's behalf: it is logged and left unresolved, visibly.
+        """
+        if name in pkgs:
+            return name
+        cands = sorted({c for c in providers.get(name, []) if c != name})
+        if len(cands) == 1:
+            substitutions.append({"stack": stack, "root": name, "provided_by": cands[0],
+                                  "why": "no package of that name; one package provides it"})
+            return cands[0]
+        if len(cands) > 1:
+            guesses.append({"stack": stack, "root": name, "chose": None, "candidates": cands,
+                            "why": "ambiguous provider for a stack root, needs a human pick"})
+        return name
+
     def resolve(root, seen, unresolved, stack):
         q = [root]
         while q:
@@ -247,7 +271,7 @@ def main():
         parents.clear()
         for k, n in roots:
             if k == "repo":
-                resolve(n, seen, unresolved, label)
+                resolve(root_provided_by(n, label), seen, unresolved, label)
         result[label] = {"seen": seen, "unresolved": unresolved,
                          "aur_roots": [n for k, n in roots if k == "aur"],
                          "parents": dict(parents)}
@@ -290,6 +314,7 @@ def main():
 
     json.dump({"rows": rows, "shared_floor_pkgs": len(inter),
                "shared_floor_MB": round(sum(pkgs[n]["isize"] for n in inter) / 1048576, 1),
+               "provider_substitutions": substitutions,
                "external_virtuals_hit": {k: sorted(v) for k, v in ext_hits.items()},
                "parents": {k: v["parents"] for k, v in result.items()},
                "db_vintage": vintage,
@@ -306,7 +331,10 @@ def main():
     print(f"\nshared floor (all stacks): {len(inter)} pkgs, "
           f"{sum(pkgs[n]['isize'] for n in inter)/1048576:.0f} MB")
     print("external virtuals skipped:", {k: len(v) for k, v in ext_hits.items()})
-    print(f"provider guesses logged: {len(guesses)}\n")
+    print(f"provider guesses logged: {len(guesses)}")
+    if substitutions:
+        for s in substitutions:
+            print(f"  root {s['root']} -> {s['provided_by']} (provided, not guessed)")
     print(f"{'stack':<29}{'pkgs':>5}{'instMB':>8}{'margPkgs':>10}{'margMB':>8}  aur / unresolved")
     print("-" * 114)
     for r in rows:

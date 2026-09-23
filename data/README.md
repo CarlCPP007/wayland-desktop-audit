@@ -138,6 +138,17 @@ the upstream repositories were confirmed separately with the GitHub API, and bot
 is the resulting measurement — including the finding that against a build which already carries
 the toolchain, the feature adds zero packages.
 
+### `ricelin.tsv`, `ricelin-stacks.json`, `ricelin-availability.tsv` — the fourth build
+
+Ricelin declares its dependencies as **data** (`installer/packages.json` upstream), which is what
+makes it measurable. `ricelin-stacks.json` is that manifest transcribed into stack form exactly as
+its own `plan()` resolves it for the arch family: core (38 native roots), core + full profile (44),
+the 4 AUR roots, and `brave-bin` as the one `extra` entry. `ricelin.tsv` is the cost of each.
+`ricelin-availability.tsv` is the same names probed against the official repositories and the AUR.
+
+`probe-ricelin.txt` is the input to that probe and nothing in it was typed from memory: the names
+come from the manifest, and `swww` resolves through `awww`'s `Provides` rather than existing.
+
 ### Traceability, and where it stops
 
 `parents` records `child -> [parent, exact dependency token]` for every package pulled in through

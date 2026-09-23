@@ -7382,6 +7382,7 @@
  ],
  "shared_floor_pkgs": 0,
  "shared_floor_MB": 0.0,
+ "provider_substitutions": [],
  "external_virtuals_hit": {
   "opengl-driver": [
    "Qt theme :: kvantum",

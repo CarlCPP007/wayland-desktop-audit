@@ -777,6 +777,7 @@
  ],
  "shared_floor_pkgs": 127,
  "shared_floor_MB": 592.4,
+ "provider_substitutions": [],
  "external_virtuals_hit": {
   "opengl-driver": [
    "hyprland+caelestia+matugen",

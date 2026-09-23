@@ -4,8 +4,8 @@
    "stack": "river+yambar+wallust",
    "pkgs": 172,
    "installed_MB": 622.4,
-   "marginal_pkgs": 39,
-   "marginal_MB": 31.1,
+   "marginal_pkgs": 48,
+   "marginal_MB": 38.8,
    "aur_roots": [
     "yambar",
     "wallust"
@@ -27,6 +27,11 @@
      "desc": "Totally open, royalty-free, highly versatile audio codec"
     },
     {
+     "MB": 2.6,
+     "pkg": "libepoxy",
+     "desc": "Library handling OpenGL function pointer management"
+    },
+    {
      "MB": 2.3,
      "pkg": "xorg-xwayland",
      "desc": "run X clients under wayland"
@@ -42,19 +47,70 @@
      "desc": "Modular Wayland compositor library"
     },
     {
+     "MB": 1.6,
+     "pkg": "libwacom",
+     "desc": "Library to identify Wacom tablets and their features"
+    },
+    {
      "MB": 1.5,
-     "pkg": "libpulse",
-     "desc": "A featureful, general-purpose sound server (client library)"
+     "pkg": "lua54",
+     "desc": "Powerful lightweight programming language designed for extending appli"
+    }
+   ]
+  },
+  {
+   "stack": "ricelin extras (brave theme, AUR)",
+   "pkgs": 177,
+   "installed_MB": 777.6,
+   "marginal_pkgs": 53,
+   "marginal_MB": 194.0,
+   "aur_roots": [
+    "brave-bin"
+   ],
+   "aur_versions": {
+    "brave-bin": "1:1.95.104-1"
+   },
+   "aur_unresolved": [],
+   "heaviest_marginal": [
+    {
+     "MB": 53.0,
+     "pkg": "gtk3",
+     "desc": "GObject-based multi-platform GUI toolkit"
     },
     {
-     "MB": 1.3,
-     "pkg": "pipewire",
-     "desc": "Low-latency audio/video router and processor"
+     "MB": 22.3,
+     "pkg": "iso-codes",
+     "desc": "Lists of the country, language, and currency names"
     },
     {
-     "MB": 1.2,
-     "pkg": "mpg123",
-     "desc": "Console based real time MPEG Audio Player for Layer 1, 2 and 3"
+     "MB": 17.5,
+     "pkg": "glycin",
+     "desc": "Sandboxed and extendable image decoding"
+    },
+    {
+     "MB": 11.4,
+     "pkg": "adwaita-cursors",
+     "desc": "GNOME standard cursors"
+    },
+    {
+     "MB": 10.3,
+     "pkg": "librsvg",
+     "desc": "SVG rendering library"
+    },
+    {
+     "MB": 10.0,
+     "pkg": "highway",
+     "desc": "A C++ library that provides portable SIMD/vector intrinsics"
+    },
+    {
+     "MB": 7.3,
+     "pkg": "adwaita-fonts",
+     "desc": "The typefaces for GNOME"
+    },
+    {
+     "MB": 6.8,
+     "pkg": "libjxl",
+     "desc": "JPEG XL image format reference implementation"
     }
    ]
   },
@@ -62,8 +118,8 @@
    "stack": "mangowm+quickshell+matugen",
    "pkgs": 203,
    "installed_MB": 948.6,
-   "marginal_pkgs": 70,
-   "marginal_MB": 357.3,
+   "marginal_pkgs": 79,
+   "marginal_MB": 365.0,
    "aur_roots": [
     "mangowm-git"
    ],
@@ -117,11 +173,73 @@
    ]
   },
   {
+   "stack": "ricelin AUR set (helper required)",
+   "pkgs": 259,
+   "installed_MB": 1040.5,
+   "marginal_pkgs": 135,
+   "marginal_MB": 456.9,
+   "aur_roots": [
+    "bibata-cursor-theme-bin",
+    "dotool",
+    "gpu-screen-recorder",
+    "mpvpaper"
+   ],
+   "aur_versions": {
+    "bibata-cursor-theme-bin": "2.0.7-1",
+    "dotool": "1.6-1",
+    "gpu-screen-recorder": null,
+    "mpvpaper": "1.9-1"
+   },
+   "aur_unresolved": [],
+   "heaviest_marginal": [
+    {
+     "MB": 73.6,
+     "pkg": "python",
+     "desc": "The Python programming language"
+    },
+    {
+     "MB": 48.4,
+     "pkg": "ffmpeg",
+     "desc": "Complete solution to record, convert and stream audio and video"
+    },
+    {
+     "MB": 24.1,
+     "pkg": "ffmpeg4.4",
+     "desc": "Complete solution to record, convert and stream audio and video"
+    },
+    {
+     "MB": 21.5,
+     "pkg": "x265",
+     "desc": "Open Source H265/HEVC video encoder"
+    },
+    {
+     "MB": 19.9,
+     "pkg": "util-linux",
+     "desc": "Miscellaneous system utilities for Linux"
+    },
+    {
+     "MB": 17.5,
+     "pkg": "glycin",
+     "desc": "Sandboxed and extendable image decoding"
+    },
+    {
+     "MB": 13.9,
+     "pkg": "glslang",
+     "desc": "OpenGL and OpenGL ES shader front end and validator"
+    },
+    {
+     "MB": 13.4,
+     "pkg": "openjpeg2",
+     "desc": "An open source JPEG 2000 codec, version 2.5.4"
+    }
+   ]
+  },
+  {
    "stack": "hyprland+noctalia+matugen",
    "pkgs": 234,
    "installed_MB": 1053.6,
-   "marginal_pkgs": 101,
-   "marginal_MB": 462.3,
+   "marginal_pkgs": 110,
+   "marginal_MB": 470.0,
    "aur_roots": [],
    "aur_versions": {},
    "aur_unresolved": [],
@@ -169,63 +287,11 @@
    ]
   },
   {
-   "stack": "plugins :: compositor + build chain (bare Hyprland + shake to find)",
-   "pkgs": 212,
-   "installed_MB": 1080.7,
-   "marginal_pkgs": 79,
-   "marginal_MB": 489.4,
-   "aur_roots": [],
-   "aur_versions": {},
-   "aur_unresolved": [],
-   "heaviest_marginal": [
-    {
-     "MB": 101.4,
-     "pkg": "cmake",
-     "desc": "A cross-platform open-source make system"
-    },
-    {
-     "MB": 73.6,
-     "pkg": "python",
-     "desc": "The Python programming language"
-    },
-    {
-     "MB": 70.3,
-     "pkg": "perl",
-     "desc": "A highly capable, feature-rich programming language"
-    },
-    {
-     "MB": 64.0,
-     "pkg": "hyprland",
-     "desc": "a highly customizable dynamic tiling Wayland compositor"
-    },
-    {
-     "MB": 31.3,
-     "pkg": "git",
-     "desc": "the fast distributed version control system"
-    },
-    {
-     "MB": 17.5,
-     "pkg": "glycin",
-     "desc": "Sandboxed and extendable image decoding"
-    },
-    {
-     "MB": 16.9,
-     "pkg": "meson",
-     "desc": "High productivity build system"
-    },
-    {
-     "MB": 13.9,
-     "pkg": "glslang",
-     "desc": "OpenGL and OpenGL ES shader front end and validator"
-    }
-   ]
-  },
-  {
    "stack": "labwc+waybar+wallust",
    "pkgs": 275,
    "installed_MB": 1120.1,
-   "marginal_pkgs": 142,
-   "marginal_MB": 528.8,
+   "marginal_pkgs": 151,
+   "marginal_MB": 536.5,
    "aur_roots": [
     "wallust"
    ],
@@ -280,8 +346,8 @@
    "stack": "sway+waybar+wallust",
    "pkgs": 274,
    "installed_MB": 1124.9,
-   "marginal_pkgs": 141,
-   "marginal_MB": 533.6,
+   "marginal_pkgs": 150,
+   "marginal_MB": 541.3,
    "aur_roots": [
     "wallust"
    ],
@@ -336,8 +402,8 @@
    "stack": "niri+noctalia+matugen",
    "pkgs": 240,
    "installed_MB": 1131.6,
-   "marginal_pkgs": 107,
-   "marginal_MB": 540.3,
+   "marginal_pkgs": 116,
+   "marginal_MB": 548.0,
    "aur_roots": [],
    "aur_versions": {},
    "aur_unresolved": [],
@@ -388,8 +454,8 @@
    "stack": "hyprland+dms+matugen",
    "pkgs": 233,
    "installed_MB": 1168.2,
-   "marginal_pkgs": 100,
-   "marginal_MB": 576.9,
+   "marginal_pkgs": 109,
+   "marginal_MB": 584.6,
    "aur_roots": [],
    "aur_versions": {},
    "aur_unresolved": [],
@@ -440,8 +506,8 @@
    "stack": "niri+dms+matugen",
    "pkgs": 238,
    "installed_MB": 1242.2,
-   "marginal_pkgs": 105,
-   "marginal_MB": 650.9,
+   "marginal_pkgs": 114,
+   "marginal_MB": 658.6,
    "aur_roots": [],
    "aur_versions": {},
    "aur_unresolved": [],
@@ -489,119 +555,11 @@
    ]
   },
   {
-   "stack": "plugins :: hyprpm build chain",
-   "pkgs": 273,
-   "installed_MB": 1675.5,
-   "marginal_pkgs": 140,
-   "marginal_MB": 1084.2,
-   "aur_roots": [],
-   "aur_versions": {},
-   "aur_unresolved": [],
-   "heaviest_marginal": [
-    {
-     "MB": 220.9,
-     "pkg": "gcc",
-     "desc": "The GNU Compiler Collection - C and C++ frontends"
-    },
-    {
-     "MB": 101.4,
-     "pkg": "cmake",
-     "desc": "A cross-platform open-source make system"
-    },
-    {
-     "MB": 73.6,
-     "pkg": "python",
-     "desc": "The Python programming language"
-    },
-    {
-     "MB": 70.3,
-     "pkg": "perl",
-     "desc": "A highly capable, feature-rich programming language"
-    },
-    {
-     "MB": 64.0,
-     "pkg": "hyprland",
-     "desc": "a highly customizable dynamic tiling Wayland compositor"
-    },
-    {
-     "MB": 54.5,
-     "pkg": "guile",
-     "desc": "Portable, embeddable Scheme implementation written in C"
-    },
-    {
-     "MB": 51.1,
-     "pkg": "boost-libs",
-     "desc": "Free peer-reviewed portable C++ source libraries (runtime libraries)"
-    },
-    {
-     "MB": 43.8,
-     "pkg": "binutils",
-     "desc": "A set of programs to assemble and manipulate binary and object files"
-    }
-   ]
-  },
-  {
-   "stack": "plugins :: build chain + packaged vector cursor",
-   "pkgs": 273,
-   "installed_MB": 1675.5,
-   "marginal_pkgs": 140,
-   "marginal_MB": 1084.2,
-   "aur_roots": [
-    "bibata-cursor-git"
-   ],
-   "aur_versions": {
-    "bibata-cursor-git": "1.0.0.r0.f4ccfe8-1"
-   },
-   "aur_unresolved": [],
-   "heaviest_marginal": [
-    {
-     "MB": 220.9,
-     "pkg": "gcc",
-     "desc": "The GNU Compiler Collection - C and C++ frontends"
-    },
-    {
-     "MB": 101.4,
-     "pkg": "cmake",
-     "desc": "A cross-platform open-source make system"
-    },
-    {
-     "MB": 73.6,
-     "pkg": "python",
-     "desc": "The Python programming language"
-    },
-    {
-     "MB": 70.3,
-     "pkg": "perl",
-     "desc": "A highly capable, feature-rich programming language"
-    },
-    {
-     "MB": 64.0,
-     "pkg": "hyprland",
-     "desc": "a highly customizable dynamic tiling Wayland compositor"
-    },
-    {
-     "MB": 54.5,
-     "pkg": "guile",
-     "desc": "Portable, embeddable Scheme implementation written in C"
-    },
-    {
-     "MB": 51.1,
-     "pkg": "boost-libs",
-     "desc": "Free peer-reviewed portable C++ source libraries (runtime libraries)"
-    },
-    {
-     "MB": 43.8,
-     "pkg": "binutils",
-     "desc": "A set of programs to assemble and manipulate binary and object files"
-    }
-   ]
-  },
-  {
    "stack": "hyprland+caelestia+matugen",
    "pkgs": 393,
    "installed_MB": 1839.5,
-   "marginal_pkgs": 260,
-   "marginal_MB": 1248.3,
+   "marginal_pkgs": 269,
+   "marginal_MB": 1256.0,
    "aur_roots": [
     "caelestia-shell"
    ],
@@ -657,11 +615,128 @@
      "desc": "Complete solution to record, convert and stream audio and video"
     }
    ]
+  },
+  {
+   "stack": "ricelin core (hand-written Quickshell rice)",
+   "pkgs": 527,
+   "installed_MB": 2878.5,
+   "marginal_pkgs": 403,
+   "marginal_MB": 2294.9,
+   "aur_roots": [],
+   "aur_versions": {},
+   "aur_unresolved": [],
+   "heaviest_marginal": [
+    {
+     "MB": 298.8,
+     "pkg": "noto-fonts-cjk",
+     "desc": "Google Noto CJK fonts"
+    },
+    {
+     "MB": 231.9,
+     "pkg": "ttf-jetbrains-mono-nerd",
+     "desc": "Patched font JetBrains Mono from nerd fonts library"
+    },
+    {
+     "MB": 121.4,
+     "pkg": "qt6-declarative",
+     "desc": "Classes for QML and JavaScript languages"
+    },
+    {
+     "MB": 111.5,
+     "pkg": "papirus-icon-theme",
+     "desc": "Papirus icon theme"
+    },
+    {
+     "MB": 106.8,
+     "pkg": "noto-fonts",
+     "desc": "Google Noto TTF fonts"
+    },
+    {
+     "MB": 82.8,
+     "pkg": "breeze-icons",
+     "desc": "Breeze icon theme"
+    },
+    {
+     "MB": 73.6,
+     "pkg": "python",
+     "desc": "The Python programming language"
+    },
+    {
+     "MB": 66.5,
+     "pkg": "qt6-base",
+     "desc": "A cross-platform application and UI framework"
+    }
+   ]
+  },
+  {
+   "stack": "ricelin core + full profile (44 native)",
+   "pkgs": 593,
+   "installed_MB": 3282.3,
+   "marginal_pkgs": 469,
+   "marginal_MB": 2698.8,
+   "aur_roots": [],
+   "aur_versions": {},
+   "aur_unresolved": [],
+   "heaviest_marginal": [
+    {
+     "MB": 298.8,
+     "pkg": "noto-fonts-cjk",
+     "desc": "Google Noto CJK fonts"
+    },
+    {
+     "MB": 231.9,
+     "pkg": "ttf-jetbrains-mono-nerd",
+     "desc": "Patched font JetBrains Mono from nerd fonts library"
+    },
+    {
+     "MB": 121.4,
+     "pkg": "qt6-declarative",
+     "desc": "Classes for QML and JavaScript languages"
+    },
+    {
+     "MB": 111.5,
+     "pkg": "papirus-icon-theme",
+     "desc": "Papirus icon theme"
+    },
+    {
+     "MB": 106.8,
+     "pkg": "noto-fonts",
+     "desc": "Google Noto TTF fonts"
+    },
+    {
+     "MB": 82.8,
+     "pkg": "breeze-icons",
+     "desc": "Breeze icon theme"
+    },
+    {
+     "MB": 73.6,
+     "pkg": "python",
+     "desc": "The Python programming language"
+    },
+    {
+     "MB": 66.5,
+     "pkg": "qt6-base",
+     "desc": "A cross-platform application and UI framework"
+    }
+   ]
   }
  ],
- "shared_floor_pkgs": 133,
- "shared_floor_MB": 591.3,
- "provider_substitutions": [],
+ "shared_floor_pkgs": 124,
+ "shared_floor_MB": 583.6,
+ "provider_substitutions": [
+  {
+   "stack": "ricelin core (hand-written Quickshell rice)",
+   "root": "swww",
+   "provided_by": "awww",
+   "why": "no package of that name; one package provides it"
+  },
+  {
+   "stack": "ricelin core + full profile (44 native)",
+   "root": "swww",
+   "provided_by": "awww",
+   "why": "no package of that name; one package provides it"
+  }
+ ],
  "external_virtuals_hit": {
   "opengl-driver": [
    "hyprland+caelestia+matugen",
@@ -671,9 +746,10 @@
    "mangowm+quickshell+matugen",
    "niri+dms+matugen",
    "niri+noctalia+matugen",
-   "plugins :: build chain + packaged vector cursor",
-   "plugins :: compositor + build chain (bare Hyprland + shake to find)",
-   "plugins :: hyprpm build chain",
+   "ricelin AUR set (helper required)",
+   "ricelin core (hand-written Quickshell rice)",
+   "ricelin core + full profile (44 native)",
+   "ricelin extras (brave theme, AUR)",
    "river+yambar+wallust",
    "sway+waybar+wallust"
   ],
@@ -685,19 +761,17 @@
    "mangowm+quickshell+matugen",
    "niri+dms+matugen",
    "niri+noctalia+matugen",
-   "plugins :: build chain + packaged vector cursor",
-   "plugins :: compositor + build chain (bare Hyprland + shake to find)",
-   "plugins :: hyprpm build chain",
+   "ricelin AUR set (helper required)",
+   "ricelin core (hand-written Quickshell rice)",
+   "ricelin core + full profile (44 native)",
+   "ricelin extras (brave theme, AUR)",
    "river+yambar+wallust",
    "sway+waybar+wallust"
   ],
   "ttf-font": [
    "labwc+waybar+wallust",
+   "ricelin extras (brave theme, AUR)",
    "sway+waybar+wallust"
-  ],
-  "awk": [
-   "plugins :: build chain + packaged vector cursor",
-   "plugins :: hyprpm build chain"
   ]
  },
  "parents": {
@@ -8655,2171 +8729,7 @@
     "libarchive"
    ]
   },
-  "plugins :: hyprpm build chain": {
-   "cmake": [
-    "hyprpm",
-    "cmake"
-   ],
-   "cpio": [
-    "hyprpm",
-    "cpio"
-   ],
-   "glaze": [
-    "hyprpm",
-    "glaze"
-   ],
-   "hyprland": [
-    "hyprpm",
-    "hyprland"
-   ],
-   "hyprland-protocols": [
-    "hyprpm",
-    "hyprland-protocols"
-   ],
-   "hyprwayland-scanner": [
-    "hyprpm",
-    "hyprwayland-scanner"
-   ],
-   "meson": [
-    "hyprpm",
-    "meson"
-   ],
-   "bash": [
-    "meson",
-    "bash"
-   ],
-   "ninja": [
-    "meson",
-    "ninja"
-   ],
-   "python": [
-    "meson",
-    "python"
-   ],
-   "python-tqdm": [
-    "meson",
-    "python-tqdm"
-   ],
-   "bzip2": [
-    "python",
-    "bzip2"
-   ],
-   "expat": [
-    "python",
-    "expat"
-   ],
-   "gdbm": [
-    "python",
-    "gdbm"
-   ],
-   "libffi": [
-    "python",
-    "libffi"
-   ],
-   "libnsl": [
-    "python",
-    "libnsl"
-   ],
-   "libxcrypt": [
-    "python",
-    "libxcrypt"
-   ],
-   "openssl": [
-    "python",
-    "openssl"
-   ],
-   "zlib": [
-    "python",
-    "zlib"
-   ],
-   "tzdata": [
-    "python",
-    "tzdata"
-   ],
-   "mpdecimal": [
-    "python",
-    "mpdecimal"
-   ],
-   "zstd": [
-    "python",
-    "zstd"
-   ],
-   "glibc": [
-    "zstd",
-    "glibc"
-   ],
-   "libgcc": [
-    "zstd",
-    "libgcc"
-   ],
-   "libstdc++": [
-    "zstd",
-    "libstdc++"
-   ],
-   "xz": [
-    "zstd",
-    "xz"
-   ],
-   "lz4": [
-    "zstd",
-    "lz4"
-   ],
-   "linux-api-headers": [
-    "glibc",
-    "linux-api-headers"
-   ],
-   "filesystem": [
-    "glibc",
-    "filesystem"
-   ],
-   "iana-etc": [
-    "filesystem",
-    "iana-etc"
-   ],
-   "brotli": [
-    "openssl",
-    "brotli"
-   ],
-   "libtirpc": [
-    "libnsl",
-    "libtirpc"
-   ],
-   "krb5": [
-    "libtirpc",
-    "krb5"
-   ],
-   "e2fsprogs": [
-    "krb5",
-    "e2fsprogs"
-   ],
-   "keyutils": [
-    "krb5",
-    "keyutils"
-   ],
-   "libldap": [
-    "krb5",
-    "libldap"
-   ],
-   "libverto": [
-    "krb5",
-    "libverto-module-base"
-   ],
-   "lmdb": [
-    "krb5",
-    "lmdb"
-   ],
-   "libevent": [
-    "libverto",
-    "libevent"
-   ],
-   "util-linux-libs": [
-    "e2fsprogs",
-    "util-linux-libs"
-   ],
-   "sqlite": [
-    "util-linux-libs",
-    "sqlite"
-   ],
-   "readline": [
-    "sqlite",
-    "readline"
-   ],
-   "ncurses": [
-    "readline",
-    "libncursesw.so"
-   ],
-   "libsasl": [
-    "libldap",
-    "libsasl"
-   ],
-   "pugixml": [
-    "hyprwayland-scanner",
-    "pugixml"
-   ],
-   "cairo": [
-    "hyprland",
-    "cairo"
-   ],
-   "aquamarine": [
-    "hyprland",
-    "aquamarine"
-   ],
-   "glib2": [
-    "hyprland",
-    "glib2"
-   ],
-   "glslang": [
-    "hyprland",
-    "glslang"
-   ],
-   "hyprcursor": [
-    "hyprland",
-    "hyprcursor"
-   ],
-   "hyprgraphics": [
-    "hyprland",
-    "hyprgraphics"
-   ],
-   "hyprland-guiutils": [
-    "hyprland",
-    "hyprland-guiutils"
-   ],
-   "hyprlang": [
-    "hyprland",
-    "hyprlang"
-   ],
-   "hyprutils": [
-    "hyprland",
-    "hyprutils"
-   ],
-   "hyprwire": [
-    "hyprland",
-    "hyprwire"
-   ],
-   "lcms2": [
-    "hyprland",
-    "lcms2"
-   ],
-   "libdrm": [
-    "hyprland",
-    "libdrm"
-   ],
-   "libglvnd": [
-    "hyprland",
-    "libglvnd"
-   ],
-   "libinput": [
-    "hyprland",
-    "libinput"
-   ],
-   "libx11": [
-    "hyprland",
-    "libx11"
-   ],
-   "libxcb": [
-    "hyprland",
-    "libxcb"
-   ],
-   "libxcomposite": [
-    "hyprland",
-    "libxcomposite"
-   ],
-   "libxcursor": [
-    "hyprland",
-    "libxcursor"
-   ],
-   "libxfixes": [
-    "hyprland",
-    "libxfixes"
-   ],
-   "libxkbcommon": [
-    "hyprland",
-    "libxkbcommon"
-   ],
-   "libxrender": [
-    "hyprland",
-    "libxrender"
-   ],
-   "lua": [
-    "hyprland",
-    "lua"
-   ],
-   "mesa": [
-    "hyprland",
-    "mesa"
-   ],
-   "muparser": [
-    "hyprland",
-    "muparser"
-   ],
-   "pango": [
-    "hyprland",
-    "pango"
-   ],
-   "pixman": [
-    "hyprland",
-    "pixman"
-   ],
-   "re2": [
-    "hyprland",
-    "re2"
-   ],
-   "tomlplusplus": [
-    "hyprland",
-    "tomlplusplus"
-   ],
-   "wayland": [
-    "hyprland",
-    "wayland"
-   ],
-   "wayland-protocols": [
-    "hyprland",
-    "wayland-protocols"
-   ],
-   "xcb-proto": [
-    "hyprland",
-    "xcb-proto"
-   ],
-   "xcb-util": [
-    "hyprland",
-    "xcb-util"
-   ],
-   "xcb-util-errors": [
-    "hyprland",
-    "xcb-util-errors"
-   ],
-   "xcb-util-image": [
-    "hyprland",
-    "xcb-util-image"
-   ],
-   "xcb-util-keysyms": [
-    "hyprland",
-    "xcb-util-keysyms"
-   ],
-   "xcb-util-renderutil": [
-    "hyprland",
-    "xcb-util-renderutil"
-   ],
-   "xcb-util-wm": [
-    "hyprland",
-    "xcb-util-wm"
-   ],
-   "xorg-xwayland": [
-    "hyprland",
-    "xorg-xwayland"
-   ],
-   "nettle": [
-    "xorg-xwayland",
-    "nettle"
-   ],
-   "libepoxy": [
-    "xorg-xwayland",
-    "libepoxy"
-   ],
-   "libxfont2": [
-    "xorg-xwayland",
-    "libxfont2"
-   ],
-   "xorg-server-common": [
-    "xorg-xwayland",
-    "xorg-server-common"
-   ],
-   "libxcvt": [
-    "xorg-xwayland",
-    "libxcvt"
-   ],
-   "libxau": [
-    "xorg-xwayland",
-    "libxau"
-   ],
-   "libei": [
-    "xorg-xwayland",
-    "libei"
-   ],
-   "libxshmfence": [
-    "xorg-xwayland",
-    "libxshmfence"
-   ],
-   "libdecor": [
-    "xorg-xwayland",
-    "libdecor"
-   ],
-   "dbus": [
-    "libdecor",
-    "dbus"
-   ],
-   "audit": [
-    "dbus",
-    "audit"
-   ],
-   "libcap-ng": [
-    "dbus",
-    "libcap-ng"
-   ],
-   "systemd-libs": [
-    "dbus",
-    "systemd-libs"
-   ],
-   "libgcrypt": [
-    "systemd-libs",
-    "libgcrypt"
-   ],
-   "libgpg-error": [
-    "libgcrypt",
-    "libgpg-error"
-   ],
-   "fontconfig": [
-    "pango",
-    "fontconfig"
-   ],
-   "freetype2": [
-    "pango",
-    "freetype2"
-   ],
-   "fribidi": [
-    "pango",
-    "fribidi"
-   ],
-   "harfbuzz": [
-    "pango",
-    "harfbuzz"
-   ],
-   "libsysprof-capture": [
-    "pango",
-    "libsysprof-capture"
-   ],
-   "libthai": [
-    "pango",
-    "libthai"
-   ],
-   "libxft": [
-    "pango",
-    "libxft"
-   ],
-   "xorgproto": [
-    "libxrender",
-    "xorgproto"
-   ],
-   "libxdmcp": [
-    "libxcb",
-    "libxdmcp"
-   ],
-   "libpng": [
-    "freetype2",
-    "libpng"
-   ],
-   "libdatrie": [
-    "libthai",
-    "libdatrie"
-   ],
-   "graphite": [
-    "harfbuzz",
-    "graphite"
-   ],
-   "pcre2": [
-    "glib2",
-    "pcre2"
-   ],
-   "libxext": [
-    "cairo",
-    "libxext"
-   ],
-   "lzo": [
-    "cairo",
-    "lzo"
-   ],
-   "libxml2": [
-    "wayland",
-    "libxml2"
-   ],
-   "default-cursors": [
-    "wayland",
-    "default-cursors"
-   ],
-   "icu": [
-    "libxml2",
-    "icu"
-   ],
-   "gcc-libs": [
-    "libei",
-    "gcc-libs"
-   ],
-   "libevdev": [
-    "libei",
-    "libevdev"
-   ],
-   "libasan": [
-    "gcc-libs",
-    "libasan"
-   ],
-   "libatomic": [
-    "gcc-libs",
-    "libatomic"
-   ],
-   "libgfortran": [
-    "gcc-libs",
-    "libgfortran"
-   ],
-   "libgomp": [
-    "gcc-libs",
-    "libgomp"
-   ],
-   "libhwasan": [
-    "gcc-libs",
-    "libhwasan"
-   ],
-   "liblsan": [
-    "gcc-libs",
-    "liblsan"
-   ],
-   "libobjc": [
-    "gcc-libs",
-    "libobjc"
-   ],
-   "libquadmath": [
-    "gcc-libs",
-    "libquadmath"
-   ],
-   "libtsan": [
-    "gcc-libs",
-    "libtsan"
-   ],
-   "libubsan": [
-    "gcc-libs",
-    "libubsan"
-   ],
-   "libpciaccess": [
-    "libdrm",
-    "libpciaccess"
-   ],
-   "libelf": [
-    "mesa",
-    "libelf"
-   ],
-   "libxxf86vm": [
-    "mesa",
-    "libxxf86vm"
-   ],
-   "llvm-libs": [
-    "mesa",
-    "llvm-libs"
-   ],
-   "lm_sensors": [
-    "mesa",
-    "lm_sensors"
-   ],
-   "spirv-tools": [
-    "mesa",
-    "spirv-tools"
-   ],
-   "libedit": [
-    "llvm-libs",
-    "libedit"
-   ],
-   "curl": [
-    "libelf",
-    "curl"
-   ],
-   "json-c": [
-    "libelf",
-    "json-c"
-   ],
-   "ca-certificates": [
-    "curl",
-    "ca-certificates"
-   ],
-   "libidn2": [
-    "curl",
-    "libidn2"
-   ],
-   "libnghttp2": [
-    "curl",
-    "libnghttp2"
-   ],
-   "libnghttp3": [
-    "curl",
-    "libnghttp3"
-   ],
-   "libngtcp2": [
-    "curl",
-    "libngtcp2"
-   ],
-   "libpsl": [
-    "curl",
-    "libpsl"
-   ],
-   "libssh2": [
-    "curl",
-    "libssh2"
-   ],
-   "libunistring": [
-    "libpsl",
-    "libunistring"
-   ],
-   "gnutls": [
-    "libngtcp2",
-    "gnutls"
-   ],
-   "gmp": [
-    "gnutls",
-    "gmp"
-   ],
-   "libtasn1": [
-    "gnutls",
-    "libtasn1"
-   ],
-   "leancrypto": [
-    "gnutls",
-    "leancrypto"
-   ],
-   "libp11-kit": [
-    "gnutls",
-    "libp11-kit"
-   ],
-   "ca-certificates-mozilla": [
-    "ca-certificates",
-    "ca-certificates-mozilla"
-   ],
-   "ca-certificates-utils": [
-    "ca-certificates-mozilla",
-    "ca-certificates-utils"
-   ],
-   "coreutils": [
-    "ca-certificates-utils",
-    "coreutils"
-   ],
-   "findutils": [
-    "ca-certificates-utils",
-    "findutils"
-   ],
-   "p11-kit": [
-    "ca-certificates-utils",
-    "p11-kit"
-   ],
-   "acl": [
-    "coreutils",
-    "acl"
-   ],
-   "attr": [
-    "coreutils",
-    "attr"
-   ],
-   "libcap": [
-    "coreutils",
-    "libcap"
-   ],
-   "pam": [
-    "libcap",
-    "pam"
-   ],
-   "pambase": [
-    "pam",
-    "pambase"
-   ],
-   "xkeyboard-config": [
-    "xorg-server-common",
-    "xkeyboard-config"
-   ],
-   "xorg-xkbcomp": [
-    "xorg-server-common",
-    "xorg-xkbcomp"
-   ],
-   "xorg-setxkbmap": [
-    "xorg-server-common",
-    "xorg-setxkbmap"
-   ],
-   "libxkbfile": [
-    "xorg-setxkbmap",
-    "libxkbfile"
-   ],
-   "libxrandr": [
-    "xorg-setxkbmap",
-    "libxrandr"
-   ],
-   "libfontenc": [
-    "libxfont2",
-    "libfontenc"
-   ],
-   "xorg-fonts-encodings": [
-    "libfontenc",
-    "xorg-fonts-encodings"
-   ],
-   "abseil-cpp": [
-    "re2",
-    "abseil-cpp"
-   ],
-   "gtest": [
-    "abseil-cpp",
-    "gtest"
-   ],
-   "libwacom": [
-    "libinput",
-    "libwacom"
-   ],
-   "lua54": [
-    "libinput",
-    "lua54"
-   ],
-   "mtdev": [
-    "libinput",
-    "mtdev"
-   ],
-   "libgudev": [
-    "libwacom",
-    "libgudev"
-   ],
-   "libjpeg-turbo": [
-    "lcms2",
-    "libjpeg-turbo"
-   ],
-   "libtiff": [
-    "lcms2",
-    "libtiff"
-   ],
-   "jbigkit": [
-    "libtiff",
-    "jbigkit"
-   ],
-   "libdeflate": [
-    "libtiff",
-    "libdeflate"
-   ],
-   "libwebp": [
-    "libtiff",
-    "libwebp"
-   ],
-   "hyprtoolkit": [
-    "hyprland-guiutils",
-    "hyprtoolkit"
-   ],
-   "iniparser": [
-    "hyprtoolkit",
-    "iniparser"
-   ],
-   "file": [
-    "hyprgraphics",
-    "file"
-   ],
-   "libjxl": [
-    "hyprgraphics",
-    "libjxl"
-   ],
-   "librsvg": [
-    "hyprgraphics",
-    "librsvg"
-   ],
-   "dav1d": [
-    "librsvg",
-    "dav1d"
-   ],
-   "gdk-pixbuf2": [
-    "librsvg",
-    "gdk-pixbuf2"
-   ],
-   "glycin": [
-    "gdk-pixbuf2",
-    "glycin"
-   ],
-   "shared-mime-info": [
-    "gdk-pixbuf2",
-    "shared-mime-info"
-   ],
-   "bubblewrap": [
-    "glycin",
-    "bubblewrap"
-   ],
-   "libseccomp": [
-    "glycin",
-    "libseccomp"
-   ],
-   "giflib": [
-    "libjxl",
-    "giflib"
-   ],
-   "gperftools": [
-    "libjxl",
-    "gperftools"
-   ],
-   "highway": [
-    "libjxl",
-    "highway"
-   ],
-   "libunwind": [
-    "gperftools",
-    "libunwind"
-   ],
-   "libdisplay-info": [
-    "aquamarine",
-    "libdisplay-info"
-   ],
-   "seatd": [
-    "aquamarine",
-    "seatd"
-   ],
-   "libzip": [
-    "hyprcursor",
-    "libzip"
-   ],
-   "cppdap": [
-    "cmake",
-    "cppdap"
-   ],
-   "hicolor-icon-theme": [
-    "cmake",
-    "hicolor-icon-theme"
-   ],
-   "jsoncpp": [
-    "cmake",
-    "jsoncpp"
-   ],
-   "libarchive": [
-    "cmake",
-    "libarchive"
-   ],
-   "libuv": [
-    "cmake",
-    "libuv"
-   ],
-   "rhash": [
-    "cmake",
-    "rhash"
-   ],
-   "archlinux-keyring": [
-    "base-devel",
-    "archlinux-keyring"
-   ],
-   "autoconf": [
-    "base-devel",
-    "autoconf"
-   ],
-   "automake": [
-    "base-devel",
-    "automake"
-   ],
-   "binutils": [
-    "base-devel",
-    "binutils"
-   ],
-   "bison": [
-    "base-devel",
-    "bison"
-   ],
-   "debugedit": [
-    "base-devel",
-    "debugedit"
-   ],
-   "fakeroot": [
-    "base-devel",
-    "fakeroot"
-   ],
-   "flex": [
-    "base-devel",
-    "flex"
-   ],
-   "gawk": [
-    "base-devel",
-    "gawk"
-   ],
-   "gcc": [
-    "base-devel",
-    "gcc"
-   ],
-   "gettext": [
-    "base-devel",
-    "gettext"
-   ],
-   "grep": [
-    "base-devel",
-    "grep"
-   ],
-   "groff": [
-    "base-devel",
-    "groff"
-   ],
-   "gzip": [
-    "base-devel",
-    "gzip"
-   ],
-   "libtool": [
-    "base-devel",
-    "libtool"
-   ],
-   "m4": [
-    "base-devel",
-    "m4"
-   ],
-   "make": [
-    "base-devel",
-    "make"
-   ],
-   "pacman": [
-    "base-devel",
-    "pacman"
-   ],
-   "patch": [
-    "base-devel",
-    "patch"
-   ],
-   "pkgconf": [
-    "base-devel",
-    "pkgconf"
-   ],
-   "sed": [
-    "base-devel",
-    "sed"
-   ],
-   "sudo": [
-    "base-devel",
-    "sudo"
-   ],
-   "texinfo": [
-    "base-devel",
-    "texinfo"
-   ],
-   "which": [
-    "base-devel",
-    "which"
-   ],
-   "perl": [
-    "texinfo",
-    "perl"
-   ],
-   "db5.3": [
-    "perl",
-    "db5.3"
-   ],
-   "gnupg": [
-    "pacman",
-    "gnupg"
-   ],
-   "gpgme": [
-    "pacman",
-    "gpgme"
-   ],
-   "pacman-mirrorlist": [
-    "pacman",
-    "pacman-mirrorlist"
-   ],
-   "systemd": [
-    "pacman",
-    "systemd"
-   ],
-   "libmakepkg-dropins": [
-    "pacman",
-    "libmakepkg-dropins"
-   ],
-   "jansson": [
-    "binutils",
-    "jansson"
-   ],
-   "cryptsetup": [
-    "systemd",
-    "cryptsetup"
-   ],
-   "dbus-units": [
-    "systemd",
-    "dbus-units"
-   ],
-   "kbd": [
-    "systemd",
-    "kbd"
-   ],
-   "kmod": [
-    "systemd",
-    "kmod"
-   ],
-   "hwdata": [
-    "systemd",
-    "hwdata"
-   ],
-   "util-linux": [
-    "systemd",
-    "util-linux"
-   ],
-   "shadow": [
-    "util-linux",
-    "shadow"
-   ],
-   "dbus-broker-units": [
-    "dbus-units",
-    "dbus-broker-units"
-   ],
-   "dbus-broker": [
-    "dbus-broker-units",
-    "dbus-broker"
-   ],
-   "device-mapper": [
-    "cryptsetup",
-    "device-mapper"
-   ],
-   "popt": [
-    "cryptsetup",
-    "popt"
-   ],
-   "libassuan": [
-    "gpgme",
-    "libassuan"
-   ],
-   "libksba": [
-    "gnupg",
-    "libksba"
-   ],
-   "libusb": [
-    "gnupg",
-    "libusb"
-   ],
-   "pinentry": [
-    "gnupg",
-    "pinentry"
-   ],
-   "tpm2-tss": [
-    "gnupg",
-    "tpm2-tss"
-   ],
-   "npth": [
-    "gnupg",
-    "npth"
-   ],
-   "libsecret": [
-    "pinentry",
-    "libsecret"
-   ],
-   "gnulib-l10n": [
-    "gettext",
-    "gnulib-l10n"
-   ],
-   "mpfr": [
-    "gawk",
-    "mpfr"
-   ],
-   "guile": [
-    "make",
-    "guile"
-   ],
-   "gc": [
-    "guile",
-    "gc"
-   ],
-   "tar": [
-    "libtool",
-    "tar"
-   ],
-   "libisl": [
-    "gcc",
-    "libisl.so"
-   ],
-   "libmpc": [
-    "gcc",
-    "libmpc"
-   ],
-   "xxhash": [
-    "debugedit",
-    "xxhash"
-   ],
-   "elfutils": [
-    "debugedit",
-    "elfutils"
-   ],
-   "gdb": [
-    "debugedit",
-    "gdb"
-   ],
-   "boost-libs": [
-    "gdb",
-    "boost-libs"
-   ],
-   "gdb-common": [
-    "gdb",
-    "gdb-common"
-   ],
-   "source-highlight": [
-    "gdb",
-    "source-highlight"
-   ],
-   "diffutils": [
-    "autoconf",
-    "diffutils"
-   ],
-   "perl-error": [
-    "git",
-    "perl-error"
-   ],
-   "perl-mailtools": [
-    "git",
-    "perl-mailtools"
-   ],
-   "zlib-ng": [
-    "git",
-    "zlib-ng"
-   ],
-   "perl-timedate": [
-    "perl-mailtools",
-    "perl-timedate"
-   ]
-  },
-  "plugins :: build chain + packaged vector cursor": {
-   "cmake": [
-    "hyprpm",
-    "cmake"
-   ],
-   "cpio": [
-    "hyprpm",
-    "cpio"
-   ],
-   "glaze": [
-    "hyprpm",
-    "glaze"
-   ],
-   "hyprland": [
-    "hyprpm",
-    "hyprland"
-   ],
-   "hyprland-protocols": [
-    "hyprpm",
-    "hyprland-protocols"
-   ],
-   "hyprwayland-scanner": [
-    "hyprpm",
-    "hyprwayland-scanner"
-   ],
-   "meson": [
-    "hyprpm",
-    "meson"
-   ],
-   "bash": [
-    "meson",
-    "bash"
-   ],
-   "ninja": [
-    "meson",
-    "ninja"
-   ],
-   "python": [
-    "meson",
-    "python"
-   ],
-   "python-tqdm": [
-    "meson",
-    "python-tqdm"
-   ],
-   "bzip2": [
-    "python",
-    "bzip2"
-   ],
-   "expat": [
-    "python",
-    "expat"
-   ],
-   "gdbm": [
-    "python",
-    "gdbm"
-   ],
-   "libffi": [
-    "python",
-    "libffi"
-   ],
-   "libnsl": [
-    "python",
-    "libnsl"
-   ],
-   "libxcrypt": [
-    "python",
-    "libxcrypt"
-   ],
-   "openssl": [
-    "python",
-    "openssl"
-   ],
-   "zlib": [
-    "python",
-    "zlib"
-   ],
-   "tzdata": [
-    "python",
-    "tzdata"
-   ],
-   "mpdecimal": [
-    "python",
-    "mpdecimal"
-   ],
-   "zstd": [
-    "python",
-    "zstd"
-   ],
-   "glibc": [
-    "zstd",
-    "glibc"
-   ],
-   "libgcc": [
-    "zstd",
-    "libgcc"
-   ],
-   "libstdc++": [
-    "zstd",
-    "libstdc++"
-   ],
-   "xz": [
-    "zstd",
-    "xz"
-   ],
-   "lz4": [
-    "zstd",
-    "lz4"
-   ],
-   "linux-api-headers": [
-    "glibc",
-    "linux-api-headers"
-   ],
-   "filesystem": [
-    "glibc",
-    "filesystem"
-   ],
-   "iana-etc": [
-    "filesystem",
-    "iana-etc"
-   ],
-   "brotli": [
-    "openssl",
-    "brotli"
-   ],
-   "libtirpc": [
-    "libnsl",
-    "libtirpc"
-   ],
-   "krb5": [
-    "libtirpc",
-    "krb5"
-   ],
-   "e2fsprogs": [
-    "krb5",
-    "e2fsprogs"
-   ],
-   "keyutils": [
-    "krb5",
-    "keyutils"
-   ],
-   "libldap": [
-    "krb5",
-    "libldap"
-   ],
-   "libverto": [
-    "krb5",
-    "libverto-module-base"
-   ],
-   "lmdb": [
-    "krb5",
-    "lmdb"
-   ],
-   "libevent": [
-    "libverto",
-    "libevent"
-   ],
-   "util-linux-libs": [
-    "e2fsprogs",
-    "util-linux-libs"
-   ],
-   "sqlite": [
-    "util-linux-libs",
-    "sqlite"
-   ],
-   "readline": [
-    "sqlite",
-    "readline"
-   ],
-   "ncurses": [
-    "readline",
-    "libncursesw.so"
-   ],
-   "libsasl": [
-    "libldap",
-    "libsasl"
-   ],
-   "pugixml": [
-    "hyprwayland-scanner",
-    "pugixml"
-   ],
-   "cairo": [
-    "hyprland",
-    "cairo"
-   ],
-   "aquamarine": [
-    "hyprland",
-    "aquamarine"
-   ],
-   "glib2": [
-    "hyprland",
-    "glib2"
-   ],
-   "glslang": [
-    "hyprland",
-    "glslang"
-   ],
-   "hyprcursor": [
-    "hyprland",
-    "hyprcursor"
-   ],
-   "hyprgraphics": [
-    "hyprland",
-    "hyprgraphics"
-   ],
-   "hyprland-guiutils": [
-    "hyprland",
-    "hyprland-guiutils"
-   ],
-   "hyprlang": [
-    "hyprland",
-    "hyprlang"
-   ],
-   "hyprutils": [
-    "hyprland",
-    "hyprutils"
-   ],
-   "hyprwire": [
-    "hyprland",
-    "hyprwire"
-   ],
-   "lcms2": [
-    "hyprland",
-    "lcms2"
-   ],
-   "libdrm": [
-    "hyprland",
-    "libdrm"
-   ],
-   "libglvnd": [
-    "hyprland",
-    "libglvnd"
-   ],
-   "libinput": [
-    "hyprland",
-    "libinput"
-   ],
-   "libx11": [
-    "hyprland",
-    "libx11"
-   ],
-   "libxcb": [
-    "hyprland",
-    "libxcb"
-   ],
-   "libxcomposite": [
-    "hyprland",
-    "libxcomposite"
-   ],
-   "libxcursor": [
-    "hyprland",
-    "libxcursor"
-   ],
-   "libxfixes": [
-    "hyprland",
-    "libxfixes"
-   ],
-   "libxkbcommon": [
-    "hyprland",
-    "libxkbcommon"
-   ],
-   "libxrender": [
-    "hyprland",
-    "libxrender"
-   ],
-   "lua": [
-    "hyprland",
-    "lua"
-   ],
-   "mesa": [
-    "hyprland",
-    "mesa"
-   ],
-   "muparser": [
-    "hyprland",
-    "muparser"
-   ],
-   "pango": [
-    "hyprland",
-    "pango"
-   ],
-   "pixman": [
-    "hyprland",
-    "pixman"
-   ],
-   "re2": [
-    "hyprland",
-    "re2"
-   ],
-   "tomlplusplus": [
-    "hyprland",
-    "tomlplusplus"
-   ],
-   "wayland": [
-    "hyprland",
-    "wayland"
-   ],
-   "wayland-protocols": [
-    "hyprland",
-    "wayland-protocols"
-   ],
-   "xcb-proto": [
-    "hyprland",
-    "xcb-proto"
-   ],
-   "xcb-util": [
-    "hyprland",
-    "xcb-util"
-   ],
-   "xcb-util-errors": [
-    "hyprland",
-    "xcb-util-errors"
-   ],
-   "xcb-util-image": [
-    "hyprland",
-    "xcb-util-image"
-   ],
-   "xcb-util-keysyms": [
-    "hyprland",
-    "xcb-util-keysyms"
-   ],
-   "xcb-util-renderutil": [
-    "hyprland",
-    "xcb-util-renderutil"
-   ],
-   "xcb-util-wm": [
-    "hyprland",
-    "xcb-util-wm"
-   ],
-   "xorg-xwayland": [
-    "hyprland",
-    "xorg-xwayland"
-   ],
-   "nettle": [
-    "xorg-xwayland",
-    "nettle"
-   ],
-   "libepoxy": [
-    "xorg-xwayland",
-    "libepoxy"
-   ],
-   "libxfont2": [
-    "xorg-xwayland",
-    "libxfont2"
-   ],
-   "xorg-server-common": [
-    "xorg-xwayland",
-    "xorg-server-common"
-   ],
-   "libxcvt": [
-    "xorg-xwayland",
-    "libxcvt"
-   ],
-   "libxau": [
-    "xorg-xwayland",
-    "libxau"
-   ],
-   "libei": [
-    "xorg-xwayland",
-    "libei"
-   ],
-   "libxshmfence": [
-    "xorg-xwayland",
-    "libxshmfence"
-   ],
-   "libdecor": [
-    "xorg-xwayland",
-    "libdecor"
-   ],
-   "dbus": [
-    "libdecor",
-    "dbus"
-   ],
-   "audit": [
-    "dbus",
-    "audit"
-   ],
-   "libcap-ng": [
-    "dbus",
-    "libcap-ng"
-   ],
-   "systemd-libs": [
-    "dbus",
-    "systemd-libs"
-   ],
-   "libgcrypt": [
-    "systemd-libs",
-    "libgcrypt"
-   ],
-   "libgpg-error": [
-    "libgcrypt",
-    "libgpg-error"
-   ],
-   "fontconfig": [
-    "pango",
-    "fontconfig"
-   ],
-   "freetype2": [
-    "pango",
-    "freetype2"
-   ],
-   "fribidi": [
-    "pango",
-    "fribidi"
-   ],
-   "harfbuzz": [
-    "pango",
-    "harfbuzz"
-   ],
-   "libsysprof-capture": [
-    "pango",
-    "libsysprof-capture"
-   ],
-   "libthai": [
-    "pango",
-    "libthai"
-   ],
-   "libxft": [
-    "pango",
-    "libxft"
-   ],
-   "xorgproto": [
-    "libxrender",
-    "xorgproto"
-   ],
-   "libxdmcp": [
-    "libxcb",
-    "libxdmcp"
-   ],
-   "libpng": [
-    "freetype2",
-    "libpng"
-   ],
-   "libdatrie": [
-    "libthai",
-    "libdatrie"
-   ],
-   "graphite": [
-    "harfbuzz",
-    "graphite"
-   ],
-   "pcre2": [
-    "glib2",
-    "pcre2"
-   ],
-   "libxext": [
-    "cairo",
-    "libxext"
-   ],
-   "lzo": [
-    "cairo",
-    "lzo"
-   ],
-   "libxml2": [
-    "wayland",
-    "libxml2"
-   ],
-   "default-cursors": [
-    "wayland",
-    "default-cursors"
-   ],
-   "icu": [
-    "libxml2",
-    "icu"
-   ],
-   "gcc-libs": [
-    "libei",
-    "gcc-libs"
-   ],
-   "libevdev": [
-    "libei",
-    "libevdev"
-   ],
-   "libasan": [
-    "gcc-libs",
-    "libasan"
-   ],
-   "libatomic": [
-    "gcc-libs",
-    "libatomic"
-   ],
-   "libgfortran": [
-    "gcc-libs",
-    "libgfortran"
-   ],
-   "libgomp": [
-    "gcc-libs",
-    "libgomp"
-   ],
-   "libhwasan": [
-    "gcc-libs",
-    "libhwasan"
-   ],
-   "liblsan": [
-    "gcc-libs",
-    "liblsan"
-   ],
-   "libobjc": [
-    "gcc-libs",
-    "libobjc"
-   ],
-   "libquadmath": [
-    "gcc-libs",
-    "libquadmath"
-   ],
-   "libtsan": [
-    "gcc-libs",
-    "libtsan"
-   ],
-   "libubsan": [
-    "gcc-libs",
-    "libubsan"
-   ],
-   "libpciaccess": [
-    "libdrm",
-    "libpciaccess"
-   ],
-   "libelf": [
-    "mesa",
-    "libelf"
-   ],
-   "libxxf86vm": [
-    "mesa",
-    "libxxf86vm"
-   ],
-   "llvm-libs": [
-    "mesa",
-    "llvm-libs"
-   ],
-   "lm_sensors": [
-    "mesa",
-    "lm_sensors"
-   ],
-   "spirv-tools": [
-    "mesa",
-    "spirv-tools"
-   ],
-   "libedit": [
-    "llvm-libs",
-    "libedit"
-   ],
-   "curl": [
-    "libelf",
-    "curl"
-   ],
-   "json-c": [
-    "libelf",
-    "json-c"
-   ],
-   "ca-certificates": [
-    "curl",
-    "ca-certificates"
-   ],
-   "libidn2": [
-    "curl",
-    "libidn2"
-   ],
-   "libnghttp2": [
-    "curl",
-    "libnghttp2"
-   ],
-   "libnghttp3": [
-    "curl",
-    "libnghttp3"
-   ],
-   "libngtcp2": [
-    "curl",
-    "libngtcp2"
-   ],
-   "libpsl": [
-    "curl",
-    "libpsl"
-   ],
-   "libssh2": [
-    "curl",
-    "libssh2"
-   ],
-   "libunistring": [
-    "libpsl",
-    "libunistring"
-   ],
-   "gnutls": [
-    "libngtcp2",
-    "gnutls"
-   ],
-   "gmp": [
-    "gnutls",
-    "gmp"
-   ],
-   "libtasn1": [
-    "gnutls",
-    "libtasn1"
-   ],
-   "leancrypto": [
-    "gnutls",
-    "leancrypto"
-   ],
-   "libp11-kit": [
-    "gnutls",
-    "libp11-kit"
-   ],
-   "ca-certificates-mozilla": [
-    "ca-certificates",
-    "ca-certificates-mozilla"
-   ],
-   "ca-certificates-utils": [
-    "ca-certificates-mozilla",
-    "ca-certificates-utils"
-   ],
-   "coreutils": [
-    "ca-certificates-utils",
-    "coreutils"
-   ],
-   "findutils": [
-    "ca-certificates-utils",
-    "findutils"
-   ],
-   "p11-kit": [
-    "ca-certificates-utils",
-    "p11-kit"
-   ],
-   "acl": [
-    "coreutils",
-    "acl"
-   ],
-   "attr": [
-    "coreutils",
-    "attr"
-   ],
-   "libcap": [
-    "coreutils",
-    "libcap"
-   ],
-   "pam": [
-    "libcap",
-    "pam"
-   ],
-   "pambase": [
-    "pam",
-    "pambase"
-   ],
-   "xkeyboard-config": [
-    "xorg-server-common",
-    "xkeyboard-config"
-   ],
-   "xorg-xkbcomp": [
-    "xorg-server-common",
-    "xorg-xkbcomp"
-   ],
-   "xorg-setxkbmap": [
-    "xorg-server-common",
-    "xorg-setxkbmap"
-   ],
-   "libxkbfile": [
-    "xorg-setxkbmap",
-    "libxkbfile"
-   ],
-   "libxrandr": [
-    "xorg-setxkbmap",
-    "libxrandr"
-   ],
-   "libfontenc": [
-    "libxfont2",
-    "libfontenc"
-   ],
-   "xorg-fonts-encodings": [
-    "libfontenc",
-    "xorg-fonts-encodings"
-   ],
-   "abseil-cpp": [
-    "re2",
-    "abseil-cpp"
-   ],
-   "gtest": [
-    "abseil-cpp",
-    "gtest"
-   ],
-   "libwacom": [
-    "libinput",
-    "libwacom"
-   ],
-   "lua54": [
-    "libinput",
-    "lua54"
-   ],
-   "mtdev": [
-    "libinput",
-    "mtdev"
-   ],
-   "libgudev": [
-    "libwacom",
-    "libgudev"
-   ],
-   "libjpeg-turbo": [
-    "lcms2",
-    "libjpeg-turbo"
-   ],
-   "libtiff": [
-    "lcms2",
-    "libtiff"
-   ],
-   "jbigkit": [
-    "libtiff",
-    "jbigkit"
-   ],
-   "libdeflate": [
-    "libtiff",
-    "libdeflate"
-   ],
-   "libwebp": [
-    "libtiff",
-    "libwebp"
-   ],
-   "hyprtoolkit": [
-    "hyprland-guiutils",
-    "hyprtoolkit"
-   ],
-   "iniparser": [
-    "hyprtoolkit",
-    "iniparser"
-   ],
-   "file": [
-    "hyprgraphics",
-    "file"
-   ],
-   "libjxl": [
-    "hyprgraphics",
-    "libjxl"
-   ],
-   "librsvg": [
-    "hyprgraphics",
-    "librsvg"
-   ],
-   "dav1d": [
-    "librsvg",
-    "dav1d"
-   ],
-   "gdk-pixbuf2": [
-    "librsvg",
-    "gdk-pixbuf2"
-   ],
-   "glycin": [
-    "gdk-pixbuf2",
-    "glycin"
-   ],
-   "shared-mime-info": [
-    "gdk-pixbuf2",
-    "shared-mime-info"
-   ],
-   "bubblewrap": [
-    "glycin",
-    "bubblewrap"
-   ],
-   "libseccomp": [
-    "glycin",
-    "libseccomp"
-   ],
-   "giflib": [
-    "libjxl",
-    "giflib"
-   ],
-   "gperftools": [
-    "libjxl",
-    "gperftools"
-   ],
-   "highway": [
-    "libjxl",
-    "highway"
-   ],
-   "libunwind": [
-    "gperftools",
-    "libunwind"
-   ],
-   "libdisplay-info": [
-    "aquamarine",
-    "libdisplay-info"
-   ],
-   "seatd": [
-    "aquamarine",
-    "seatd"
-   ],
-   "libzip": [
-    "hyprcursor",
-    "libzip"
-   ],
-   "cppdap": [
-    "cmake",
-    "cppdap"
-   ],
-   "hicolor-icon-theme": [
-    "cmake",
-    "hicolor-icon-theme"
-   ],
-   "jsoncpp": [
-    "cmake",
-    "jsoncpp"
-   ],
-   "libarchive": [
-    "cmake",
-    "libarchive"
-   ],
-   "libuv": [
-    "cmake",
-    "libuv"
-   ],
-   "rhash": [
-    "cmake",
-    "rhash"
-   ],
-   "archlinux-keyring": [
-    "base-devel",
-    "archlinux-keyring"
-   ],
-   "autoconf": [
-    "base-devel",
-    "autoconf"
-   ],
-   "automake": [
-    "base-devel",
-    "automake"
-   ],
-   "binutils": [
-    "base-devel",
-    "binutils"
-   ],
-   "bison": [
-    "base-devel",
-    "bison"
-   ],
-   "debugedit": [
-    "base-devel",
-    "debugedit"
-   ],
-   "fakeroot": [
-    "base-devel",
-    "fakeroot"
-   ],
-   "flex": [
-    "base-devel",
-    "flex"
-   ],
-   "gawk": [
-    "base-devel",
-    "gawk"
-   ],
-   "gcc": [
-    "base-devel",
-    "gcc"
-   ],
-   "gettext": [
-    "base-devel",
-    "gettext"
-   ],
-   "grep": [
-    "base-devel",
-    "grep"
-   ],
-   "groff": [
-    "base-devel",
-    "groff"
-   ],
-   "gzip": [
-    "base-devel",
-    "gzip"
-   ],
-   "libtool": [
-    "base-devel",
-    "libtool"
-   ],
-   "m4": [
-    "base-devel",
-    "m4"
-   ],
-   "make": [
-    "base-devel",
-    "make"
-   ],
-   "pacman": [
-    "base-devel",
-    "pacman"
-   ],
-   "patch": [
-    "base-devel",
-    "patch"
-   ],
-   "pkgconf": [
-    "base-devel",
-    "pkgconf"
-   ],
-   "sed": [
-    "base-devel",
-    "sed"
-   ],
-   "sudo": [
-    "base-devel",
-    "sudo"
-   ],
-   "texinfo": [
-    "base-devel",
-    "texinfo"
-   ],
-   "which": [
-    "base-devel",
-    "which"
-   ],
-   "perl": [
-    "texinfo",
-    "perl"
-   ],
-   "db5.3": [
-    "perl",
-    "db5.3"
-   ],
-   "gnupg": [
-    "pacman",
-    "gnupg"
-   ],
-   "gpgme": [
-    "pacman",
-    "gpgme"
-   ],
-   "pacman-mirrorlist": [
-    "pacman",
-    "pacman-mirrorlist"
-   ],
-   "systemd": [
-    "pacman",
-    "systemd"
-   ],
-   "libmakepkg-dropins": [
-    "pacman",
-    "libmakepkg-dropins"
-   ],
-   "jansson": [
-    "binutils",
-    "jansson"
-   ],
-   "cryptsetup": [
-    "systemd",
-    "cryptsetup"
-   ],
-   "dbus-units": [
-    "systemd",
-    "dbus-units"
-   ],
-   "kbd": [
-    "systemd",
-    "kbd"
-   ],
-   "kmod": [
-    "systemd",
-    "kmod"
-   ],
-   "hwdata": [
-    "systemd",
-    "hwdata"
-   ],
-   "util-linux": [
-    "systemd",
-    "util-linux"
-   ],
-   "shadow": [
-    "util-linux",
-    "shadow"
-   ],
-   "dbus-broker-units": [
-    "dbus-units",
-    "dbus-broker-units"
-   ],
-   "dbus-broker": [
-    "dbus-broker-units",
-    "dbus-broker"
-   ],
-   "device-mapper": [
-    "cryptsetup",
-    "device-mapper"
-   ],
-   "popt": [
-    "cryptsetup",
-    "popt"
-   ],
-   "libassuan": [
-    "gpgme",
-    "libassuan"
-   ],
-   "libksba": [
-    "gnupg",
-    "libksba"
-   ],
-   "libusb": [
-    "gnupg",
-    "libusb"
-   ],
-   "pinentry": [
-    "gnupg",
-    "pinentry"
-   ],
-   "tpm2-tss": [
-    "gnupg",
-    "tpm2-tss"
-   ],
-   "npth": [
-    "gnupg",
-    "npth"
-   ],
-   "libsecret": [
-    "pinentry",
-    "libsecret"
-   ],
-   "gnulib-l10n": [
-    "gettext",
-    "gnulib-l10n"
-   ],
-   "mpfr": [
-    "gawk",
-    "mpfr"
-   ],
-   "guile": [
-    "make",
-    "guile"
-   ],
-   "gc": [
-    "guile",
-    "gc"
-   ],
-   "tar": [
-    "libtool",
-    "tar"
-   ],
-   "libisl": [
-    "gcc",
-    "libisl.so"
-   ],
-   "libmpc": [
-    "gcc",
-    "libmpc"
-   ],
-   "xxhash": [
-    "debugedit",
-    "xxhash"
-   ],
-   "elfutils": [
-    "debugedit",
-    "elfutils"
-   ],
-   "gdb": [
-    "debugedit",
-    "gdb"
-   ],
-   "boost-libs": [
-    "gdb",
-    "boost-libs"
-   ],
-   "gdb-common": [
-    "gdb",
-    "gdb-common"
-   ],
-   "source-highlight": [
-    "gdb",
-    "source-highlight"
-   ],
-   "diffutils": [
-    "autoconf",
-    "diffutils"
-   ],
-   "perl-error": [
-    "git",
-    "perl-error"
-   ],
-   "perl-mailtools": [
-    "git",
-    "perl-mailtools"
-   ],
-   "zlib-ng": [
-    "git",
-    "zlib-ng"
-   ],
-   "perl-timedate": [
-    "perl-mailtools",
-    "perl-timedate"
-   ]
-  },
-  "plugins :: compositor + build chain (bare Hyprland + shake to find)": {
+  "ricelin core (hand-written Quickshell rice)": {
    "cairo": [
     "hyprland",
     "cairo"
@@ -11560,107 +9470,3467 @@
     "hyprcursor",
     "libzip"
    ],
-   "cmake": [
-    "hyprpm",
-    "cmake"
+   "cpptrace": [
+    "quickshell",
+    "cpptrace"
    ],
-   "cpio": [
-    "hyprpm",
-    "cpio"
+   "hicolor-icon-theme": [
+    "quickshell",
+    "hicolor-icon-theme"
    ],
-   "glaze": [
-    "hyprpm",
-    "glaze"
+   "jemalloc": [
+    "quickshell",
+    "jemalloc"
    ],
-   "hyprland": [
-    "hyprpm",
-    "hyprland"
+   "libpipewire": [
+    "quickshell",
+    "libpipewire"
    ],
-   "hyprland-protocols": [
-    "hyprpm",
-    "hyprland-protocols"
+   "polkit": [
+    "quickshell",
+    "polkit"
    ],
-   "hyprwayland-scanner": [
-    "hyprpm",
-    "hyprwayland-scanner"
+   "qt6-base": [
+    "quickshell",
+    "qt6-base"
    ],
-   "meson": [
-    "hyprpm",
-    "meson"
+   "qt6-declarative": [
+    "quickshell",
+    "qt6-declarative"
    ],
-   "ninja": [
-    "meson",
-    "ninja"
+   "qt6-svg": [
+    "quickshell",
+    "qt6-svg"
+   ],
+   "qt6-wayland": [
+    "quickshell",
+    "qt6-wayland"
+   ],
+   "double-conversion": [
+    "qt6-base",
+    "double-conversion"
+   ],
+   "libb2": [
+    "qt6-base",
+    "libb2"
+   ],
+   "libcups": [
+    "qt6-base",
+    "libcups"
+   ],
+   "libice": [
+    "qt6-base",
+    "libice"
+   ],
+   "libproxy": [
+    "qt6-base",
+    "libproxy"
+   ],
+   "libsm": [
+    "qt6-base",
+    "libsm"
+   ],
+   "liburing": [
+    "qt6-base",
+    "liburing"
+   ],
+   "libxkbcommon-x11": [
+    "qt6-base",
+    "libxkbcommon-x11"
+   ],
+   "md4c": [
+    "qt6-base",
+    "md4c"
+   ],
+   "tslib": [
+    "qt6-base",
+    "tslib"
+   ],
+   "xcb-util-cursor": [
+    "qt6-base",
+    "xcb-util-cursor"
+   ],
+   "xdg-utils": [
+    "qt6-base",
+    "xdg-utils"
+   ],
+   "qt6-translations": [
+    "qt6-base",
+    "qt6-translations"
+   ],
+   "duktape": [
+    "libproxy",
+    "duktape"
+   ],
+   "avahi": [
+    "libcups",
+    "avahi"
+   ],
+   "libdaemon": [
+    "avahi",
+    "libdaemon"
+   ],
+   "systemd": [
+    "polkit",
+    "systemd"
+   ],
+   "cryptsetup": [
+    "systemd",
+    "cryptsetup"
+   ],
+   "dbus-units": [
+    "systemd",
+    "dbus-units"
+   ],
+   "kbd": [
+    "systemd",
+    "kbd"
+   ],
+   "kmod": [
+    "systemd",
+    "kmod"
+   ],
+   "hwdata": [
+    "systemd",
+    "hwdata"
+   ],
+   "util-linux": [
+    "systemd",
+    "util-linux"
+   ],
+   "shadow": [
+    "util-linux",
+    "shadow"
+   ],
+   "gzip": [
+    "kbd",
+    "gzip"
+   ],
+   "sed": [
+    "gzip",
+    "sed"
+   ],
+   "dbus-broker-units": [
+    "dbus-units",
+    "dbus-broker-units"
+   ],
+   "dbus-broker": [
+    "dbus-broker-units",
+    "dbus-broker"
+   ],
+   "device-mapper": [
+    "cryptsetup",
+    "device-mapper"
+   ],
+   "popt": [
+    "cryptsetup",
+    "popt"
+   ],
+   "libdwarf": [
+    "cpptrace",
+    "libdwarf"
+   ],
+   "elfutils": [
+    "libdwarf",
+    "elfutils"
+   ],
+   "libarchive": [
+    "elfutils",
+    "libarchive"
+   ],
+   "ffmpeg": [
+    "qt6-multimedia-ffmpeg",
+    "ffmpeg"
+   ],
+   "libva": [
+    "qt6-multimedia-ffmpeg",
+    "libva"
+   ],
+   "qt6-multimedia": [
+    "qt6-multimedia-ffmpeg",
+    "qt6-multimedia"
+   ],
+   "libpulse": [
+    "qt6-multimedia",
+    "libpulse"
+   ],
+   "pipewire": [
+    "qt6-multimedia",
+    "pipewire"
+   ],
+   "qt6-multimedia-ffmpeg": [
+    "qt6-multimedia",
+    "qt6-multimedia-backend"
+   ],
+   "libasyncns": [
+    "libpulse",
+    "libasyncns"
+   ],
+   "libsndfile": [
+    "libpulse",
+    "libsndfile"
+   ],
+   "flac": [
+    "libsndfile",
+    "flac"
+   ],
+   "lame": [
+    "libsndfile",
+    "lame"
+   ],
+   "libogg": [
+    "libsndfile",
+    "libogg"
+   ],
+   "libvorbis": [
+    "libsndfile",
+    "libvorbis"
+   ],
+   "mpg123": [
+    "libsndfile",
+    "mpg123"
+   ],
+   "opus": [
+    "libsndfile",
+    "opus"
+   ],
+   "alsa-lib": [
+    "mpg123",
+    "alsa-lib"
+   ],
+   "alsa-topology-conf": [
+    "alsa-lib",
+    "alsa-topology-conf"
+   ],
+   "alsa-ucm-conf": [
+    "alsa-lib",
+    "alsa-ucm-conf"
+   ],
+   "aom": [
+    "ffmpeg",
+    "aom"
+   ],
+   "gsm": [
+    "ffmpeg",
+    "gsm"
+   ],
+   "pipewire-jack": [
+    "ffmpeg",
+    "jack"
+   ],
+   "libass": [
+    "ffmpeg",
+    "libass"
+   ],
+   "libavc1394": [
+    "ffmpeg",
+    "libavc1394"
+   ],
+   "libbluray": [
+    "ffmpeg",
+    "libbluray"
+   ],
+   "libbs2b": [
+    "ffmpeg",
+    "libbs2b"
+   ],
+   "libdvdnav": [
+    "ffmpeg",
+    "libdvdnav"
+   ],
+   "libdvdread": [
+    "ffmpeg",
+    "libdvdread"
+   ],
+   "libiec61883": [
+    "ffmpeg",
+    "libiec61883"
+   ],
+   "libmodplug": [
+    "ffmpeg",
+    "libmodplug"
+   ],
+   "libopenmpt": [
+    "ffmpeg",
+    "libopenmpt"
+   ],
+   "libplacebo": [
+    "ffmpeg",
+    "libplacebo"
+   ],
+   "libraw1394": [
+    "ffmpeg",
+    "libraw1394"
+   ],
+   "libsoxr": [
+    "ffmpeg",
+    "libsoxr"
+   ],
+   "libssh": [
+    "ffmpeg",
+    "libssh"
+   ],
+   "libtheora": [
+    "ffmpeg",
+    "libtheora"
+   ],
+   "libvdpau": [
+    "ffmpeg",
+    "libvdpau"
+   ],
+   "libvpx": [
+    "ffmpeg",
+    "libvpx"
+   ],
+   "libxv": [
+    "ffmpeg",
+    "libxv"
+   ],
+   "ocl-icd": [
+    "ffmpeg",
+    "ocl-icd"
+   ],
+   "libvpl": [
+    "ffmpeg",
+    "onevpl"
+   ],
+   "opencore-amr": [
+    "ffmpeg",
+    "opencore-amr"
+   ],
+   "openjpeg2": [
+    "ffmpeg",
+    "openjpeg2"
+   ],
+   "rav1e": [
+    "ffmpeg",
+    "rav1e"
+   ],
+   "rubberband": [
+    "ffmpeg",
+    "rubberband"
+   ],
+   "sdl2-compat": [
+    "ffmpeg",
+    "sdl2"
+   ],
+   "snappy": [
+    "ffmpeg",
+    "snappy"
+   ],
+   "sndio": [
+    "ffmpeg",
+    "sndio"
+   ],
+   "speex": [
+    "ffmpeg",
+    "speex"
+   ],
+   "srt": [
+    "ffmpeg",
+    "srt"
+   ],
+   "svt-av1": [
+    "ffmpeg",
+    "svt-av1"
+   ],
+   "v4l-utils": [
+    "ffmpeg",
+    "v4l-utils"
+   ],
+   "vapoursynth": [
+    "ffmpeg",
+    "vapoursynth"
+   ],
+   "vid.stab": [
+    "ffmpeg",
+    "vid.stab"
+   ],
+   "vmaf": [
+    "ffmpeg",
+    "vmaf"
+   ],
+   "vulkan-icd-loader": [
+    "ffmpeg",
+    "vulkan-icd-loader"
+   ],
+   "x264": [
+    "ffmpeg",
+    "x264"
+   ],
+   "x265": [
+    "ffmpeg",
+    "x265"
+   ],
+   "xvidcore": [
+    "ffmpeg",
+    "xvidcore"
+   ],
+   "zeromq": [
+    "ffmpeg",
+    "zeromq"
+   ],
+   "zimg": [
+    "ffmpeg",
+    "zimg"
+   ],
+   "libsodium": [
+    "zeromq",
+    "libsodium"
+   ],
+   "libpgm": [
+    "zeromq",
+    "libpgm"
+   ],
+   "l-smash": [
+    "x264",
+    "liblsmash.so"
+   ],
+   "fftw": [
+    "rubberband",
+    "fftw"
+   ],
+   "libsamplerate": [
+    "rubberband",
+    "libsamplerate"
+   ],
+   "shaderc": [
+    "libplacebo",
+    "shaderc"
+   ],
+   "libdovi": [
+    "libplacebo",
+    "libdovi"
+   ],
+   "xxhash": [
+    "libplacebo",
+    "xxhash"
+   ],
+   "portaudio": [
+    "libopenmpt",
+    "portaudio"
+   ],
+   "pipewire-audio": [
+    "pipewire-jack",
+    "pipewire-audio"
+   ],
+   "pipewire-session-manager": [
+    "pipewire-jack",
+    "pipewire-session-manager"
+   ],
+   "wireplumber": [
+    "pipewire-session-manager",
+    "wireplumber"
+   ],
+   "libwireplumber": [
+    "wireplumber",
+    "libwireplumber"
+   ],
+   "alsa-card-profiles": [
+    "pipewire-audio",
+    "alsa-card-profiles"
+   ],
+   "bluez-libs": [
+    "pipewire-audio",
+    "bluez-libs"
+   ],
+   "libebur128": [
+    "pipewire-audio",
+    "libebur128"
+   ],
+   "libfdk-aac": [
+    "pipewire-audio",
+    "libfdk-aac"
+   ],
+   "libfreeaptx": [
+    "pipewire-audio",
+    "libfreeaptx"
+   ],
+   "liblc3": [
+    "pipewire-audio",
+    "liblc3"
+   ],
+   "libldac": [
+    "pipewire-audio",
+    "libldac"
+   ],
+   "libmysofa": [
+    "pipewire-audio",
+    "libmysofa"
+   ],
+   "libusb": [
+    "pipewire-audio",
+    "libusb"
+   ],
+   "lilv": [
+    "pipewire-audio",
+    "lilv"
+   ],
+   "sbc": [
+    "pipewire-audio",
+    "sbc"
+   ],
+   "spandsp": [
+    "pipewire-audio",
+    "spandsp"
+   ],
+   "webrtc-audio-processing-1": [
+    "pipewire-audio",
+    "webrtc-audio-processing-1"
+   ],
+   "serd": [
+    "lilv",
+    "serd"
+   ],
+   "sord": [
+    "lilv",
+    "sord"
+   ],
+   "sratom": [
+    "lilv",
+    "sratom"
+   ],
+   "lv2": [
+    "lilv",
+    "lv2"
+   ],
+   "zix": [
+    "lilv",
+    "zix"
+   ],
+   "libunibreak": [
+    "libass",
+    "libunibreak"
    ],
    "python": [
-    "meson",
+    "vapoursynth",
     "python"
-   ],
-   "python-tqdm": [
-    "meson",
-    "python-tqdm"
    ],
    "mpdecimal": [
     "python",
     "mpdecimal"
    ],
-   "cppdap": [
-    "cmake",
-    "cppdap"
+   "libbpf": [
+    "v4l-utils",
+    "libbpf"
+   ],
+   "speexdsp": [
+    "speex",
+    "speexdsp"
+   ],
+   "libbsd": [
+    "sndio",
+    "libbsd"
+   ],
+   "libmd": [
+    "libbsd",
+    "libmd"
+   ],
+   "sdl3": [
+    "sdl2-compat",
+    "sdl3"
+   ],
+   "hidapi": [
+    "sdl3",
+    "hidapi"
+   ],
+   "hyprland-qt-support": [
+    "hyprpolkitagent",
+    "hyprland-qt-support"
+   ],
+   "polkit-qt6": [
+    "hyprpolkitagent",
+    "polkit-qt6"
+   ],
+   "sdbus-cpp": [
+    "hypridle",
+    "sdbus-cpp"
+   ],
+   "gtk4": [
+    "ghostty",
+    "gtk4"
+   ],
+   "gtk4-layer-shell": [
+    "ghostty",
+    "gtk4-layer-shell"
+   ],
+   "libadwaita": [
+    "ghostty",
+    "libadwaita"
+   ],
+   "oniguruma": [
+    "ghostty",
+    "oniguruma"
+   ],
+   "ghostty-shell-integration": [
+    "ghostty",
+    "ghostty-shell-integration"
+   ],
+   "ghostty-terminfo": [
+    "ghostty",
+    "ghostty-terminfo"
+   ],
+   "appstream": [
+    "libadwaita",
+    "appstream"
+   ],
+   "graphene": [
+    "libadwaita",
+    "graphene"
+   ],
+   "adwaita-fonts": [
+    "gtk4",
+    "adwaita-fonts"
+   ],
+   "adwaita-icon-theme": [
+    "gtk4",
+    "adwaita-icon-theme"
+   ],
+   "at-spi2-core": [
+    "gtk4",
+    "at-spi2-core"
+   ],
+   "dconf": [
+    "gtk4",
+    "dconf"
+   ],
+   "desktop-file-utils": [
+    "gtk4",
+    "desktop-file-utils"
+   ],
+   "gst-plugins-bad-libs": [
+    "gtk4",
+    "gst-plugins-bad-libs"
+   ],
+   "gst-plugins-base-libs": [
+    "gtk4",
+    "gst-plugins-base-libs"
+   ],
+   "gstreamer": [
+    "gtk4",
+    "gstreamer"
+   ],
+   "gtk-update-icon-cache": [
+    "gtk4",
+    "gtk-update-icon-cache"
+   ],
+   "iso-codes": [
+    "gtk4",
+    "iso-codes"
+   ],
+   "libcloudproviders": [
+    "gtk4",
+    "libcloudproviders"
+   ],
+   "libcolord": [
+    "gtk4",
+    "libcolord"
+   ],
+   "libxdamage": [
+    "gtk4",
+    "libxdamage"
+   ],
+   "libxi": [
+    "gtk4",
+    "libxi"
+   ],
+   "libxinerama": [
+    "gtk4",
+    "libxinerama"
+   ],
+   "tinysparql": [
+    "gtk4",
+    "tinysparql"
+   ],
+   "xdg-desktop-portal-gtk": [
+    "gtk4",
+    "xdg-desktop-portal-gtk"
+   ],
+   "gsettings-desktop-schemas": [
+    "xdg-desktop-portal-gtk",
+    "gsettings-desktop-schemas"
+   ],
+   "gtk3": [
+    "xdg-desktop-portal-gtk",
+    "gtk3"
+   ],
+   "xdg-desktop-portal": [
+    "xdg-desktop-portal-gtk",
+    "xdg-desktop-portal"
+   ],
+   "fuse3": [
+    "xdg-desktop-portal",
+    "fuse3"
+   ],
+   "json-glib": [
+    "xdg-desktop-portal",
+    "json-glib"
+   ],
+   "orc": [
+    "gst-plugins-base-libs",
+    "orc"
+   ],
+   "fuse-common": [
+    "fuse3",
+    "fuse-common"
+   ],
+   "numactl": [
+    "fuse3",
+    "numactl"
+   ],
+   "libsoup3": [
+    "tinysparql",
+    "libsoup3"
+   ],
+   "libstemmer": [
+    "tinysparql",
+    "libstemmer"
+   ],
+   "glib-networking": [
+    "libsoup3",
+    "glib-networking"
+   ],
+   "gsettings-system-schemas": [
+    "glib-networking",
+    "gsettings-system-schemas"
+   ],
+   "libxtst": [
+    "at-spi2-core",
+    "libxtst"
+   ],
+   "xorg-xprop": [
+    "at-spi2-core",
+    "xorg-xprop"
+   ],
+   "adwaita-icon-theme-legacy": [
+    "adwaita-icon-theme",
+    "adwaita-icon-theme-legacy"
+   ],
+   "adwaita-cursors": [
+    "adwaita-icon-theme",
+    "adwaita-cursors"
+   ],
+   "libnice": [
+    "gst-plugins-bad-libs",
+    "libnice"
+   ],
+   "gupnp-igd": [
+    "libnice",
+    "gupnp-igd"
+   ],
+   "gupnp": [
+    "gupnp-igd",
+    "gupnp"
+   ],
+   "gssdp": [
+    "gupnp-igd",
+    "libgssdp-1.6.so"
+   ],
+   "libblake3": [
+    "appstream",
+    "libblake3"
+   ],
+   "libfyaml": [
+    "appstream",
+    "libfyaml"
+   ],
+   "libvips": [
+    "appstream",
+    "libvips"
+   ],
+   "libxmlb": [
+    "appstream",
+    "libxmlb"
+   ],
+   "cfitsio": [
+    "libvips",
+    "cfitsio"
+   ],
+   "libcgif": [
+    "libvips",
+    "libcgif"
+   ],
+   "libexif": [
+    "libvips",
+    "libexif"
+   ],
+   "libimagequant": [
+    "libvips",
+    "libimagequant"
+   ],
+   "libmatio": [
+    "libvips",
+    "libmatio"
+   ],
+   "libraw": [
+    "libvips",
+    "libraw"
+   ],
+   "openexr": [
+    "libvips",
+    "openexr"
+   ],
+   "imath": [
+    "openexr",
+    "imath"
+   ],
+   "openjph": [
+    "openexr",
+    "openjph"
+   ],
+   "hdf5": [
+    "libmatio",
+    "hdf5"
+   ],
+   "libaec": [
+    "hdf5",
+    "libaec"
+   ],
+   "onetbb": [
+    "libblake3",
+    "onetbb"
+   ],
+   "hwloc": [
+    "onetbb",
+    "hwloc"
+   ],
+   "wl-clipboard": [
+    "cliphist",
+    "wl-clipboard"
+   ],
+   "liblqr": [
+    "imagemagick",
+    "liblqr"
+   ],
+   "libtool": [
+    "imagemagick",
+    "libltdl"
+   ],
+   "libraqm": [
+    "imagemagick",
+    "libraqm"
+   ],
+   "tar": [
+    "libtool",
+    "tar"
+   ],
+   "iproute2": [
+    "networkmanager",
+    "iproute2"
+   ],
+   "jansson": [
+    "networkmanager",
+    "jansson"
+   ],
+   "libmm-glib": [
+    "networkmanager",
+    "libmm-glib"
+   ],
+   "libndp": [
+    "networkmanager",
+    "libndp"
+   ],
+   "libnewt": [
+    "networkmanager",
+    "libnewt"
+   ],
+   "libnm": [
+    "networkmanager",
+    "libnm"
+   ],
+   "libteam": [
+    "networkmanager",
+    "libteam"
+   ],
+   "mobile-broadband-provider-info": [
+    "networkmanager",
+    "mobile-broadband-provider-info"
+   ],
+   "nspr": [
+    "networkmanager",
+    "nspr"
+   ],
+   "nss": [
+    "networkmanager",
+    "nss"
+   ],
+   "slang": [
+    "networkmanager",
+    "slang"
+   ],
+   "wpa_supplicant": [
+    "networkmanager",
+    "wpa_supplicant"
+   ],
+   "libnl": [
+    "wpa_supplicant",
+    "libnl"
+   ],
+   "pcsclite": [
+    "wpa_supplicant",
+    "pcsclite"
+   ],
+   "pcre": [
+    "slang",
+    "pcre"
+   ],
+   "gpm": [
+    "libnewt",
+    "gpm"
+   ],
+   "procps-ng": [
+    "gpm",
+    "procps-ng"
+   ],
+   "iptables-legacy": [
+    "iproute2",
+    "libxtables.so"
+   ],
+   "libmnl": [
+    "iptables-legacy",
+    "libmnl"
+   ],
+   "libnetfilter_conntrack": [
+    "iptables-legacy",
+    "libnetfilter_conntrack"
+   ],
+   "libnfnetlink": [
+    "iptables-legacy",
+    "libnfnetlink"
+   ],
+   "libnftnl": [
+    "iptables-legacy",
+    "libnftnl"
+   ],
+   "libpcap": [
+    "iptables-legacy",
+    "libpcap"
+   ],
+   "kcmutils": [
+    "kde-cli-tools",
+    "kcmutils"
+   ],
+   "kcompletion": [
+    "kde-cli-tools",
+    "kcompletion"
+   ],
+   "kconfig": [
+    "kde-cli-tools",
+    "kconfig"
+   ],
+   "kcoreaddons": [
+    "kde-cli-tools",
+    "kcoreaddons"
+   ],
+   "kdesu": [
+    "kde-cli-tools",
+    "kdesu"
+   ],
+   "ki18n": [
+    "kde-cli-tools",
+    "ki18n"
+   ],
+   "kiconthemes": [
+    "kde-cli-tools",
+    "kiconthemes"
+   ],
+   "kio": [
+    "kde-cli-tools",
+    "kio"
+   ],
+   "kparts": [
+    "kde-cli-tools",
+    "kparts"
+   ],
+   "kservice": [
+    "kde-cli-tools",
+    "kservice"
+   ],
+   "kwidgetsaddons": [
+    "kde-cli-tools",
+    "kwidgetsaddons"
+   ],
+   "kwindowsystem": [
+    "kde-cli-tools",
+    "kwindowsystem"
+   ],
+   "kxmlgui": [
+    "kparts",
+    "kxmlgui"
+   ],
+   "kconfigwidgets": [
+    "kxmlgui",
+    "kconfigwidgets"
+   ],
+   "kglobalaccel": [
+    "kxmlgui",
+    "kglobalaccel"
+   ],
+   "kguiaddons": [
+    "kxmlgui",
+    "kguiaddons"
+   ],
+   "kitemviews": [
+    "kxmlgui",
+    "kitemviews"
+   ],
+   "breeze-icons": [
+    "kiconthemes",
+    "breeze-icons"
+   ],
+   "karchive": [
+    "kiconthemes",
+    "karchive"
+   ],
+   "kcolorscheme": [
+    "kiconthemes",
+    "kcolorscheme"
+   ],
+   "kcodecs": [
+    "kconfigwidgets",
+    "kcodecs"
+   ],
+   "kbookmarks": [
+    "kio",
+    "kbookmarks"
+   ],
+   "kcrash": [
+    "kio",
+    "kcrash"
+   ],
+   "kdbusaddons": [
+    "kio",
+    "kdbusaddons"
+   ],
+   "kjobwidgets": [
+    "kio",
+    "kjobwidgets"
+   ],
+   "kwallet": [
+    "kio",
+    "kwallet"
+   ],
+   "libxslt": [
+    "kio",
+    "libxslt"
+   ],
+   "solid": [
+    "kio",
+    "solid"
+   ],
+   "libimobiledevice": [
+    "solid",
+    "libimobiledevice"
+   ],
+   "libplist": [
+    "solid",
+    "libplist"
+   ],
+   "media-player-info": [
+    "solid",
+    "media-player-info"
+   ],
+   "udisks2": [
+    "solid",
+    "udisks2"
+   ],
+   "upower": [
+    "solid",
+    "upower"
+   ],
+   "libimobiledevice-glue": [
+    "libimobiledevice",
+    "libimobiledevice-glue"
+   ],
+   "libtatsu": [
+    "libimobiledevice",
+    "libtatsu"
+   ],
+   "libusbmuxd": [
+    "libimobiledevice",
+    "libusbmuxd"
+   ],
+   "libblockdev": [
+    "udisks2",
+    "libblockdev"
+   ],
+   "libblockdev-crypto": [
+    "udisks2",
+    "libblockdev-crypto"
+   ],
+   "libblockdev-fs": [
+    "udisks2",
+    "libblockdev-fs"
+   ],
+   "libblockdev-mdraid": [
+    "udisks2",
+    "libblockdev-mdraid"
+   ],
+   "libblockdev-loop": [
+    "udisks2",
+    "libblockdev-loop"
+   ],
+   "libblockdev-nvme": [
+    "udisks2",
+    "libblockdev-nvme"
+   ],
+   "libblockdev-part": [
+    "udisks2",
+    "libblockdev-part"
+   ],
+   "libblockdev-smart": [
+    "udisks2",
+    "libblockdev-smart"
+   ],
+   "libblockdev-swap": [
+    "udisks2",
+    "libblockdev-swap"
+   ],
+   "libatasmart": [
+    "libblockdev-smart",
+    "libatasmart"
+   ],
+   "libnvme": [
+    "libblockdev-nvme",
+    "libnvme"
+   ],
+   "libbytesize": [
+    "libblockdev-mdraid",
+    "libbytesize"
+   ],
+   "mdadm": [
+    "libblockdev-mdraid",
+    "mdadm"
+   ],
+   "mpfr": [
+    "libbytesize",
+    "mpfr"
+   ],
+   "parted": [
+    "libblockdev-fs",
+    "parted"
+   ],
+   "volume_key": [
+    "libblockdev-crypto",
+    "volume_key"
+   ],
+   "gpgme": [
+    "volume_key",
+    "gpgme"
+   ],
+   "libassuan": [
+    "gpgme",
+    "libassuan"
+   ],
+   "gnupg": [
+    "gpgme",
+    "gnupg"
+   ],
+   "libksba": [
+    "gnupg",
+    "libksba"
+   ],
+   "pinentry": [
+    "gnupg",
+    "pinentry"
+   ],
+   "tpm2-tss": [
+    "gnupg",
+    "tpm2-tss"
+   ],
+   "npth": [
+    "gnupg",
+    "npth"
+   ],
+   "libsecret": [
+    "pinentry",
+    "libsecret"
+   ],
+   "gpgmepp": [
+    "kwallet",
+    "gpgmepp"
+   ],
+   "knotifications": [
+    "kwallet",
+    "knotifications"
+   ],
+   "qca-qt6": [
+    "kwallet",
+    "qca-qt6"
+   ],
+   "qt6-5compat": [
+    "qca-qt6",
+    "qt6-5compat"
+   ],
+   "qt6-shadertools": [
+    "qt6-5compat",
+    "qt6-shadertools"
+   ],
+   "libcanberra": [
+    "knotifications",
+    "libcanberra"
+   ],
+   "tdb": [
+    "libcanberra",
+    "tdb"
+   ],
+   "sound-theme-freedesktop": [
+    "libcanberra",
+    "sound-theme-freedesktop"
+   ],
+   "kpty": [
+    "kdesu",
+    "kpty"
+   ],
+   "libutempter": [
+    "kpty",
+    "libutempter"
+   ],
+   "kirigami": [
+    "kcmutils",
+    "kirigami"
+   ],
+   "ktextwidgets": [
+    "kdialog",
+    "ktextwidgets"
+   ],
+   "qt6-speech": [
+    "ktextwidgets",
+    "qt6-speech"
+   ],
+   "sonnet": [
+    "ktextwidgets",
+    "sonnet"
+   ],
+   "yyjson": [
+    "fastfetch",
+    "yyjson"
+   ]
+  },
+  "ricelin core + full profile (44 native)": {
+   "cairo": [
+    "hyprland",
+    "cairo"
+   ],
+   "aquamarine": [
+    "hyprland",
+    "aquamarine"
+   ],
+   "libgcc": [
+    "hyprland",
+    "libgcc"
+   ],
+   "libstdc++": [
+    "hyprland",
+    "libstdc++"
+   ],
+   "glibc": [
+    "hyprland",
+    "glibc"
+   ],
+   "glib2": [
+    "hyprland",
+    "glib2"
+   ],
+   "glslang": [
+    "hyprland",
+    "glslang"
+   ],
+   "hyprcursor": [
+    "hyprland",
+    "hyprcursor"
+   ],
+   "hyprgraphics": [
+    "hyprland",
+    "hyprgraphics"
+   ],
+   "hyprland-guiutils": [
+    "hyprland",
+    "hyprland-guiutils"
+   ],
+   "hyprlang": [
+    "hyprland",
+    "hyprlang"
+   ],
+   "hyprutils": [
+    "hyprland",
+    "hyprutils"
+   ],
+   "hyprwire": [
+    "hyprland",
+    "hyprwire"
+   ],
+   "lcms2": [
+    "hyprland",
+    "lcms2"
+   ],
+   "libdrm": [
+    "hyprland",
+    "libdrm"
+   ],
+   "libglvnd": [
+    "hyprland",
+    "libglvnd"
+   ],
+   "libinput": [
+    "hyprland",
+    "libinput"
+   ],
+   "libx11": [
+    "hyprland",
+    "libx11"
+   ],
+   "libxcb": [
+    "hyprland",
+    "libxcb"
+   ],
+   "libxcomposite": [
+    "hyprland",
+    "libxcomposite"
+   ],
+   "libxcursor": [
+    "hyprland",
+    "libxcursor"
+   ],
+   "libxfixes": [
+    "hyprland",
+    "libxfixes"
+   ],
+   "libxkbcommon": [
+    "hyprland",
+    "libxkbcommon"
+   ],
+   "libxrender": [
+    "hyprland",
+    "libxrender"
+   ],
+   "lua": [
+    "hyprland",
+    "lua"
+   ],
+   "mesa": [
+    "hyprland",
+    "mesa"
+   ],
+   "muparser": [
+    "hyprland",
+    "muparser"
+   ],
+   "pango": [
+    "hyprland",
+    "pango"
+   ],
+   "pixman": [
+    "hyprland",
+    "pixman"
+   ],
+   "re2": [
+    "hyprland",
+    "re2"
+   ],
+   "tomlplusplus": [
+    "hyprland",
+    "tomlplusplus"
+   ],
+   "util-linux-libs": [
+    "hyprland",
+    "util-linux-libs"
+   ],
+   "wayland": [
+    "hyprland",
+    "wayland"
+   ],
+   "wayland-protocols": [
+    "hyprland",
+    "wayland-protocols"
+   ],
+   "xcb-proto": [
+    "hyprland",
+    "xcb-proto"
+   ],
+   "xcb-util": [
+    "hyprland",
+    "xcb-util"
+   ],
+   "xcb-util-errors": [
+    "hyprland",
+    "xcb-util-errors"
+   ],
+   "xcb-util-image": [
+    "hyprland",
+    "xcb-util-image"
+   ],
+   "xcb-util-keysyms": [
+    "hyprland",
+    "xcb-util-keysyms"
+   ],
+   "xcb-util-renderutil": [
+    "hyprland",
+    "xcb-util-renderutil"
+   ],
+   "xcb-util-wm": [
+    "hyprland",
+    "xcb-util-wm"
+   ],
+   "xorg-xwayland": [
+    "hyprland",
+    "xorg-xwayland"
+   ],
+   "nettle": [
+    "xorg-xwayland",
+    "nettle"
+   ],
+   "libepoxy": [
+    "xorg-xwayland",
+    "libepoxy"
+   ],
+   "libxfont2": [
+    "xorg-xwayland",
+    "libxfont2"
+   ],
+   "xorg-server-common": [
+    "xorg-xwayland",
+    "xorg-server-common"
+   ],
+   "libxcvt": [
+    "xorg-xwayland",
+    "libxcvt"
+   ],
+   "libxau": [
+    "xorg-xwayland",
+    "libxau"
+   ],
+   "libtirpc": [
+    "xorg-xwayland",
+    "libtirpc"
+   ],
+   "libei": [
+    "xorg-xwayland",
+    "libei"
+   ],
+   "libxshmfence": [
+    "xorg-xwayland",
+    "libxshmfence"
+   ],
+   "libdecor": [
+    "xorg-xwayland",
+    "libdecor"
+   ],
+   "linux-api-headers": [
+    "glibc",
+    "linux-api-headers"
+   ],
+   "tzdata": [
+    "glibc",
+    "tzdata"
+   ],
+   "filesystem": [
+    "glibc",
+    "filesystem"
+   ],
+   "iana-etc": [
+    "filesystem",
+    "iana-etc"
+   ],
+   "dbus": [
+    "libdecor",
+    "dbus"
+   ],
+   "audit": [
+    "dbus",
+    "audit"
+   ],
+   "expat": [
+    "dbus",
+    "expat"
+   ],
+   "libcap-ng": [
+    "dbus",
+    "libcap-ng"
+   ],
+   "systemd-libs": [
+    "dbus",
+    "systemd-libs"
+   ],
+   "libgcrypt": [
+    "systemd-libs",
+    "libgcrypt"
+   ],
+   "lz4": [
+    "systemd-libs",
+    "lz4"
+   ],
+   "xz": [
+    "systemd-libs",
+    "xz"
+   ],
+   "zstd": [
+    "systemd-libs",
+    "zstd"
+   ],
+   "zlib": [
+    "zstd",
+    "zlib"
+   ],
+   "libgpg-error": [
+    "libgcrypt",
+    "libgpg-error"
+   ],
+   "bash": [
+    "audit",
+    "bash"
+   ],
+   "krb5": [
+    "audit",
+    "krb5"
+   ],
+   "e2fsprogs": [
+    "krb5",
+    "e2fsprogs"
+   ],
+   "keyutils": [
+    "krb5",
+    "keyutils"
+   ],
+   "libldap": [
+    "krb5",
+    "libldap"
+   ],
+   "libverto": [
+    "krb5",
+    "libverto-module-base"
+   ],
+   "openssl": [
+    "krb5",
+    "openssl"
+   ],
+   "lmdb": [
+    "krb5",
+    "lmdb"
+   ],
+   "libevent": [
+    "libverto",
+    "libevent"
+   ],
+   "brotli": [
+    "openssl",
+    "brotli"
+   ],
+   "sqlite": [
+    "util-linux-libs",
+    "sqlite"
+   ],
+   "readline": [
+    "sqlite",
+    "readline"
+   ],
+   "ncurses": [
+    "readline",
+    "libncursesw.so"
+   ],
+   "libsasl": [
+    "libldap",
+    "libsasl"
+   ],
+   "gdbm": [
+    "libsasl",
+    "gdbm"
+   ],
+   "fontconfig": [
+    "pango",
+    "fontconfig"
+   ],
+   "freetype2": [
+    "pango",
+    "freetype2"
+   ],
+   "fribidi": [
+    "pango",
+    "fribidi"
+   ],
+   "harfbuzz": [
+    "pango",
+    "harfbuzz"
+   ],
+   "libsysprof-capture": [
+    "pango",
+    "libsysprof-capture"
+   ],
+   "libthai": [
+    "pango",
+    "libthai"
+   ],
+   "libxft": [
+    "pango",
+    "libxft"
+   ],
+   "xorgproto": [
+    "libxrender",
+    "xorgproto"
+   ],
+   "libxdmcp": [
+    "libxcb",
+    "libxdmcp"
+   ],
+   "bzip2": [
+    "freetype2",
+    "bzip2"
+   ],
+   "libpng": [
+    "freetype2",
+    "libpng"
+   ],
+   "libdatrie": [
+    "libthai",
+    "libdatrie"
+   ],
+   "graphite": [
+    "harfbuzz",
+    "graphite"
+   ],
+   "libffi": [
+    "glib2",
+    "libffi"
+   ],
+   "pcre2": [
+    "glib2",
+    "pcre2"
+   ],
+   "libxext": [
+    "cairo",
+    "libxext"
+   ],
+   "lzo": [
+    "cairo",
+    "lzo"
+   ],
+   "libxml2": [
+    "wayland",
+    "libxml2"
+   ],
+   "default-cursors": [
+    "wayland",
+    "default-cursors"
+   ],
+   "icu": [
+    "libxml2",
+    "icu"
+   ],
+   "gcc-libs": [
+    "libei",
+    "gcc-libs"
+   ],
+   "libevdev": [
+    "libei",
+    "libevdev"
+   ],
+   "libasan": [
+    "gcc-libs",
+    "libasan"
+   ],
+   "libatomic": [
+    "gcc-libs",
+    "libatomic"
+   ],
+   "libgfortran": [
+    "gcc-libs",
+    "libgfortran"
+   ],
+   "libgomp": [
+    "gcc-libs",
+    "libgomp"
+   ],
+   "libhwasan": [
+    "gcc-libs",
+    "libhwasan"
+   ],
+   "liblsan": [
+    "gcc-libs",
+    "liblsan"
+   ],
+   "libobjc": [
+    "gcc-libs",
+    "libobjc"
+   ],
+   "libquadmath": [
+    "gcc-libs",
+    "libquadmath"
+   ],
+   "libtsan": [
+    "gcc-libs",
+    "libtsan"
+   ],
+   "libubsan": [
+    "gcc-libs",
+    "libubsan"
+   ],
+   "libpciaccess": [
+    "libdrm",
+    "libpciaccess"
+   ],
+   "libelf": [
+    "mesa",
+    "libelf"
+   ],
+   "libxxf86vm": [
+    "mesa",
+    "libxxf86vm"
+   ],
+   "llvm-libs": [
+    "mesa",
+    "llvm-libs"
+   ],
+   "lm_sensors": [
+    "mesa",
+    "lm_sensors"
+   ],
+   "spirv-tools": [
+    "mesa",
+    "spirv-tools"
+   ],
+   "libedit": [
+    "llvm-libs",
+    "libedit"
+   ],
+   "curl": [
+    "libelf",
+    "curl"
+   ],
+   "json-c": [
+    "libelf",
+    "json-c"
+   ],
+   "ca-certificates": [
+    "curl",
+    "ca-certificates"
+   ],
+   "libidn2": [
+    "curl",
+    "libidn2"
+   ],
+   "libnghttp2": [
+    "curl",
+    "libnghttp2"
+   ],
+   "libnghttp3": [
+    "curl",
+    "libnghttp3"
+   ],
+   "libngtcp2": [
+    "curl",
+    "libngtcp2"
+   ],
+   "libpsl": [
+    "curl",
+    "libpsl"
+   ],
+   "libssh2": [
+    "curl",
+    "libssh2"
+   ],
+   "libunistring": [
+    "libpsl",
+    "libunistring"
+   ],
+   "gnutls": [
+    "libngtcp2",
+    "gnutls"
+   ],
+   "gmp": [
+    "gnutls",
+    "gmp"
+   ],
+   "libtasn1": [
+    "gnutls",
+    "libtasn1"
+   ],
+   "leancrypto": [
+    "gnutls",
+    "leancrypto"
+   ],
+   "libp11-kit": [
+    "gnutls",
+    "libp11-kit"
+   ],
+   "ca-certificates-mozilla": [
+    "ca-certificates",
+    "ca-certificates-mozilla"
+   ],
+   "ca-certificates-utils": [
+    "ca-certificates-mozilla",
+    "ca-certificates-utils"
+   ],
+   "coreutils": [
+    "ca-certificates-utils",
+    "coreutils"
+   ],
+   "findutils": [
+    "ca-certificates-utils",
+    "findutils"
+   ],
+   "p11-kit": [
+    "ca-certificates-utils",
+    "p11-kit"
+   ],
+   "acl": [
+    "coreutils",
+    "acl"
+   ],
+   "attr": [
+    "coreutils",
+    "attr"
+   ],
+   "libcap": [
+    "coreutils",
+    "libcap"
+   ],
+   "pam": [
+    "libcap",
+    "pam"
+   ],
+   "libxcrypt": [
+    "pam",
+    "libcrypt.so"
+   ],
+   "libnsl": [
+    "pam",
+    "libnsl"
+   ],
+   "pambase": [
+    "pam",
+    "pambase"
+   ],
+   "xkeyboard-config": [
+    "xorg-server-common",
+    "xkeyboard-config"
+   ],
+   "xorg-xkbcomp": [
+    "xorg-server-common",
+    "xorg-xkbcomp"
+   ],
+   "xorg-setxkbmap": [
+    "xorg-server-common",
+    "xorg-setxkbmap"
+   ],
+   "libxkbfile": [
+    "xorg-setxkbmap",
+    "libxkbfile"
+   ],
+   "libxrandr": [
+    "xorg-setxkbmap",
+    "libxrandr"
+   ],
+   "libfontenc": [
+    "libxfont2",
+    "libfontenc"
+   ],
+   "xorg-fonts-encodings": [
+    "libfontenc",
+    "xorg-fonts-encodings"
+   ],
+   "abseil-cpp": [
+    "re2",
+    "abseil-cpp"
+   ],
+   "gtest": [
+    "abseil-cpp",
+    "gtest"
+   ],
+   "libwacom": [
+    "libinput",
+    "libwacom"
+   ],
+   "lua54": [
+    "libinput",
+    "lua54"
+   ],
+   "mtdev": [
+    "libinput",
+    "mtdev"
+   ],
+   "libgudev": [
+    "libwacom",
+    "libgudev"
+   ],
+   "libjpeg-turbo": [
+    "lcms2",
+    "libjpeg-turbo"
+   ],
+   "libtiff": [
+    "lcms2",
+    "libtiff"
+   ],
+   "jbigkit": [
+    "libtiff",
+    "jbigkit"
+   ],
+   "libdeflate": [
+    "libtiff",
+    "libdeflate"
+   ],
+   "libwebp": [
+    "libtiff",
+    "libwebp"
+   ],
+   "pugixml": [
+    "hyprwire",
+    "pugixml"
+   ],
+   "hyprtoolkit": [
+    "hyprland-guiutils",
+    "hyprtoolkit"
+   ],
+   "iniparser": [
+    "hyprtoolkit",
+    "iniparser"
+   ],
+   "file": [
+    "hyprgraphics",
+    "file"
+   ],
+   "libjxl": [
+    "hyprgraphics",
+    "libjxl"
+   ],
+   "librsvg": [
+    "hyprgraphics",
+    "librsvg"
+   ],
+   "dav1d": [
+    "librsvg",
+    "dav1d"
+   ],
+   "gdk-pixbuf2": [
+    "librsvg",
+    "gdk-pixbuf2"
+   ],
+   "glycin": [
+    "gdk-pixbuf2",
+    "glycin"
+   ],
+   "shared-mime-info": [
+    "gdk-pixbuf2",
+    "shared-mime-info"
+   ],
+   "bubblewrap": [
+    "glycin",
+    "bubblewrap"
+   ],
+   "libseccomp": [
+    "glycin",
+    "libseccomp"
+   ],
+   "giflib": [
+    "libjxl",
+    "giflib"
+   ],
+   "gperftools": [
+    "libjxl",
+    "gperftools"
+   ],
+   "highway": [
+    "libjxl",
+    "highway"
+   ],
+   "libunwind": [
+    "gperftools",
+    "libunwind"
+   ],
+   "libdisplay-info": [
+    "aquamarine",
+    "libdisplay-info"
+   ],
+   "seatd": [
+    "aquamarine",
+    "seatd"
+   ],
+   "libzip": [
+    "hyprcursor",
+    "libzip"
+   ],
+   "cpptrace": [
+    "quickshell",
+    "cpptrace"
    ],
    "hicolor-icon-theme": [
-    "cmake",
+    "quickshell",
     "hicolor-icon-theme"
    ],
-   "jsoncpp": [
-    "cmake",
-    "jsoncpp"
+   "jemalloc": [
+    "quickshell",
+    "jemalloc"
    ],
-   "libarchive": [
-    "cmake",
-    "libarchive"
+   "libpipewire": [
+    "quickshell",
+    "libpipewire"
    ],
-   "libuv": [
-    "cmake",
-    "libuv"
+   "polkit": [
+    "quickshell",
+    "polkit"
    ],
-   "rhash": [
-    "cmake",
-    "rhash"
+   "qt6-base": [
+    "quickshell",
+    "qt6-base"
    ],
-   "perl": [
-    "git",
-    "perl"
+   "qt6-declarative": [
+    "quickshell",
+    "qt6-declarative"
    ],
-   "perl-error": [
-    "git",
-    "perl-error"
+   "qt6-svg": [
+    "quickshell",
+    "qt6-svg"
    ],
-   "perl-mailtools": [
-    "git",
-    "perl-mailtools"
+   "qt6-wayland": [
+    "quickshell",
+    "qt6-wayland"
    ],
-   "grep": [
-    "git",
-    "grep"
+   "double-conversion": [
+    "qt6-base",
+    "double-conversion"
+   ],
+   "libb2": [
+    "qt6-base",
+    "libb2"
+   ],
+   "libcups": [
+    "qt6-base",
+    "libcups"
+   ],
+   "libice": [
+    "qt6-base",
+    "libice"
+   ],
+   "libproxy": [
+    "qt6-base",
+    "libproxy"
+   ],
+   "libsm": [
+    "qt6-base",
+    "libsm"
+   ],
+   "liburing": [
+    "qt6-base",
+    "liburing"
+   ],
+   "libxkbcommon-x11": [
+    "qt6-base",
+    "libxkbcommon-x11"
+   ],
+   "md4c": [
+    "qt6-base",
+    "md4c"
+   ],
+   "tslib": [
+    "qt6-base",
+    "tslib"
+   ],
+   "xcb-util-cursor": [
+    "qt6-base",
+    "xcb-util-cursor"
+   ],
+   "xdg-utils": [
+    "qt6-base",
+    "xdg-utils"
+   ],
+   "qt6-translations": [
+    "qt6-base",
+    "qt6-translations"
+   ],
+   "duktape": [
+    "libproxy",
+    "duktape"
+   ],
+   "avahi": [
+    "libcups",
+    "avahi"
+   ],
+   "libdaemon": [
+    "avahi",
+    "libdaemon"
+   ],
+   "systemd": [
+    "polkit",
+    "systemd"
+   ],
+   "cryptsetup": [
+    "systemd",
+    "cryptsetup"
+   ],
+   "dbus-units": [
+    "systemd",
+    "dbus-units"
+   ],
+   "kbd": [
+    "systemd",
+    "kbd"
+   ],
+   "kmod": [
+    "systemd",
+    "kmod"
+   ],
+   "hwdata": [
+    "systemd",
+    "hwdata"
+   ],
+   "util-linux": [
+    "systemd",
+    "util-linux"
    ],
    "shadow": [
-    "git",
+    "util-linux",
     "shadow"
    ],
-   "zlib-ng": [
-    "git",
-    "zlib-ng"
+   "gzip": [
+    "kbd",
+    "gzip"
    ],
-   "perl-timedate": [
-    "perl-mailtools",
-    "perl-timedate"
+   "sed": [
+    "gzip",
+    "sed"
    ],
-   "db5.3": [
-    "perl",
-    "db5.3"
+   "dbus-broker-units": [
+    "dbus-units",
+    "dbus-broker-units"
+   ],
+   "dbus-broker": [
+    "dbus-broker-units",
+    "dbus-broker"
+   ],
+   "device-mapper": [
+    "cryptsetup",
+    "device-mapper"
+   ],
+   "popt": [
+    "cryptsetup",
+    "popt"
+   ],
+   "libdwarf": [
+    "cpptrace",
+    "libdwarf"
+   ],
+   "elfutils": [
+    "libdwarf",
+    "elfutils"
+   ],
+   "libarchive": [
+    "elfutils",
+    "libarchive"
+   ],
+   "ffmpeg": [
+    "qt6-multimedia-ffmpeg",
+    "ffmpeg"
+   ],
+   "libva": [
+    "qt6-multimedia-ffmpeg",
+    "libva"
+   ],
+   "qt6-multimedia": [
+    "qt6-multimedia-ffmpeg",
+    "qt6-multimedia"
+   ],
+   "libpulse": [
+    "qt6-multimedia",
+    "libpulse"
+   ],
+   "pipewire": [
+    "qt6-multimedia",
+    "pipewire"
+   ],
+   "qt6-multimedia-ffmpeg": [
+    "qt6-multimedia",
+    "qt6-multimedia-backend"
+   ],
+   "libasyncns": [
+    "libpulse",
+    "libasyncns"
+   ],
+   "libsndfile": [
+    "libpulse",
+    "libsndfile"
+   ],
+   "flac": [
+    "libsndfile",
+    "flac"
+   ],
+   "lame": [
+    "libsndfile",
+    "lame"
+   ],
+   "libogg": [
+    "libsndfile",
+    "libogg"
+   ],
+   "libvorbis": [
+    "libsndfile",
+    "libvorbis"
+   ],
+   "mpg123": [
+    "libsndfile",
+    "mpg123"
+   ],
+   "opus": [
+    "libsndfile",
+    "opus"
+   ],
+   "alsa-lib": [
+    "mpg123",
+    "alsa-lib"
+   ],
+   "alsa-topology-conf": [
+    "alsa-lib",
+    "alsa-topology-conf"
+   ],
+   "alsa-ucm-conf": [
+    "alsa-lib",
+    "alsa-ucm-conf"
+   ],
+   "aom": [
+    "ffmpeg",
+    "aom"
+   ],
+   "gsm": [
+    "ffmpeg",
+    "gsm"
+   ],
+   "pipewire-jack": [
+    "ffmpeg",
+    "jack"
+   ],
+   "libass": [
+    "ffmpeg",
+    "libass"
+   ],
+   "libavc1394": [
+    "ffmpeg",
+    "libavc1394"
+   ],
+   "libbluray": [
+    "ffmpeg",
+    "libbluray"
+   ],
+   "libbs2b": [
+    "ffmpeg",
+    "libbs2b"
+   ],
+   "libdvdnav": [
+    "ffmpeg",
+    "libdvdnav"
+   ],
+   "libdvdread": [
+    "ffmpeg",
+    "libdvdread"
+   ],
+   "libiec61883": [
+    "ffmpeg",
+    "libiec61883"
+   ],
+   "libmodplug": [
+    "ffmpeg",
+    "libmodplug"
+   ],
+   "libopenmpt": [
+    "ffmpeg",
+    "libopenmpt"
+   ],
+   "libplacebo": [
+    "ffmpeg",
+    "libplacebo"
+   ],
+   "libraw1394": [
+    "ffmpeg",
+    "libraw1394"
+   ],
+   "libsoxr": [
+    "ffmpeg",
+    "libsoxr"
+   ],
+   "libssh": [
+    "ffmpeg",
+    "libssh"
+   ],
+   "libtheora": [
+    "ffmpeg",
+    "libtheora"
+   ],
+   "libvdpau": [
+    "ffmpeg",
+    "libvdpau"
+   ],
+   "libvpx": [
+    "ffmpeg",
+    "libvpx"
+   ],
+   "libxv": [
+    "ffmpeg",
+    "libxv"
+   ],
+   "ocl-icd": [
+    "ffmpeg",
+    "ocl-icd"
+   ],
+   "libvpl": [
+    "ffmpeg",
+    "onevpl"
+   ],
+   "opencore-amr": [
+    "ffmpeg",
+    "opencore-amr"
+   ],
+   "openjpeg2": [
+    "ffmpeg",
+    "openjpeg2"
+   ],
+   "rav1e": [
+    "ffmpeg",
+    "rav1e"
+   ],
+   "rubberband": [
+    "ffmpeg",
+    "rubberband"
+   ],
+   "sdl2-compat": [
+    "ffmpeg",
+    "sdl2"
+   ],
+   "snappy": [
+    "ffmpeg",
+    "snappy"
+   ],
+   "sndio": [
+    "ffmpeg",
+    "sndio"
+   ],
+   "speex": [
+    "ffmpeg",
+    "speex"
+   ],
+   "srt": [
+    "ffmpeg",
+    "srt"
+   ],
+   "svt-av1": [
+    "ffmpeg",
+    "svt-av1"
+   ],
+   "v4l-utils": [
+    "ffmpeg",
+    "v4l-utils"
+   ],
+   "vapoursynth": [
+    "ffmpeg",
+    "vapoursynth"
+   ],
+   "vid.stab": [
+    "ffmpeg",
+    "vid.stab"
+   ],
+   "vmaf": [
+    "ffmpeg",
+    "vmaf"
+   ],
+   "vulkan-icd-loader": [
+    "ffmpeg",
+    "vulkan-icd-loader"
+   ],
+   "x264": [
+    "ffmpeg",
+    "x264"
+   ],
+   "x265": [
+    "ffmpeg",
+    "x265"
+   ],
+   "xvidcore": [
+    "ffmpeg",
+    "xvidcore"
+   ],
+   "zeromq": [
+    "ffmpeg",
+    "zeromq"
+   ],
+   "zimg": [
+    "ffmpeg",
+    "zimg"
+   ],
+   "libsodium": [
+    "zeromq",
+    "libsodium"
+   ],
+   "libpgm": [
+    "zeromq",
+    "libpgm"
+   ],
+   "l-smash": [
+    "x264",
+    "liblsmash.so"
+   ],
+   "fftw": [
+    "rubberband",
+    "fftw"
+   ],
+   "libsamplerate": [
+    "rubberband",
+    "libsamplerate"
+   ],
+   "shaderc": [
+    "libplacebo",
+    "shaderc"
+   ],
+   "libdovi": [
+    "libplacebo",
+    "libdovi"
+   ],
+   "xxhash": [
+    "libplacebo",
+    "xxhash"
+   ],
+   "portaudio": [
+    "libopenmpt",
+    "portaudio"
+   ],
+   "pipewire-audio": [
+    "pipewire-jack",
+    "pipewire-audio"
+   ],
+   "pipewire-session-manager": [
+    "pipewire-jack",
+    "pipewire-session-manager"
+   ],
+   "wireplumber": [
+    "pipewire-session-manager",
+    "wireplumber"
+   ],
+   "libwireplumber": [
+    "wireplumber",
+    "libwireplumber"
+   ],
+   "alsa-card-profiles": [
+    "pipewire-audio",
+    "alsa-card-profiles"
+   ],
+   "bluez-libs": [
+    "pipewire-audio",
+    "bluez-libs"
+   ],
+   "libebur128": [
+    "pipewire-audio",
+    "libebur128"
+   ],
+   "libfdk-aac": [
+    "pipewire-audio",
+    "libfdk-aac"
+   ],
+   "libfreeaptx": [
+    "pipewire-audio",
+    "libfreeaptx"
+   ],
+   "liblc3": [
+    "pipewire-audio",
+    "liblc3"
+   ],
+   "libldac": [
+    "pipewire-audio",
+    "libldac"
+   ],
+   "libmysofa": [
+    "pipewire-audio",
+    "libmysofa"
+   ],
+   "libusb": [
+    "pipewire-audio",
+    "libusb"
+   ],
+   "lilv": [
+    "pipewire-audio",
+    "lilv"
+   ],
+   "sbc": [
+    "pipewire-audio",
+    "sbc"
+   ],
+   "spandsp": [
+    "pipewire-audio",
+    "spandsp"
+   ],
+   "webrtc-audio-processing-1": [
+    "pipewire-audio",
+    "webrtc-audio-processing-1"
+   ],
+   "serd": [
+    "lilv",
+    "serd"
+   ],
+   "sord": [
+    "lilv",
+    "sord"
+   ],
+   "sratom": [
+    "lilv",
+    "sratom"
+   ],
+   "lv2": [
+    "lilv",
+    "lv2"
+   ],
+   "zix": [
+    "lilv",
+    "zix"
+   ],
+   "libunibreak": [
+    "libass",
+    "libunibreak"
+   ],
+   "python": [
+    "vapoursynth",
+    "python"
+   ],
+   "mpdecimal": [
+    "python",
+    "mpdecimal"
+   ],
+   "libbpf": [
+    "v4l-utils",
+    "libbpf"
+   ],
+   "speexdsp": [
+    "speex",
+    "speexdsp"
+   ],
+   "libbsd": [
+    "sndio",
+    "libbsd"
+   ],
+   "libmd": [
+    "libbsd",
+    "libmd"
+   ],
+   "sdl3": [
+    "sdl2-compat",
+    "sdl3"
+   ],
+   "hidapi": [
+    "sdl3",
+    "hidapi"
+   ],
+   "hyprland-qt-support": [
+    "hyprpolkitagent",
+    "hyprland-qt-support"
+   ],
+   "polkit-qt6": [
+    "hyprpolkitagent",
+    "polkit-qt6"
+   ],
+   "sdbus-cpp": [
+    "hypridle",
+    "sdbus-cpp"
+   ],
+   "gtk4": [
+    "ghostty",
+    "gtk4"
+   ],
+   "gtk4-layer-shell": [
+    "ghostty",
+    "gtk4-layer-shell"
+   ],
+   "libadwaita": [
+    "ghostty",
+    "libadwaita"
+   ],
+   "oniguruma": [
+    "ghostty",
+    "oniguruma"
+   ],
+   "ghostty-shell-integration": [
+    "ghostty",
+    "ghostty-shell-integration"
+   ],
+   "ghostty-terminfo": [
+    "ghostty",
+    "ghostty-terminfo"
+   ],
+   "appstream": [
+    "libadwaita",
+    "appstream"
+   ],
+   "graphene": [
+    "libadwaita",
+    "graphene"
+   ],
+   "adwaita-fonts": [
+    "gtk4",
+    "adwaita-fonts"
+   ],
+   "adwaita-icon-theme": [
+    "gtk4",
+    "adwaita-icon-theme"
+   ],
+   "at-spi2-core": [
+    "gtk4",
+    "at-spi2-core"
+   ],
+   "dconf": [
+    "gtk4",
+    "dconf"
+   ],
+   "desktop-file-utils": [
+    "gtk4",
+    "desktop-file-utils"
+   ],
+   "gst-plugins-bad-libs": [
+    "gtk4",
+    "gst-plugins-bad-libs"
+   ],
+   "gst-plugins-base-libs": [
+    "gtk4",
+    "gst-plugins-base-libs"
+   ],
+   "gstreamer": [
+    "gtk4",
+    "gstreamer"
+   ],
+   "gtk-update-icon-cache": [
+    "gtk4",
+    "gtk-update-icon-cache"
+   ],
+   "iso-codes": [
+    "gtk4",
+    "iso-codes"
+   ],
+   "libcloudproviders": [
+    "gtk4",
+    "libcloudproviders"
+   ],
+   "libcolord": [
+    "gtk4",
+    "libcolord"
+   ],
+   "libxdamage": [
+    "gtk4",
+    "libxdamage"
+   ],
+   "libxi": [
+    "gtk4",
+    "libxi"
+   ],
+   "libxinerama": [
+    "gtk4",
+    "libxinerama"
+   ],
+   "tinysparql": [
+    "gtk4",
+    "tinysparql"
+   ],
+   "xdg-desktop-portal-gtk": [
+    "gtk4",
+    "xdg-desktop-portal-gtk"
+   ],
+   "gsettings-desktop-schemas": [
+    "xdg-desktop-portal-gtk",
+    "gsettings-desktop-schemas"
+   ],
+   "gtk3": [
+    "xdg-desktop-portal-gtk",
+    "gtk3"
+   ],
+   "xdg-desktop-portal": [
+    "xdg-desktop-portal-gtk",
+    "xdg-desktop-portal"
+   ],
+   "fuse3": [
+    "xdg-desktop-portal",
+    "fuse3"
+   ],
+   "json-glib": [
+    "xdg-desktop-portal",
+    "json-glib"
+   ],
+   "orc": [
+    "gst-plugins-base-libs",
+    "orc"
+   ],
+   "fuse-common": [
+    "fuse3",
+    "fuse-common"
+   ],
+   "numactl": [
+    "fuse3",
+    "numactl"
+   ],
+   "libsoup3": [
+    "tinysparql",
+    "libsoup3"
+   ],
+   "libstemmer": [
+    "tinysparql",
+    "libstemmer"
+   ],
+   "glib-networking": [
+    "libsoup3",
+    "glib-networking"
+   ],
+   "gsettings-system-schemas": [
+    "glib-networking",
+    "gsettings-system-schemas"
+   ],
+   "libxtst": [
+    "at-spi2-core",
+    "libxtst"
+   ],
+   "xorg-xprop": [
+    "at-spi2-core",
+    "xorg-xprop"
+   ],
+   "adwaita-icon-theme-legacy": [
+    "adwaita-icon-theme",
+    "adwaita-icon-theme-legacy"
+   ],
+   "adwaita-cursors": [
+    "adwaita-icon-theme",
+    "adwaita-cursors"
+   ],
+   "libnice": [
+    "gst-plugins-bad-libs",
+    "libnice"
+   ],
+   "gupnp-igd": [
+    "libnice",
+    "gupnp-igd"
+   ],
+   "gupnp": [
+    "gupnp-igd",
+    "gupnp"
+   ],
+   "gssdp": [
+    "gupnp-igd",
+    "libgssdp-1.6.so"
+   ],
+   "libblake3": [
+    "appstream",
+    "libblake3"
+   ],
+   "libfyaml": [
+    "appstream",
+    "libfyaml"
+   ],
+   "libvips": [
+    "appstream",
+    "libvips"
+   ],
+   "libxmlb": [
+    "appstream",
+    "libxmlb"
+   ],
+   "cfitsio": [
+    "libvips",
+    "cfitsio"
+   ],
+   "libcgif": [
+    "libvips",
+    "libcgif"
+   ],
+   "libexif": [
+    "libvips",
+    "libexif"
+   ],
+   "libimagequant": [
+    "libvips",
+    "libimagequant"
+   ],
+   "libmatio": [
+    "libvips",
+    "libmatio"
+   ],
+   "libraw": [
+    "libvips",
+    "libraw"
+   ],
+   "openexr": [
+    "libvips",
+    "openexr"
+   ],
+   "imath": [
+    "openexr",
+    "imath"
+   ],
+   "openjph": [
+    "openexr",
+    "openjph"
+   ],
+   "hdf5": [
+    "libmatio",
+    "hdf5"
+   ],
+   "libaec": [
+    "hdf5",
+    "libaec"
+   ],
+   "onetbb": [
+    "libblake3",
+    "onetbb"
+   ],
+   "hwloc": [
+    "onetbb",
+    "hwloc"
+   ],
+   "wl-clipboard": [
+    "cliphist",
+    "wl-clipboard"
+   ],
+   "liblqr": [
+    "imagemagick",
+    "liblqr"
+   ],
+   "libtool": [
+    "imagemagick",
+    "libltdl"
+   ],
+   "libraqm": [
+    "imagemagick",
+    "libraqm"
+   ],
+   "tar": [
+    "libtool",
+    "tar"
+   ],
+   "iproute2": [
+    "networkmanager",
+    "iproute2"
+   ],
+   "jansson": [
+    "networkmanager",
+    "jansson"
+   ],
+   "libmm-glib": [
+    "networkmanager",
+    "libmm-glib"
+   ],
+   "libndp": [
+    "networkmanager",
+    "libndp"
+   ],
+   "libnewt": [
+    "networkmanager",
+    "libnewt"
+   ],
+   "libnm": [
+    "networkmanager",
+    "libnm"
+   ],
+   "libteam": [
+    "networkmanager",
+    "libteam"
+   ],
+   "mobile-broadband-provider-info": [
+    "networkmanager",
+    "mobile-broadband-provider-info"
+   ],
+   "nspr": [
+    "networkmanager",
+    "nspr"
+   ],
+   "nss": [
+    "networkmanager",
+    "nss"
+   ],
+   "slang": [
+    "networkmanager",
+    "slang"
+   ],
+   "wpa_supplicant": [
+    "networkmanager",
+    "wpa_supplicant"
+   ],
+   "libnl": [
+    "wpa_supplicant",
+    "libnl"
+   ],
+   "pcsclite": [
+    "wpa_supplicant",
+    "pcsclite"
+   ],
+   "pcre": [
+    "slang",
+    "pcre"
+   ],
+   "gpm": [
+    "libnewt",
+    "gpm"
+   ],
+   "procps-ng": [
+    "gpm",
+    "procps-ng"
+   ],
+   "iptables-legacy": [
+    "iproute2",
+    "libxtables.so"
+   ],
+   "libmnl": [
+    "iptables-legacy",
+    "libmnl"
+   ],
+   "libnetfilter_conntrack": [
+    "iptables-legacy",
+    "libnetfilter_conntrack"
+   ],
+   "libnfnetlink": [
+    "iptables-legacy",
+    "libnfnetlink"
+   ],
+   "libnftnl": [
+    "iptables-legacy",
+    "libnftnl"
+   ],
+   "libpcap": [
+    "iptables-legacy",
+    "libpcap"
+   ],
+   "kcmutils": [
+    "kde-cli-tools",
+    "kcmutils"
+   ],
+   "kcompletion": [
+    "kde-cli-tools",
+    "kcompletion"
+   ],
+   "kconfig": [
+    "kde-cli-tools",
+    "kconfig"
+   ],
+   "kcoreaddons": [
+    "kde-cli-tools",
+    "kcoreaddons"
+   ],
+   "kdesu": [
+    "kde-cli-tools",
+    "kdesu"
+   ],
+   "ki18n": [
+    "kde-cli-tools",
+    "ki18n"
+   ],
+   "kiconthemes": [
+    "kde-cli-tools",
+    "kiconthemes"
+   ],
+   "kio": [
+    "kde-cli-tools",
+    "kio"
+   ],
+   "kparts": [
+    "kde-cli-tools",
+    "kparts"
+   ],
+   "kservice": [
+    "kde-cli-tools",
+    "kservice"
+   ],
+   "kwidgetsaddons": [
+    "kde-cli-tools",
+    "kwidgetsaddons"
+   ],
+   "kwindowsystem": [
+    "kde-cli-tools",
+    "kwindowsystem"
+   ],
+   "kxmlgui": [
+    "kparts",
+    "kxmlgui"
+   ],
+   "kconfigwidgets": [
+    "kxmlgui",
+    "kconfigwidgets"
+   ],
+   "kglobalaccel": [
+    "kxmlgui",
+    "kglobalaccel"
+   ],
+   "kguiaddons": [
+    "kxmlgui",
+    "kguiaddons"
+   ],
+   "kitemviews": [
+    "kxmlgui",
+    "kitemviews"
+   ],
+   "breeze-icons": [
+    "kiconthemes",
+    "breeze-icons"
+   ],
+   "karchive": [
+    "kiconthemes",
+    "karchive"
+   ],
+   "kcolorscheme": [
+    "kiconthemes",
+    "kcolorscheme"
+   ],
+   "kcodecs": [
+    "kconfigwidgets",
+    "kcodecs"
+   ],
+   "kbookmarks": [
+    "kio",
+    "kbookmarks"
+   ],
+   "kcrash": [
+    "kio",
+    "kcrash"
+   ],
+   "kdbusaddons": [
+    "kio",
+    "kdbusaddons"
+   ],
+   "kjobwidgets": [
+    "kio",
+    "kjobwidgets"
+   ],
+   "kwallet": [
+    "kio",
+    "kwallet"
+   ],
+   "libxslt": [
+    "kio",
+    "libxslt"
+   ],
+   "solid": [
+    "kio",
+    "solid"
+   ],
+   "libimobiledevice": [
+    "solid",
+    "libimobiledevice"
+   ],
+   "libplist": [
+    "solid",
+    "libplist"
+   ],
+   "media-player-info": [
+    "solid",
+    "media-player-info"
+   ],
+   "udisks2": [
+    "solid",
+    "udisks2"
+   ],
+   "upower": [
+    "solid",
+    "upower"
+   ],
+   "libimobiledevice-glue": [
+    "libimobiledevice",
+    "libimobiledevice-glue"
+   ],
+   "libtatsu": [
+    "libimobiledevice",
+    "libtatsu"
+   ],
+   "libusbmuxd": [
+    "libimobiledevice",
+    "libusbmuxd"
+   ],
+   "libblockdev": [
+    "udisks2",
+    "libblockdev"
+   ],
+   "libblockdev-crypto": [
+    "udisks2",
+    "libblockdev-crypto"
+   ],
+   "libblockdev-fs": [
+    "udisks2",
+    "libblockdev-fs"
+   ],
+   "libblockdev-mdraid": [
+    "udisks2",
+    "libblockdev-mdraid"
+   ],
+   "libblockdev-loop": [
+    "udisks2",
+    "libblockdev-loop"
+   ],
+   "libblockdev-nvme": [
+    "udisks2",
+    "libblockdev-nvme"
+   ],
+   "libblockdev-part": [
+    "udisks2",
+    "libblockdev-part"
+   ],
+   "libblockdev-smart": [
+    "udisks2",
+    "libblockdev-smart"
+   ],
+   "libblockdev-swap": [
+    "udisks2",
+    "libblockdev-swap"
+   ],
+   "libatasmart": [
+    "libblockdev-smart",
+    "libatasmart"
+   ],
+   "libnvme": [
+    "libblockdev-nvme",
+    "libnvme"
+   ],
+   "libbytesize": [
+    "libblockdev-mdraid",
+    "libbytesize"
+   ],
+   "mdadm": [
+    "libblockdev-mdraid",
+    "mdadm"
+   ],
+   "mpfr": [
+    "libbytesize",
+    "mpfr"
+   ],
+   "parted": [
+    "libblockdev-fs",
+    "parted"
+   ],
+   "volume_key": [
+    "libblockdev-crypto",
+    "volume_key"
+   ],
+   "gpgme": [
+    "volume_key",
+    "gpgme"
+   ],
+   "libassuan": [
+    "gpgme",
+    "libassuan"
+   ],
+   "gnupg": [
+    "gpgme",
+    "gnupg"
+   ],
+   "libksba": [
+    "gnupg",
+    "libksba"
+   ],
+   "pinentry": [
+    "gnupg",
+    "pinentry"
+   ],
+   "tpm2-tss": [
+    "gnupg",
+    "tpm2-tss"
+   ],
+   "npth": [
+    "gnupg",
+    "npth"
+   ],
+   "libsecret": [
+    "pinentry",
+    "libsecret"
+   ],
+   "gpgmepp": [
+    "kwallet",
+    "gpgmepp"
+   ],
+   "knotifications": [
+    "kwallet",
+    "knotifications"
+   ],
+   "qca-qt6": [
+    "kwallet",
+    "qca-qt6"
+   ],
+   "qt6-5compat": [
+    "qca-qt6",
+    "qt6-5compat"
+   ],
+   "qt6-shadertools": [
+    "qt6-5compat",
+    "qt6-shadertools"
+   ],
+   "libcanberra": [
+    "knotifications",
+    "libcanberra"
+   ],
+   "tdb": [
+    "libcanberra",
+    "tdb"
+   ],
+   "sound-theme-freedesktop": [
+    "libcanberra",
+    "sound-theme-freedesktop"
+   ],
+   "kpty": [
+    "kdesu",
+    "kpty"
+   ],
+   "libutempter": [
+    "kpty",
+    "libutempter"
+   ],
+   "kirigami": [
+    "kcmutils",
+    "kirigami"
+   ],
+   "ktextwidgets": [
+    "kdialog",
+    "ktextwidgets"
+   ],
+   "qt6-speech": [
+    "ktextwidgets",
+    "qt6-speech"
+   ],
+   "sonnet": [
+    "ktextwidgets",
+    "sonnet"
+   ],
+   "yyjson": [
+    "fastfetch",
+    "yyjson"
+   ],
+   "baloo": [
+    "dolphin",
+    "baloo"
+   ],
+   "baloo-widgets": [
+    "dolphin",
+    "baloo-widgets"
+   ],
+   "kfilemetadata": [
+    "dolphin",
+    "kfilemetadata"
+   ],
+   "kio-extras": [
+    "dolphin",
+    "kio-extras"
+   ],
+   "knewstuff": [
+    "dolphin",
+    "knewstuff"
+   ],
+   "kuserfeedback": [
+    "dolphin",
+    "kuserfeedback"
+   ],
+   "attica": [
+    "knewstuff",
+    "attica"
+   ],
+   "kpackage": [
+    "knewstuff",
+    "kpackage"
+   ],
+   "syndication": [
+    "knewstuff",
+    "syndication"
+   ],
+   "kdnssd": [
+    "kio-extras",
+    "kdnssd"
+   ],
+   "kdsoap": [
+    "kio-extras",
+    "kdsoap-qt6"
+   ],
+   "kdsoap-ws-discovery-client": [
+    "kio-extras",
+    "kdsoap-ws-discovery-client"
+   ],
+   "libkexiv2": [
+    "kio-extras",
+    "libkexiv2"
+   ],
+   "libmtp": [
+    "kio-extras",
+    "libmtp"
+   ],
+   "plasma-activities": [
+    "kio-extras",
+    "plasma-activities"
+   ],
+   "ripgrep-all": [
+    "kio-extras",
+    "ripgrep-all"
+   ],
+   "smbclient": [
+    "kio-extras",
+    "smbclient"
+   ],
+   "syntax-highlighting": [
+    "kio-extras",
+    "syntax-highlighting"
+   ],
+   "cifs-utils": [
+    "smbclient",
+    "cifs-utils"
+   ],
+   "ldb": [
+    "smbclient",
+    "ldb"
+   ],
+   "tevent": [
+    "smbclient",
+    "libtevent.so"
+   ],
+   "libwbclient": [
+    "smbclient",
+    "libwbclient"
+   ],
+   "talloc": [
+    "smbclient",
+    "talloc"
+   ],
+   "ripgrep": [
+    "ripgrep-all",
+    "ripgrep"
+   ],
+   "exiv2": [
+    "libkexiv2",
+    "exiv2"
+   ],
+   "gettext": [
+    "exiv2",
+    "gettext"
+   ],
+   "libinih": [
+    "exiv2",
+    "libinih"
+   ],
+   "gnulib-l10n": [
+    "gettext",
+    "gnulib-l10n"
+   ],
+   "ebook-tools": [
+    "kfilemetadata",
+    "ebook-tools"
+   ],
+   "poppler-qt6": [
+    "kfilemetadata",
+    "poppler-qt6"
+   ],
+   "taglib": [
+    "kfilemetadata",
+    "taglib"
+   ],
+   "poppler": [
+    "poppler-qt6",
+    "poppler"
+   ],
+   "convertlit": [
+    "ebook-tools",
+    "convertlit"
+   ],
+   "libtommath": [
+    "convertlit",
+    "libtommath"
+   ],
+   "kidletime": [
+    "baloo",
+    "kidletime"
+   ],
+   "argon2": [
+    "keepassxc",
+    "argon2"
+   ],
+   "botan": [
+    "keepassxc",
+    "botan"
+   ],
+   "minizip": [
+    "keepassxc",
+    "minizip"
+   ],
+   "qrencode": [
+    "keepassxc",
+    "qrencode"
+   ],
+   "qt5-base": [
+    "keepassxc",
+    "qt5-base"
+   ],
+   "qt5-svg": [
+    "keepassxc",
+    "qt5-svg"
+   ],
+   "qt5-x11extras": [
+    "keepassxc",
+    "qt5-x11extras"
+   ],
+   "qt5-translations": [
+    "qt5-base",
+    "qt5-translations"
+   ],
+   "girara": [
+    "zathura",
+    "girara"
+   ],
+   "libsynctex": [
+    "zathura",
+    "libsynctex"
+   ],
+   "gumbo-parser": [
+    "zathura-pdf-mupdf",
+    "gumbo-parser"
+   ],
+   "jbig2dec": [
+    "zathura-pdf-mupdf",
+    "jbig2dec"
+   ],
+   "libmupdf": [
+    "zathura-pdf-mupdf",
+    "libmupdf"
+   ],
+   "zathura": [
+    "zathura-pdf-mupdf",
+    "zathura"
+   ],
+   "cmark-gfm": [
+    "libmupdf",
+    "cmark-gfm"
+   ],
+   "leptonica": [
+    "libmupdf",
+    "leptonica"
+   ],
+   "tesseract": [
+    "libmupdf",
+    "tesseract"
+   ],
+   "tesseract-data-afr": [
+    "tesseract",
+    "tessdata"
+   ],
+   "tesseract-data-osd": [
+    "tesseract",
+    "tesseract-data-osd"
+   ],
+   "glu": [
+    "imv",
+    "glu"
+   ],
+   "libheif": [
+    "imv",
+    "libheif"
+   ],
+   "libnsbmp": [
+    "imv",
+    "libnsbmp"
+   ],
+   "libnsgif": [
+    "imv",
+    "libnsgif"
+   ],
+   "qoi": [
+    "imv",
+    "qoi"
+   ],
+   "libde265": [
+    "libheif",
+    "libde265"
+   ],
+   "openh264": [
+    "libheif",
+    "openh264"
    ]
-  }
+  },
+  "ricelin AUR set (helper required)": {},
+  "ricelin extras (brave theme, AUR)": {}
  },
  "db_vintage": {
   "core.db": {
@@ -13966,20 +15236,31 @@
    "zlib",
    "zstd"
   ],
-  "plugins :: hyprpm build chain": [
+  "ricelin core (hand-written Quickshell rice)": [
    "abseil-cpp",
    "acl",
+   "adwaita-cursors",
+   "adwaita-fonts",
+   "adwaita-icon-theme",
+   "adwaita-icon-theme-legacy",
+   "alsa-card-profiles",
+   "alsa-lib",
+   "alsa-topology-conf",
+   "alsa-ucm-conf",
+   "aom",
+   "appstream",
    "aquamarine",
-   "archlinux-keyring",
+   "at-spi2-core",
    "attr",
    "audit",
-   "autoconf",
-   "automake",
-   "base-devel",
+   "avahi",
+   "awww",
    "bash",
-   "binutils",
-   "bison",
-   "boost-libs",
+   "bluez",
+   "bluez-libs",
+   "bluez-utils",
+   "breeze-icons",
+   "brightnessctl",
    "brotli",
    "bubblewrap",
    "bzip2",
@@ -13987,48 +15268,594 @@
    "ca-certificates-mozilla",
    "ca-certificates-utils",
    "cairo",
-   "cmake",
+   "cava",
+   "cfitsio",
+   "cliphist",
    "coreutils",
-   "cpio",
-   "cppdap",
+   "cpptrace",
    "cryptsetup",
    "curl",
    "dav1d",
-   "db5.3",
    "dbus",
    "dbus-broker",
    "dbus-broker-units",
    "dbus-units",
-   "debugedit",
+   "dconf",
    "default-cursors",
+   "desktop-file-utils",
    "device-mapper",
-   "diffutils",
+   "double-conversion",
+   "duktape",
    "e2fsprogs",
    "elfutils",
    "expat",
-   "fakeroot",
+   "fastfetch",
+   "ffmpeg",
+   "fftw",
    "file",
    "filesystem",
    "findutils",
-   "flex",
+   "fish",
+   "flac",
    "fontconfig",
    "freetype2",
    "fribidi",
-   "gawk",
-   "gc",
-   "gcc",
+   "fuse-common",
+   "fuse3",
    "gcc-libs",
-   "gdb",
-   "gdb-common",
    "gdbm",
    "gdk-pixbuf2",
-   "gettext",
+   "ghostty",
+   "ghostty-shell-integration",
+   "ghostty-terminfo",
    "giflib",
-   "git",
-   "glaze",
+   "glib-networking",
    "glib2",
    "glibc",
    "glslang",
+   "glycin",
+   "gmp",
+   "gnupg",
+   "gnutls",
+   "gperftools",
+   "gpgme",
+   "gpgmepp",
+   "gpm",
+   "graphene",
+   "graphite",
+   "grim",
+   "gsettings-desktop-schemas",
+   "gsettings-system-schemas",
+   "gsm",
+   "gssdp",
+   "gst-plugins-bad-libs",
+   "gst-plugins-base-libs",
+   "gstreamer",
+   "gtest",
+   "gtk-update-icon-cache",
+   "gtk3",
+   "gtk4",
+   "gtk4-layer-shell",
+   "gupnp",
+   "gupnp-igd",
+   "gzip",
+   "harfbuzz",
+   "hdf5",
+   "hicolor-icon-theme",
+   "hidapi",
+   "highway",
+   "hwdata",
+   "hwloc",
+   "hyprcursor",
+   "hyprgraphics",
+   "hypridle",
+   "hyprland",
+   "hyprland-guiutils",
+   "hyprland-qt-support",
+   "hyprlang",
+   "hyprpicker",
+   "hyprpolkitagent",
+   "hyprsunset",
+   "hyprtoolkit",
+   "hyprutils",
+   "hyprwire",
+   "iana-etc",
+   "icu",
+   "imagemagick",
+   "imath",
+   "iniparser",
+   "inter-font",
+   "iproute2",
+   "iptables-legacy",
+   "iso-codes",
+   "jansson",
+   "jbigkit",
+   "jemalloc",
+   "jq",
+   "json-c",
+   "json-glib",
+   "karchive",
+   "kbd",
+   "kbookmarks",
+   "kcmutils",
+   "kcodecs",
+   "kcolorscheme",
+   "kcompletion",
+   "kconfig",
+   "kconfigwidgets",
+   "kcoreaddons",
+   "kcrash",
+   "kdbusaddons",
+   "kde-cli-tools",
+   "kdesu",
+   "kdialog",
+   "keyutils",
+   "kglobalaccel",
+   "kguiaddons",
+   "ki18n",
+   "kiconthemes",
+   "kio",
+   "kirigami",
+   "kitemviews",
+   "kjobwidgets",
+   "kmod",
+   "knotifications",
+   "kparts",
+   "kpty",
+   "krb5",
+   "kservice",
+   "ktextwidgets",
+   "kwallet",
+   "kwidgetsaddons",
+   "kwindowsystem",
+   "kxmlgui",
+   "l-smash",
+   "lame",
+   "lcms2",
+   "leancrypto",
+   "libadwaita",
+   "libaec",
+   "libarchive",
+   "libasan",
+   "libass",
+   "libassuan",
+   "libasyncns",
+   "libatasmart",
+   "libatomic",
+   "libavc1394",
+   "libb2",
+   "libblake3",
+   "libblockdev",
+   "libblockdev-crypto",
+   "libblockdev-fs",
+   "libblockdev-loop",
+   "libblockdev-mdraid",
+   "libblockdev-nvme",
+   "libblockdev-part",
+   "libblockdev-smart",
+   "libblockdev-swap",
+   "libbluray",
+   "libbpf",
+   "libbs2b",
+   "libbsd",
+   "libbytesize",
+   "libcanberra",
+   "libcap",
+   "libcap-ng",
+   "libcgif",
+   "libcloudproviders",
+   "libcolord",
+   "libcups",
+   "libdaemon",
+   "libdatrie",
+   "libdecor",
+   "libdeflate",
+   "libdisplay-info",
+   "libdovi",
+   "libdrm",
+   "libdvdnav",
+   "libdvdread",
+   "libdwarf",
+   "libebur128",
+   "libedit",
+   "libei",
+   "libelf",
+   "libepoxy",
+   "libevdev",
+   "libevent",
+   "libexif",
+   "libfdk-aac",
+   "libffi",
+   "libfontenc",
+   "libfreeaptx",
+   "libfyaml",
+   "libgcc",
+   "libgcrypt",
+   "libgfortran",
+   "libglvnd",
+   "libgomp",
+   "libgpg-error",
+   "libgudev",
+   "libhwasan",
+   "libice",
+   "libidn2",
+   "libiec61883",
+   "libimagequant",
+   "libimobiledevice",
+   "libimobiledevice-glue",
+   "libinput",
+   "libjpeg-turbo",
+   "libjxl",
+   "libksba",
+   "liblc3",
+   "libldac",
+   "libldap",
+   "liblqr",
+   "liblsan",
+   "libmatio",
+   "libmd",
+   "libmm-glib",
+   "libmnl",
+   "libmodplug",
+   "libmysofa",
+   "libndp",
+   "libnetfilter_conntrack",
+   "libnewt",
+   "libnfnetlink",
+   "libnftnl",
+   "libnghttp2",
+   "libnghttp3",
+   "libngtcp2",
+   "libnice",
+   "libnl",
+   "libnm",
+   "libnotify",
+   "libnsl",
+   "libnvme",
+   "libobjc",
+   "libogg",
+   "libopenmpt",
+   "libp11-kit",
+   "libpcap",
+   "libpciaccess",
+   "libpgm",
+   "libpipewire",
+   "libplacebo",
+   "libplist",
+   "libpng",
+   "libproxy",
+   "libpsl",
+   "libpulse",
+   "libquadmath",
+   "libraqm",
+   "libraw",
+   "libraw1394",
+   "librsvg",
+   "libsamplerate",
+   "libsasl",
+   "libseccomp",
+   "libsecret",
+   "libsm",
+   "libsndfile",
+   "libsodium",
+   "libsoup3",
+   "libsoxr",
+   "libssh",
+   "libssh2",
+   "libstdc++",
+   "libstemmer",
+   "libsysprof-capture",
+   "libtasn1",
+   "libtatsu",
+   "libteam",
+   "libthai",
+   "libtheora",
+   "libtiff",
+   "libtirpc",
+   "libtool",
+   "libtsan",
+   "libubsan",
+   "libunibreak",
+   "libunistring",
+   "libunwind",
+   "liburing",
+   "libusb",
+   "libusbmuxd",
+   "libutempter",
+   "libva",
+   "libvdpau",
+   "libverto",
+   "libvips",
+   "libvorbis",
+   "libvpl",
+   "libvpx",
+   "libwacom",
+   "libwebp",
+   "libwireplumber",
+   "libx11",
+   "libxau",
+   "libxcb",
+   "libxcomposite",
+   "libxcrypt",
+   "libxcursor",
+   "libxcvt",
+   "libxdamage",
+   "libxdmcp",
+   "libxext",
+   "libxfixes",
+   "libxfont2",
+   "libxft",
+   "libxi",
+   "libxinerama",
+   "libxkbcommon",
+   "libxkbcommon-x11",
+   "libxkbfile",
+   "libxml2",
+   "libxmlb",
+   "libxrandr",
+   "libxrender",
+   "libxshmfence",
+   "libxslt",
+   "libxtst",
+   "libxv",
+   "libxxf86vm",
+   "libzip",
+   "lilv",
+   "linux-api-headers",
+   "llvm-libs",
+   "lm_sensors",
+   "lmdb",
+   "lua",
+   "lua54",
+   "lv2",
+   "lz4",
+   "lzo",
+   "matugen",
+   "md4c",
+   "mdadm",
+   "media-player-info",
+   "mesa",
+   "mobile-broadband-provider-info",
+   "mpdecimal",
+   "mpfr",
+   "mpg123",
+   "mtdev",
+   "muparser",
+   "ncurses",
+   "nettle",
+   "networkmanager",
+   "noto-fonts",
+   "noto-fonts-cjk",
+   "noto-fonts-emoji",
+   "npth",
+   "nspr",
+   "nss",
+   "numactl",
+   "ocl-icd",
+   "onetbb",
+   "oniguruma",
+   "opencore-amr",
+   "openexr",
+   "openjpeg2",
+   "openjph",
+   "openssl",
+   "opus",
+   "orc",
+   "p11-kit",
+   "pam",
+   "pambase",
+   "pamixer",
+   "pango",
+   "papirus-icon-theme",
+   "parted",
+   "pcre",
+   "pcre2",
+   "pcsclite",
+   "pinentry",
+   "pipewire",
+   "pipewire-audio",
+   "pipewire-jack",
+   "pipewire-session-manager",
+   "pixman",
+   "playerctl",
+   "polkit",
+   "polkit-qt6",
+   "popt",
+   "portaudio",
+   "procps-ng",
+   "pugixml",
+   "python",
+   "qca-qt6",
+   "qt6-5compat",
+   "qt6-base",
+   "qt6-declarative",
+   "qt6-multimedia",
+   "qt6-multimedia-ffmpeg",
+   "qt6-shadertools",
+   "qt6-speech",
+   "qt6-svg",
+   "qt6-translations",
+   "qt6-wayland",
+   "quickshell",
+   "rav1e",
+   "re2",
+   "readline",
+   "rubberband",
+   "sbc",
+   "sdbus-cpp",
+   "sdl2-compat",
+   "sdl3",
+   "seatd",
+   "sed",
+   "serd",
+   "shaderc",
+   "shadow",
+   "shared-mime-info",
+   "slang",
+   "slurp",
+   "snappy",
+   "sndio",
+   "solid",
+   "sonnet",
+   "sord",
+   "sound-theme-freedesktop",
+   "spandsp",
+   "speex",
+   "speexdsp",
+   "spirv-tools",
+   "sqlite",
+   "sratom",
+   "srt",
+   "svt-av1",
+   "systemd",
+   "systemd-libs",
+   "tar",
+   "tdb",
+   "tinysparql",
+   "tomlplusplus",
+   "tpm2-tss",
+   "tslib",
+   "ttf-jetbrains-mono-nerd",
+   "tzdata",
+   "udisks2",
+   "upower",
+   "util-linux",
+   "util-linux-libs",
+   "v4l-utils",
+   "vapoursynth",
+   "vid.stab",
+   "vmaf",
+   "volume_key",
+   "vulkan-icd-loader",
+   "wayland",
+   "wayland-protocols",
+   "webrtc-audio-processing-1",
+   "wireplumber",
+   "wl-clipboard",
+   "wpa_supplicant",
+   "x264",
+   "x265",
+   "xcb-proto",
+   "xcb-util",
+   "xcb-util-cursor",
+   "xcb-util-errors",
+   "xcb-util-image",
+   "xcb-util-keysyms",
+   "xcb-util-renderutil",
+   "xcb-util-wm",
+   "xdg-desktop-portal",
+   "xdg-desktop-portal-gtk",
+   "xdg-utils",
+   "xkeyboard-config",
+   "xorg-fonts-encodings",
+   "xorg-server-common",
+   "xorg-setxkbmap",
+   "xorg-xkbcomp",
+   "xorg-xprop",
+   "xorg-xwayland",
+   "xorgproto",
+   "xvidcore",
+   "xxhash",
+   "xz",
+   "yyjson",
+   "zeromq",
+   "zimg",
+   "zix",
+   "zlib",
+   "zoxide",
+   "zstd"
+  ],
+  "ricelin core + full profile (44 native)": [
+   "abseil-cpp",
+   "acl",
+   "adwaita-cursors",
+   "adwaita-fonts",
+   "adwaita-icon-theme",
+   "adwaita-icon-theme-legacy",
+   "alsa-card-profiles",
+   "alsa-lib",
+   "alsa-topology-conf",
+   "alsa-ucm-conf",
+   "aom",
+   "appstream",
+   "aquamarine",
+   "argon2",
+   "at-spi2-core",
+   "attica",
+   "attr",
+   "audit",
+   "avahi",
+   "awww",
+   "baloo",
+   "baloo-widgets",
+   "bash",
+   "bluez",
+   "bluez-libs",
+   "bluez-utils",
+   "botan",
+   "breeze-icons",
+   "brightnessctl",
+   "brotli",
+   "bubblewrap",
+   "bzip2",
+   "ca-certificates",
+   "ca-certificates-mozilla",
+   "ca-certificates-utils",
+   "cairo",
+   "cava",
+   "cfitsio",
+   "cifs-utils",
+   "cliphist",
+   "cmark-gfm",
+   "convertlit",
+   "coreutils",
+   "cpptrace",
+   "cryptsetup",
+   "curl",
+   "dav1d",
+   "dbus",
+   "dbus-broker",
+   "dbus-broker-units",
+   "dbus-units",
+   "dconf",
+   "default-cursors",
+   "desktop-file-utils",
+   "device-mapper",
+   "dolphin",
+   "double-conversion",
+   "duktape",
+   "e2fsprogs",
+   "ebook-tools",
+   "elfutils",
+   "exiv2",
+   "expat",
+   "fastfetch",
+   "ffmpeg",
+   "fftw",
+   "file",
+   "filesystem",
+   "findutils",
+   "fish",
+   "flac",
+   "fontconfig",
+   "freetype2",
+   "fribidi",
+   "fuse-common",
+   "fuse3",
+   "gcc-libs",
+   "gdbm",
+   "gdk-pixbuf2",
+   "gettext",
+   "ghostty",
+   "ghostty-shell-integration",
+   "ghostty-terminfo",
+   "giflib",
+   "girara",
+   "glib-networking",
+   "glib2",
+   "glibc",
+   "glslang",
+   "glu",
    "glycin",
    "gmp",
    "gnulib-l10n",
@@ -14036,59 +15863,172 @@
    "gnutls",
    "gperftools",
    "gpgme",
+   "gpgmepp",
+   "gpm",
+   "graphene",
    "graphite",
-   "grep",
-   "groff",
+   "grim",
+   "gsettings-desktop-schemas",
+   "gsettings-system-schemas",
+   "gsm",
+   "gssdp",
+   "gst-plugins-bad-libs",
+   "gst-plugins-base-libs",
+   "gstreamer",
    "gtest",
-   "guile",
+   "gtk-update-icon-cache",
+   "gtk3",
+   "gtk4",
+   "gtk4-layer-shell",
+   "gumbo-parser",
+   "gupnp",
+   "gupnp-igd",
    "gzip",
    "harfbuzz",
+   "hdf5",
    "hicolor-icon-theme",
+   "hidapi",
    "highway",
    "hwdata",
+   "hwloc",
    "hyprcursor",
    "hyprgraphics",
+   "hypridle",
    "hyprland",
    "hyprland-guiutils",
-   "hyprland-protocols",
+   "hyprland-qt-support",
    "hyprlang",
-   "hyprpm",
+   "hyprpicker",
+   "hyprpolkitagent",
+   "hyprsunset",
    "hyprtoolkit",
    "hyprutils",
-   "hyprwayland-scanner",
    "hyprwire",
    "iana-etc",
    "icu",
+   "imagemagick",
+   "imath",
+   "imv",
    "iniparser",
+   "inter-font",
+   "iproute2",
+   "iptables-legacy",
+   "iso-codes",
    "jansson",
+   "jbig2dec",
    "jbigkit",
+   "jemalloc",
+   "jq",
    "json-c",
-   "jsoncpp",
+   "json-glib",
+   "karchive",
    "kbd",
+   "kbookmarks",
+   "kcmutils",
+   "kcodecs",
+   "kcolorscheme",
+   "kcompletion",
+   "kconfig",
+   "kconfigwidgets",
+   "kcoreaddons",
+   "kcrash",
+   "kdbusaddons",
+   "kde-cli-tools",
+   "kdesu",
+   "kdialog",
+   "kdnssd",
+   "kdsoap",
+   "kdsoap-ws-discovery-client",
+   "keepassxc",
    "keyutils",
+   "kfilemetadata",
+   "kglobalaccel",
+   "kguiaddons",
+   "ki18n",
+   "kiconthemes",
+   "kidletime",
+   "kio",
+   "kio-extras",
+   "kirigami",
+   "kitemviews",
+   "kjobwidgets",
    "kmod",
+   "knewstuff",
+   "knotifications",
+   "kpackage",
+   "kparts",
+   "kpty",
    "krb5",
+   "kservice",
+   "ktextwidgets",
+   "kuserfeedback",
+   "kwallet",
+   "kwidgetsaddons",
+   "kwindowsystem",
+   "kxmlgui",
+   "l-smash",
+   "lame",
    "lcms2",
+   "ldb",
    "leancrypto",
+   "leptonica",
+   "libadwaita",
+   "libaec",
    "libarchive",
    "libasan",
+   "libass",
    "libassuan",
+   "libasyncns",
+   "libatasmart",
    "libatomic",
+   "libavc1394",
+   "libb2",
+   "libblake3",
+   "libblockdev",
+   "libblockdev-crypto",
+   "libblockdev-fs",
+   "libblockdev-loop",
+   "libblockdev-mdraid",
+   "libblockdev-nvme",
+   "libblockdev-part",
+   "libblockdev-smart",
+   "libblockdev-swap",
+   "libbluray",
+   "libbpf",
+   "libbs2b",
+   "libbsd",
+   "libbytesize",
+   "libcanberra",
    "libcap",
    "libcap-ng",
+   "libcgif",
+   "libcloudproviders",
+   "libcolord",
+   "libcups",
+   "libdaemon",
    "libdatrie",
+   "libde265",
    "libdecor",
    "libdeflate",
    "libdisplay-info",
+   "libdovi",
    "libdrm",
+   "libdvdnav",
+   "libdvdread",
+   "libdwarf",
+   "libebur128",
    "libedit",
    "libei",
    "libelf",
    "libepoxy",
    "libevdev",
    "libevent",
+   "libexif",
+   "libfdk-aac",
    "libffi",
    "libfontenc",
+   "libfreeaptx",
+   "libfyaml",
    "libgcc",
    "libgcrypt",
    "libgfortran",
@@ -14096,48 +16036,112 @@
    "libgomp",
    "libgpg-error",
    "libgudev",
+   "libheif",
    "libhwasan",
+   "libice",
    "libidn2",
+   "libiec61883",
+   "libimagequant",
+   "libimobiledevice",
+   "libimobiledevice-glue",
+   "libinih",
    "libinput",
-   "libisl",
    "libjpeg-turbo",
    "libjxl",
+   "libkexiv2",
    "libksba",
+   "liblc3",
+   "libldac",
    "libldap",
+   "liblqr",
    "liblsan",
-   "libmakepkg-dropins",
-   "libmpc",
+   "libmatio",
+   "libmd",
+   "libmm-glib",
+   "libmnl",
+   "libmodplug",
+   "libmtp",
+   "libmupdf",
+   "libmysofa",
+   "libndp",
+   "libnetfilter_conntrack",
+   "libnewt",
+   "libnfnetlink",
+   "libnftnl",
    "libnghttp2",
    "libnghttp3",
    "libngtcp2",
+   "libnice",
+   "libnl",
+   "libnm",
+   "libnotify",
+   "libnsbmp",
+   "libnsgif",
    "libnsl",
+   "libnvme",
    "libobjc",
+   "libogg",
+   "libopenmpt",
    "libp11-kit",
+   "libpcap",
    "libpciaccess",
+   "libpgm",
+   "libpipewire",
+   "libplacebo",
+   "libplist",
    "libpng",
+   "libproxy",
    "libpsl",
+   "libpulse",
    "libquadmath",
+   "libraqm",
+   "libraw",
+   "libraw1394",
    "librsvg",
+   "libsamplerate",
    "libsasl",
    "libseccomp",
    "libsecret",
+   "libsm",
+   "libsndfile",
+   "libsodium",
+   "libsoup3",
+   "libsoxr",
+   "libssh",
    "libssh2",
    "libstdc++",
+   "libstemmer",
+   "libsynctex",
    "libsysprof-capture",
    "libtasn1",
+   "libtatsu",
+   "libteam",
    "libthai",
+   "libtheora",
    "libtiff",
    "libtirpc",
+   "libtommath",
    "libtool",
    "libtsan",
    "libubsan",
+   "libunibreak",
    "libunistring",
    "libunwind",
+   "liburing",
    "libusb",
-   "libuv",
+   "libusbmuxd",
+   "libutempter",
+   "libva",
+   "libvdpau",
    "libverto",
+   "libvips",
+   "libvorbis",
+   "libvpl",
+   "libvpx",
    "libwacom",
+   "libwbclient",
    "libwebp",
+   "libwireplumber",
    "libx11",
    "libxau",
    "libxcb",
@@ -14145,116 +16149,229 @@
    "libxcrypt",
    "libxcursor",
    "libxcvt",
+   "libxdamage",
    "libxdmcp",
    "libxext",
    "libxfixes",
    "libxfont2",
    "libxft",
+   "libxi",
+   "libxinerama",
    "libxkbcommon",
+   "libxkbcommon-x11",
    "libxkbfile",
    "libxml2",
+   "libxmlb",
    "libxrandr",
    "libxrender",
    "libxshmfence",
+   "libxslt",
+   "libxtst",
+   "libxv",
    "libxxf86vm",
    "libzip",
+   "lilv",
    "linux-api-headers",
    "llvm-libs",
    "lm_sensors",
    "lmdb",
    "lua",
    "lua54",
+   "lv2",
    "lz4",
    "lzo",
-   "m4",
-   "make",
+   "matugen",
+   "md4c",
+   "mdadm",
+   "media-player-info",
    "mesa",
-   "meson",
+   "minizip",
+   "mobile-broadband-provider-info",
    "mpdecimal",
    "mpfr",
+   "mpg123",
    "mtdev",
    "muparser",
    "ncurses",
    "nettle",
-   "ninja",
+   "networkmanager",
+   "noto-fonts",
+   "noto-fonts-cjk",
+   "noto-fonts-emoji",
    "npth",
+   "nspr",
+   "nss",
+   "numactl",
+   "ocl-icd",
+   "onetbb",
+   "oniguruma",
+   "opencore-amr",
+   "openexr",
+   "openh264",
+   "openjpeg2",
+   "openjph",
    "openssl",
+   "opus",
+   "orc",
    "p11-kit",
-   "pacman",
-   "pacman-mirrorlist",
    "pam",
    "pambase",
+   "pamixer",
    "pango",
-   "patch",
+   "papirus-icon-theme",
+   "parted",
+   "pcre",
    "pcre2",
-   "perl",
-   "perl-error",
-   "perl-mailtools",
-   "perl-timedate",
+   "pcsclite",
    "pinentry",
+   "pipewire",
+   "pipewire-audio",
+   "pipewire-jack",
+   "pipewire-session-manager",
    "pixman",
-   "pkgconf",
+   "plasma-activities",
+   "playerctl",
+   "polkit",
+   "polkit-qt6",
+   "poppler",
+   "poppler-qt6",
    "popt",
+   "portaudio",
+   "procps-ng",
    "pugixml",
    "python",
-   "python-tqdm",
+   "qca-qt6",
+   "qoi",
+   "qrencode",
+   "qt5-base",
+   "qt5-svg",
+   "qt5-translations",
+   "qt5-x11extras",
+   "qt6-5compat",
+   "qt6-base",
+   "qt6-declarative",
+   "qt6-multimedia",
+   "qt6-multimedia-ffmpeg",
+   "qt6-shadertools",
+   "qt6-speech",
+   "qt6-svg",
+   "qt6-translations",
+   "qt6-wayland",
+   "quickshell",
+   "rav1e",
    "re2",
    "readline",
-   "rhash",
+   "ripgrep",
+   "ripgrep-all",
+   "rnote",
+   "rubberband",
+   "sbc",
+   "sdbus-cpp",
+   "sdl2-compat",
+   "sdl3",
    "seatd",
    "sed",
+   "serd",
+   "shaderc",
    "shadow",
    "shared-mime-info",
-   "source-highlight",
+   "slang",
+   "slurp",
+   "smbclient",
+   "snappy",
+   "sndio",
+   "solid",
+   "sonnet",
+   "sord",
+   "sound-theme-freedesktop",
+   "spandsp",
+   "speex",
+   "speexdsp",
    "spirv-tools",
    "sqlite",
-   "sudo",
+   "sratom",
+   "srt",
+   "svt-av1",
+   "syndication",
+   "syntax-highlighting",
    "systemd",
    "systemd-libs",
+   "taglib",
+   "talloc",
    "tar",
-   "texinfo",
+   "tdb",
+   "tesseract",
+   "tesseract-data-afr",
+   "tesseract-data-osd",
+   "tevent",
+   "tinysparql",
    "tomlplusplus",
    "tpm2-tss",
+   "tslib",
+   "ttf-jetbrains-mono-nerd",
    "tzdata",
+   "udisks2",
+   "upower",
    "util-linux",
    "util-linux-libs",
+   "v4l-utils",
+   "vapoursynth",
+   "vid.stab",
+   "vmaf",
+   "volume_key",
+   "vulkan-icd-loader",
    "wayland",
    "wayland-protocols",
-   "which",
+   "webrtc-audio-processing-1",
+   "wireplumber",
+   "wl-clipboard",
+   "wpa_supplicant",
+   "x264",
+   "x265",
    "xcb-proto",
    "xcb-util",
+   "xcb-util-cursor",
    "xcb-util-errors",
    "xcb-util-image",
    "xcb-util-keysyms",
    "xcb-util-renderutil",
    "xcb-util-wm",
+   "xdg-desktop-portal",
+   "xdg-desktop-portal-gtk",
+   "xdg-utils",
    "xkeyboard-config",
    "xorg-fonts-encodings",
    "xorg-server-common",
    "xorg-setxkbmap",
    "xorg-xkbcomp",
+   "xorg-xprop",
    "xorg-xwayland",
    "xorgproto",
+   "xvidcore",
    "xxhash",
    "xz",
+   "yyjson",
+   "zathura",
+   "zathura-pdf-mupdf",
+   "zeromq",
+   "zimg",
+   "zix",
    "zlib",
-   "zlib-ng",
+   "zoxide",
    "zstd"
   ],
-  "plugins :: build chain + packaged vector cursor": [
+  "ricelin AUR set (helper required)": [
    "abseil-cpp",
    "acl",
-   "aquamarine",
-   "archlinux-keyring",
+   "alsa-card-profiles",
+   "alsa-lib",
+   "alsa-topology-conf",
+   "alsa-ucm-conf",
+   "aom",
    "attr",
    "audit",
-   "autoconf",
-   "automake",
-   "base-devel",
    "bash",
-   "binutils",
-   "bison",
-   "boost-libs",
+   "bluez-libs",
    "brotli",
    "bubblewrap",
    "bzip2",
@@ -14262,266 +16379,261 @@
    "ca-certificates-mozilla",
    "ca-certificates-utils",
    "cairo",
-   "cmake",
    "coreutils",
-   "cpio",
-   "cppdap",
-   "cryptsetup",
    "curl",
    "dav1d",
-   "db5.3",
    "dbus",
-   "dbus-broker",
-   "dbus-broker-units",
-   "dbus-units",
-   "debugedit",
    "default-cursors",
-   "device-mapper",
-   "diffutils",
+   "desktop-file-utils",
    "e2fsprogs",
-   "elfutils",
    "expat",
-   "fakeroot",
+   "ffmpeg",
+   "ffmpeg4.4",
+   "fftw",
    "file",
    "filesystem",
    "findutils",
-   "flex",
+   "flac",
    "fontconfig",
    "freetype2",
    "fribidi",
-   "gawk",
-   "gc",
-   "gcc",
    "gcc-libs",
-   "gdb",
-   "gdb-common",
    "gdbm",
    "gdk-pixbuf2",
-   "gettext",
    "giflib",
-   "git",
-   "glaze",
    "glib2",
    "glibc",
    "glslang",
    "glycin",
    "gmp",
-   "gnulib-l10n",
-   "gnupg",
    "gnutls",
    "gperftools",
-   "gpgme",
    "graphite",
-   "grep",
-   "groff",
+   "gsm",
    "gtest",
-   "guile",
-   "gzip",
    "harfbuzz",
    "hicolor-icon-theme",
+   "hidapi",
    "highway",
-   "hwdata",
-   "hyprcursor",
-   "hyprgraphics",
-   "hyprland",
-   "hyprland-guiutils",
-   "hyprland-protocols",
-   "hyprlang",
-   "hyprpm",
-   "hyprtoolkit",
-   "hyprutils",
-   "hyprwayland-scanner",
-   "hyprwire",
    "iana-etc",
    "icu",
-   "iniparser",
-   "jansson",
    "jbigkit",
    "json-c",
-   "jsoncpp",
-   "kbd",
    "keyutils",
-   "kmod",
    "krb5",
+   "l-smash",
+   "lame",
    "lcms2",
    "leancrypto",
    "libarchive",
    "libasan",
-   "libassuan",
+   "libass",
+   "libasyncns",
    "libatomic",
+   "libavc1394",
+   "libbluray",
+   "libbpf",
+   "libbs2b",
+   "libbsd",
    "libcap",
    "libcap-ng",
+   "libcdio",
+   "libcdio-paranoia",
    "libdatrie",
-   "libdecor",
    "libdeflate",
    "libdisplay-info",
+   "libdovi",
    "libdrm",
+   "libdvdnav",
+   "libdvdread",
+   "libebur128",
    "libedit",
-   "libei",
    "libelf",
-   "libepoxy",
-   "libevdev",
    "libevent",
+   "libfdk-aac",
    "libffi",
-   "libfontenc",
+   "libfreeaptx",
    "libgcc",
    "libgcrypt",
    "libgfortran",
    "libglvnd",
    "libgomp",
    "libgpg-error",
-   "libgudev",
    "libhwasan",
    "libidn2",
-   "libinput",
-   "libisl",
+   "libiec61883",
    "libjpeg-turbo",
    "libjxl",
-   "libksba",
+   "liblc3",
+   "libldac",
    "libldap",
    "liblsan",
-   "libmakepkg-dropins",
-   "libmpc",
+   "libmd",
+   "libmfx",
+   "libmodplug",
+   "libmysofa",
    "libnghttp2",
    "libnghttp3",
    "libngtcp2",
    "libnsl",
    "libobjc",
+   "libogg",
+   "libopenmpt",
    "libp11-kit",
    "libpciaccess",
+   "libpgm",
+   "libpipewire",
+   "libplacebo",
    "libpng",
    "libpsl",
+   "libpulse",
    "libquadmath",
+   "libraw1394",
    "librsvg",
+   "libsamplerate",
    "libsasl",
    "libseccomp",
-   "libsecret",
+   "libsixel",
+   "libsndfile",
+   "libsodium",
+   "libsoxr",
+   "libssh",
    "libssh2",
    "libstdc++",
    "libsysprof-capture",
    "libtasn1",
    "libthai",
+   "libtheora",
    "libtiff",
    "libtirpc",
-   "libtool",
    "libtsan",
    "libubsan",
+   "libunibreak",
    "libunistring",
    "libunwind",
    "libusb",
-   "libuv",
+   "libva",
+   "libvdpau",
    "libverto",
-   "libwacom",
+   "libvorbis",
+   "libvpl",
+   "libvpx",
    "libwebp",
+   "libwireplumber",
    "libx11",
    "libxau",
    "libxcb",
-   "libxcomposite",
    "libxcrypt",
    "libxcursor",
-   "libxcvt",
    "libxdmcp",
    "libxext",
    "libxfixes",
-   "libxfont2",
    "libxft",
    "libxkbcommon",
-   "libxkbfile",
    "libxml2",
+   "libxpresent",
    "libxrandr",
    "libxrender",
    "libxshmfence",
+   "libxss",
+   "libxv",
    "libxxf86vm",
-   "libzip",
+   "lilv",
    "linux-api-headers",
    "llvm-libs",
    "lm_sensors",
    "lmdb",
    "lua",
-   "lua54",
+   "luajit",
+   "lv2",
    "lz4",
    "lzo",
-   "m4",
-   "make",
    "mesa",
-   "meson",
    "mpdecimal",
-   "mpfr",
-   "mtdev",
-   "muparser",
+   "mpg123",
+   "mpv",
+   "mujs",
    "ncurses",
    "nettle",
-   "ninja",
-   "npth",
+   "ocl-icd",
+   "openal",
+   "opencore-amr",
+   "openjpeg2",
    "openssl",
+   "opus",
    "p11-kit",
-   "pacman",
-   "pacman-mirrorlist",
    "pam",
    "pambase",
    "pango",
-   "patch",
    "pcre2",
-   "perl",
-   "perl-error",
-   "perl-mailtools",
-   "perl-timedate",
-   "pinentry",
+   "pipewire",
+   "pipewire-audio",
+   "pipewire-jack",
+   "pipewire-session-manager",
    "pixman",
-   "pkgconf",
-   "popt",
-   "pugixml",
+   "portaudio",
    "python",
-   "python-tqdm",
-   "re2",
+   "rav1e",
    "readline",
-   "rhash",
-   "seatd",
-   "sed",
+   "rubberband",
+   "sbc",
+   "sdl2-compat",
+   "sdl3",
+   "serd",
+   "shaderc",
    "shadow",
    "shared-mime-info",
-   "source-highlight",
+   "snappy",
+   "sndio",
+   "sord",
+   "spandsp",
+   "speex",
+   "speexdsp",
    "spirv-tools",
    "sqlite",
-   "sudo",
-   "systemd",
+   "sratom",
+   "srt",
+   "svt-av1",
    "systemd-libs",
-   "tar",
-   "texinfo",
-   "tomlplusplus",
-   "tpm2-tss",
    "tzdata",
+   "uchardet",
    "util-linux",
    "util-linux-libs",
+   "v4l-utils",
+   "vapoursynth",
+   "vid.stab",
+   "vmaf",
+   "vulkan-icd-loader",
    "wayland",
-   "wayland-protocols",
-   "which",
+   "webrtc-audio-processing-1",
+   "wireplumber",
+   "x264",
+   "x265",
    "xcb-proto",
-   "xcb-util",
-   "xcb-util-errors",
-   "xcb-util-image",
-   "xcb-util-keysyms",
-   "xcb-util-renderutil",
-   "xcb-util-wm",
    "xkeyboard-config",
-   "xorg-fonts-encodings",
-   "xorg-server-common",
-   "xorg-setxkbmap",
-   "xorg-xkbcomp",
-   "xorg-xwayland",
    "xorgproto",
+   "xvidcore",
    "xxhash",
    "xz",
+   "zeromq",
+   "zimg",
+   "zix",
    "zlib",
-   "zlib-ng",
    "zstd"
   ],
-  "plugins :: compositor + build chain (bare Hyprland + shake to find)": [
-   "abseil-cpp",
+  "ricelin extras (brave theme, AUR)": [
    "acl",
-   "aquamarine",
+   "adwaita-cursors",
+   "adwaita-fonts",
+   "adwaita-icon-theme",
+   "adwaita-icon-theme-legacy",
+   "alsa-lib",
+   "alsa-topology-conf",
+   "alsa-ucm-conf",
+   "at-spi2-core",
    "attr",
    "audit",
+   "avahi",
    "bash",
    "brotli",
    "bubblewrap",
@@ -14530,18 +16642,16 @@
    "ca-certificates-mozilla",
    "ca-certificates-utils",
    "cairo",
-   "cmake",
    "coreutils",
-   "cpio",
-   "cppdap",
    "curl",
    "dav1d",
-   "db5.3",
    "dbus",
+   "dconf",
    "default-cursors",
+   "desktop-file-utils",
+   "duktape",
    "e2fsprogs",
    "expat",
-   "file",
    "filesystem",
    "findutils",
    "fontconfig",
@@ -14551,70 +16661,56 @@
    "gdbm",
    "gdk-pixbuf2",
    "giflib",
-   "git",
-   "glaze",
+   "glib-networking",
    "glib2",
    "glibc",
-   "glslang",
    "glycin",
    "gmp",
    "gnutls",
    "gperftools",
    "graphite",
-   "grep",
+   "gsettings-desktop-schemas",
+   "gsettings-system-schemas",
    "gtest",
+   "gtk-update-icon-cache",
+   "gtk3",
    "harfbuzz",
    "hicolor-icon-theme",
    "highway",
-   "hyprcursor",
-   "hyprgraphics",
-   "hyprland",
-   "hyprland-guiutils",
-   "hyprland-protocols",
-   "hyprlang",
-   "hyprpm",
-   "hyprtoolkit",
-   "hyprutils",
-   "hyprwayland-scanner",
-   "hyprwire",
    "iana-etc",
    "icu",
-   "iniparser",
+   "iso-codes",
    "jbigkit",
    "json-c",
-   "jsoncpp",
+   "json-glib",
    "keyutils",
    "krb5",
    "lcms2",
    "leancrypto",
-   "libarchive",
    "libasan",
    "libatomic",
    "libcap",
    "libcap-ng",
+   "libcloudproviders",
+   "libcolord",
+   "libcups",
+   "libdaemon",
    "libdatrie",
-   "libdecor",
    "libdeflate",
-   "libdisplay-info",
    "libdrm",
    "libedit",
-   "libei",
    "libelf",
    "libepoxy",
-   "libevdev",
    "libevent",
    "libffi",
-   "libfontenc",
    "libgcc",
    "libgcrypt",
    "libgfortran",
    "libglvnd",
    "libgomp",
    "libgpg-error",
-   "libgudev",
    "libhwasan",
    "libidn2",
-   "libinput",
    "libjpeg-turbo",
    "libjxl",
    "libldap",
@@ -14627,13 +16723,16 @@
    "libp11-kit",
    "libpciaccess",
    "libpng",
+   "libproxy",
    "libpsl",
    "libquadmath",
    "librsvg",
    "libsasl",
    "libseccomp",
+   "libsoup3",
    "libssh2",
    "libstdc++",
+   "libstemmer",
    "libsysprof-capture",
    "libtasn1",
    "libthai",
@@ -14643,9 +16742,7 @@
    "libubsan",
    "libunistring",
    "libunwind",
-   "libuv",
    "libverto",
-   "libwacom",
    "libwebp",
    "libx11",
    "libxau",
@@ -14653,81 +16750,54 @@
    "libxcomposite",
    "libxcrypt",
    "libxcursor",
-   "libxcvt",
+   "libxdamage",
    "libxdmcp",
    "libxext",
    "libxfixes",
-   "libxfont2",
    "libxft",
+   "libxi",
+   "libxinerama",
    "libxkbcommon",
-   "libxkbfile",
    "libxml2",
    "libxrandr",
    "libxrender",
    "libxshmfence",
+   "libxss",
+   "libxtst",
    "libxxf86vm",
-   "libzip",
    "linux-api-headers",
    "llvm-libs",
    "lm_sensors",
    "lmdb",
-   "lua",
-   "lua54",
    "lz4",
    "lzo",
    "mesa",
-   "meson",
-   "mpdecimal",
-   "mtdev",
-   "muparser",
    "ncurses",
    "nettle",
-   "ninja",
+   "nspr",
+   "nss",
    "openssl",
    "p11-kit",
    "pam",
    "pambase",
    "pango",
    "pcre2",
-   "perl",
-   "perl-error",
-   "perl-mailtools",
-   "perl-timedate",
    "pixman",
-   "pugixml",
-   "python",
-   "python-tqdm",
-   "re2",
    "readline",
-   "rhash",
-   "seatd",
-   "shadow",
    "shared-mime-info",
    "spirv-tools",
    "sqlite",
    "systemd-libs",
-   "tomlplusplus",
+   "tinysparql",
    "tzdata",
    "util-linux-libs",
    "wayland",
-   "wayland-protocols",
    "xcb-proto",
-   "xcb-util",
-   "xcb-util-errors",
-   "xcb-util-image",
-   "xcb-util-keysyms",
-   "xcb-util-renderutil",
-   "xcb-util-wm",
    "xkeyboard-config",
-   "xorg-fonts-encodings",
-   "xorg-server-common",
-   "xorg-setxkbmap",
-   "xorg-xkbcomp",
-   "xorg-xwayland",
+   "xorg-xprop",
    "xorgproto",
    "xz",
    "zlib",
-   "zlib-ng",
    "zstd"
   ]
  }

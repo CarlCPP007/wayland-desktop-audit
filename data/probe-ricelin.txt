@@ -1,0 +1,54 @@
+# Every package name the Ricelin installer would resolve to on the arch family
+# (CachyOS is detected as arch), pulled from its own manifest + plan() output
+# rather than typed by hand: installer/packages.json is the single source of truth.
+# axis = what the installer does with it.
+
+native	hyprland
+native	quickshell
+native	qt6-multimedia-ffmpeg
+native	matugen
+native	swww
+native	hyprpicker
+native	hyprpolkitagent
+native	hypridle
+native	hyprsunset
+native	cava
+native	ghostty
+native	fish
+native	zoxide
+native	cliphist
+native	wl-clipboard
+native	libnotify
+native	imagemagick
+native	jq
+native	desktop-file-utils
+native	brightnessctl
+native	playerctl
+native	networkmanager
+native	bluez
+native	bluez-utils
+native	pipewire
+native	wireplumber
+native	pamixer
+native	kde-cli-tools
+native	kdialog
+native	fastfetch
+native	ttf-jetbrains-mono-nerd
+native	inter-font
+native	noto-fonts
+native	noto-fonts-cjk
+native	noto-fonts-emoji
+native	papirus-icon-theme
+native	grim
+native	slurp
+full	dolphin
+full	keepassxc
+full	zathura
+full	zathura-pdf-mupdf
+full	imv
+full	rnote
+aur	bibata-cursor-theme-bin
+aur	dotool
+aur	gpu-screen-recorder
+aur	mpvpaper
+extra	brave-bin
