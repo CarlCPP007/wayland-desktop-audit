@@ -14,6 +14,7 @@ data/provider-guesses.json so a bad guess is visible, not silently inflating a n
 Writes data/closure.json, data/closure.tsv, data/provider-guesses.json.
 """
 import json, os, re, sys, tarfile, urllib.parse, urllib.request
+import datetime, hashlib
 from collections import defaultdict
 
 OUTDIR = os.path.normpath(os.path.dirname(os.path.abspath(__file__)) + "/../data")
@@ -113,6 +114,27 @@ def load_db(path, repo):
     return pkgs
 
 
+def db_vintage(paths):
+    """Every number here measures one snapshot of the Arch databases, so the snapshot
+    travels with the output. Without it, a size that moved between two runs is
+    indistinguishable from a defect in the resolver: the databases are re-downloaded
+    only when absent, and Arch updates them continuously, so a second run against a
+    fresh copy legitimately reports different megabytes for the same package set."""
+    out = {}
+    for p in paths:
+        h = hashlib.sha256()
+        with open(p, "rb") as f:
+            for chunk in iter(lambda: f.read(1 << 20), b""):
+                h.update(chunk)
+        st = os.stat(p)
+        out[os.path.basename(p)] = {
+            "sha256": h.hexdigest(),
+            "mtime": datetime.datetime.fromtimestamp(st.st_mtime).strftime("%Y-%m-%d %H:%M:%S"),
+            "bytes": st.st_size,
+        }
+    return out
+
+
 def aur_rpc(names):
     if not names:
         return {}
@@ -145,10 +167,12 @@ def main():
             a = a[1:]
 
     pkgs = {}
+    db_paths = []
     for repo, rel in REPOS:
         dest = os.path.join(CACHE, os.path.basename(rel))
         if not os.path.exists(dest):
             fetch(f"{MIRRORS[0]}/{rel}", dest)
+        db_paths.append(dest)
         p = load_db(dest, repo)
         print(f"  {repo}: {len(p)} packages")
         pkgs.update(p)
@@ -259,10 +283,16 @@ def main():
         })
     rows.sort(key=lambda x: x["marginal_MB"])
 
+    vintage = db_vintage(db_paths)
+    vintage["packages"] = len(pkgs)
+    vintage["repos"] = {repo: len(load_db(os.path.join(CACHE, os.path.basename(rel)), repo))
+                        for repo, rel in REPOS}
+
     json.dump({"rows": rows, "shared_floor_pkgs": len(inter),
                "shared_floor_MB": round(sum(pkgs[n]["isize"] for n in inter) / 1048576, 1),
                "external_virtuals_hit": {k: sorted(v) for k, v in ext_hits.items()},
                "parents": {k: v["parents"] for k, v in result.items()},
+               "db_vintage": vintage,
                "detail": {k: sorted(v["seen"]) for k, v in result.items()}},
               open(os.path.join(OUTDIR, OUT_NAME + ".json"), "w", encoding="utf-8", newline="\n"), indent=1)
     json.dump(guesses, open(os.path.join(OUTDIR, OUT_NAME + "-guesses.json"), "w", encoding="utf-8", newline="\n"), indent=1)

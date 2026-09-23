@@ -5,7 +5,7 @@ packages to install. Run them from the repository root.
 
 | tool | what it does |
 |---|---|
-| `pkg-closure-v2.py` | the resolver. Downloads the Arch databases into `data/db/` on first run, then works offline. Resolves every stack's full transitive closure, records the parent chain for each package, and writes `<out>.json`, `<out>.tsv` and `<out>-guesses.json`. |
+| `pkg-closure-v2.py` | the resolver. Downloads the Arch databases into `data/db/` on first run, then works offline. Resolves every stack's full transitive closure, records the parent chain for each package, and writes `<out>.json`, `<out>.tsv` and `<out>-guesses.json`. The JSON carries `db_vintage` — a `sha256`, `mtime` and byte count per database — so a difference between two runs can be attributed to upstream drift instead of guessed at. |
 | `why-chain.py` | walks the recorded parent edges to explain why a package is in a closure: `why-chain.py "sway+waybar+wallust" gpsd python`. Prints `traced/total` per stack. |
 | `why.py` | prints the raw `DEPENDS` line from the cached database for a package — the ground truth behind any single claim. |
 | `closure-inspect.py` | reports what a stack pulls in that it probably should not: 32-bit packages, GPU drivers, toolkits the stack does not use. |

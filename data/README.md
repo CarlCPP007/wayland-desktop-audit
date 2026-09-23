@@ -17,6 +17,27 @@ third-party data, several megabytes each, and stale the day after they are downl
 fetch them on demand. Re-running any tool after the databases refresh will produce different
 numbers, which is the point.
 
+Measured, so the shape of that drift is known rather than assumed: across a re-download two hours
+after the numbers below were taken, **260 package versions and 198 installed sizes changed** while
+the package **membership stayed exact** — 15,463 packages, none added, none removed. Same package
+set, different megabytes.
+
+That is why every JSON output records the snapshot it measured, in `db_vintage`: a `sha256`, an
+`mtime` and a byte count for each of `core.db`, `extra.db` and `multilib.db`, plus the total
+package count and a per-repository count.
+
+```json
+"db_vintage": {
+  "extra.db": {"sha256": "f3b7154e…", "mtime": "2026-09-23 07:55:50", "bytes": 8850251},
+  "packages": 15463,
+  "repos": {"core": 299, "extra": 14982, "multilib": 182}
+}
+```
+
+Two artifacts are only comparable when their `db_vintage` matches. **Same snapshot and different
+numbers is a defect in the tooling. A moved `sha256` means Arch updated**, and the difference is
+upstream drift rather than a correction — which is the distinction the reproducibility gate tests.
+
 ## Tables
 
 ### `repos.tsv` — provenance facts per candidate project

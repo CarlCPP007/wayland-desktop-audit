@@ -11661,6 +11661,29 @@
    ]
   }
  },
+ "db_vintage": {
+  "core.db": {
+   "sha256": "c76bc4cc4311111828616be1db13afadb6407ae8be56ccd0ec8a46082eaab296",
+   "mtime": "2026-09-23 07:55:50",
+   "bytes": 129901
+  },
+  "extra.db": {
+   "sha256": "f3b7154ebfeebd7c8c6db054427cb09e9a99e16a35cee6804f5efb8d6290d2f8",
+   "mtime": "2026-09-23 07:55:50",
+   "bytes": 8850251
+  },
+  "multilib.db": {
+   "sha256": "54298ee0d6bdd80d775ddf8b43a476dcd8575bd4074d38298439df88469b3b25",
+   "mtime": "2026-09-23 07:55:50",
+   "bytes": 85872
+  },
+  "packages": 15463,
+  "repos": {
+   "core": 299,
+   "extra": 14982,
+   "multilib": 182
+  }
+ },
  "detail": {
   "hyprland+noctalia+matugen": [
    "abseil-cpp",

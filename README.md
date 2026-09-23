@@ -320,6 +320,13 @@ See **[CREDITS.md](CREDITS.md)**.
 Measured numbers age. If a figure here no longer matches reality, open an issue with the
 command you ran and its output — a correction with a reproduction beats a correction without.
 
+What to expect when you re-run: the same package **membership**, with sizes that moved. Across
+a re-download two hours after these numbers were taken, 260 package versions and 198 installed
+sizes had changed while zero packages were added or removed. Every JSON artifact records the
+database snapshot it measured in `db_vintage`, so a difference can be attributed: an identical
+`db_vintage` with different numbers is a defect in these tools and worth reporting as one; a
+changed `sha256` means the Arch databases moved and the difference is drift.
+
 ## License
 
 MIT for the analysis, documentation and tooling in this repository. Upstream projects keep
