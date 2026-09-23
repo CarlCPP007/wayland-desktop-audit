@@ -81,6 +81,19 @@ If a license above is wrong it is wrong on this page only, and correcting it is 
 
 Standard library only, plus `gh` for the provenance pass. No vendored third-party code.
 
+## Scope of the license in this repository
+
+`LICENSE` is MIT and covers the original work here: the analysis, the documentation and the
+tooling in `tools/`.
+
+It does **not** cover the audited or referenced projects — impasto, wayle, rust-dock, the
+compositors, shells, bars and theme engines listed above. Each keeps its own license, and
+anything installed or redistributed under those licenses is subject to them, not to this one.
+
+No upstream source code is vendored in this repository. Upstream material is referenced by URL
+and by facts read from public interfaces (package lists, manifests, install scripts, repository
+metadata, package databases).
+
 ## A note on fairness
 
 This audit measures install cost and reads maintenance signals from public APIs. It does not

@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Note on scope: this license covers the analysis, documentation and tooling in
-this repository. It does NOT cover the audited projects (impasto, wayle,
-rust-dock) or any other upstream software referenced here — those keep their
-own licenses. No upstream source code is vendored in this repository; upstream
-projects are referenced by URL and by facts measured from their public
-interfaces. See CREDITS.md.
