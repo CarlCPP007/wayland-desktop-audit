@@ -71,6 +71,12 @@ def read_tsv(path):
     return rows
 
 
+def measurable(r):
+    """A closure of 0-1 packages means the AUR RPC never reached that package's
+    dependencies, so the figure is a measurement gap, not a small install."""
+    return not (r[2] <= 1 and r[1].get("where") == "AUR")
+
+
 def main():
     out = sys.argv[1] if len(sys.argv) > 1 else None
 
@@ -95,50 +101,60 @@ def main():
     summary = []
     for feature in sorted(features):
         rows = sorted(features[feature], key=lambda r: r[3])
-        cheapest = min(r[3] for r in rows)
+        mrows = [r for r in rows if measurable(r)]
+        cheapest = mrows[0][3] if mrows else None
         lines.append(f"\n## {feature}\n")
-        lines.append("| candidate | where | version | votes | packages | MB | vs cheapest |")
+        lines.append("| candidate | where | version | votes | packages | MB | vs cheapest measured |")
         lines.append("|---|---|---|---|---|---|---|")
         for pkg, a, pkgs, mb, aur_roots, unresolved in rows:
             where = a.get("where", "?")
             mark = "†" if where == "AUR" else ""
             version = a.get("version", "?")
             votes = a.get("votes", "") or ""
-            delta = mb - cheapest
-            delta_s = "cheapest" if rows and mb == cheapest else f"+{delta:,.1f} MB"
             note = ""
-            if pkgs <= 1 and where == "AUR":
-                note = " (unmeasurable)"
+            if not measurable((pkg, a, pkgs, mb, aur_roots, unresolved)):
+                note = " **(unmeasurable)**"
+                delta_s = "—"
+            elif mb == cheapest:
+                delta_s = "cheapest measured"
+            else:
+                delta_s = f"+{mb - cheapest:,.1f} MB"
             lines.append(f"| `{pkg}`{mark} | {where} | {version} | {votes} | "
                          f"{pkgs}{note} | {mb:,.1f} | {delta_s} |")
-        best = rows[0]
-        worst = rows[-1]
-        # a single-package AUR closure means the deps could not be resolved
-        # offline — that is unmeasurable, not cheap, so keep it out of the summary
-        def measurable(r):
-            return not (r[2] <= 1 and r[1].get("where") == "AUR")
-        mrows = [r for r in rows if measurable(r)]
+        worst = mrows[-1] if mrows else None
         offrows = [r for r in mrows if r[1].get("where") == "official"]
-        pick = mrows[0] if mrows else None
         off = offrows[0] if offrows else None
+        # a slot can have no official candidate at all (emoji picker): say so
+        # rather than printing an empty cell that reads like a zero
+        if off is None:
+            off_cell = "none — AUR-only slot"
+        else:
+            off_cell = f"`{off[0]}` at {off[3]:,.1f} MB"
+        if mrows:
+            lines.append(f"\nCheapest measured: **`{mrows[0][0]}`** at {mrows[0][3]:,.1f} MB. "
+                         f"Dearest measured: `{worst[0]}` at {worst[3]:,.1f} MB "
+                         f"(swing {worst[3] - mrows[0][3]:,.1f} MB). "
+                         f"Cheapest official: {off_cell}.")
+        else:
+            lines.append("\nNo candidate in this slot could be measured offline.")
         summary.append((feature,
-                        pick[0] if pick else "-", pick[3] if pick else 0.0,
-                        pick[1].get("where", "?") if pick else "-",
-                        off[0] if off else "-", off[3] if off else 0.0,
-                        worst[0], worst[3]))
-        if len(rows) > 1 and worst[3] > best[3]:
-            lines.append(f"\nCheapest: **`{best[0]}`** at {best[3]:,.1f} MB. "
-                         f"Dearest: `{worst[0]}` at {worst[3]:,.1f} MB "
-                         f"(+{worst[3] - best[3]:,.1f} MB).")
+                        mrows[0][0] if mrows else "-", mrows[0][3] if mrows else None,
+                        mrows[0][1].get("where", "?") if mrows else "-",
+                        off[0] if off else "—", off[3] if off else None,
+                        worst[0] if worst else "—", worst[3] if worst else None))
 
     lines.append("\n## Summary — cheapest measured option per feature\n")
-    lines.append("Unmeasurable AUR candidates are excluded here; "
-                 "\"cheapest official\" is the best option needing no build step.\n")
-    lines.append("| feature | cheapest | where | MB | cheapest official | MB | dearest | MB |")
-    lines.append("|---|---|---|---|---|---|---|---|")
+    lines.append("Candidates marked unmeasurable are excluded here; \"cheapest official\" is the "
+                 "best option needing no build step.\n")
+    lines.append("| feature | cheapest measured | where | MB | cheapest official | MB | dearest measured | MB | swing |")
+    lines.append("|---|---|---|---|---|---|---|---|---|")
     for feature, bpkg, bmb, where, opkg, omb, wpkg, wmb in summary:
+        bs = "" if bmb is None else f"{bmb:,.1f}"
+        os_ = "" if omb is None else f"{omb:,.1f}"
+        ws = "" if wmb is None else f"{wmb:,.1f}"
+        sw = "" if (bmb is None or wmb is None) else f"{wmb - bmb:,.1f}"
         lines.append(f"| {feature} | `{bpkg}`{'†' if where == 'AUR' else ''} | {where} | "
-                     f"{bmb:,.1f} | `{opkg}` | {omb:,.1f} | `{wpkg}` | {wmb:,.1f} |")
+                     f"{bs} | {opkg if opkg == '—' else '`' + opkg + '`'} | {os_} | `{wpkg}` | {ws} | {sw} |")
 
     lines.append("\n† AUR: not in the binary repositories; requires building from "
                  "source at install time.\n")
