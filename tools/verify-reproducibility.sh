@@ -82,33 +82,66 @@ echo; echo "=== B. drift: run 1 against the committed artifacts ==="
 $PY - "$SNAP" <<'PY'
 import sys, os, json, subprocess
 snap = sys.argv[1]
+
 def vintage(b):
     try: return json.loads(b)["db_vintage"]
     except Exception: return None
-defect = moved = 0
+
+def git_show(f):
+    return subprocess.run(["git", "show", "HEAD:" + f], capture_output=True).stdout
+
+def source_for(f):
+    """The artifact whose recorded snapshot explains this file.
+
+    A .json carries its own vintage. A .tsv is written from the .json beside it, and
+    docs/features.md is rendered from data/features.json, so neither records a snapshot
+    itself -- it is inherited from its source. Leaving them unattributed was a hole:
+    they could differ with no note and no effect on the exit code, which is exactly how
+    a regressed writer would look. Anything with no source at all is reported as
+    unattributed rather than passed in silence.
+    """
+    if f.endswith(".json"): return f
+    if f.endswith(".tsv"):  return f[:-4] + ".json"
+    if f == "docs/features.md": return "data/features.json"
+    return None
+
+defect = moved = derived = unattributed = 0
 for flat in sorted(os.listdir(snap)):
     f = flat.replace("__", "/")
     fresh = open(os.path.join(snap, flat), "rb").read()
-    committed = subprocess.run(["git", "show", "HEAD:" + f], capture_output=True).stdout
+    committed = git_show(f)
     if fresh == committed:
         print(f"  IDENTICAL {f}"); continue
-    note = ""
-    if f.endswith(".json"):
-        va, vb = vintage(fresh), vintage(committed)
-        if va and vb:
-            if va == vb:
-                note = "  <-- same snapshot, still differs: TOOLING DEFECT"; defect += 1
+
+    src = source_for(f)
+    va, vb = vintage(fresh), vintage(committed)
+    if src and src != f:
+        va = vintage(open(src, "rb").read()) if os.path.exists(src) else None
+        vb = vintage(git_show(src))
+
+    if va and vb:
+        if va == vb:
+            note = "  <-- same snapshot, still differs: TOOLING DEFECT"; defect += 1
+        else:
+            ch = [k for k in va if k in vb and va[k] != vb[k]]
+            note = f"  <-- database snapshot moved ({', '.join(ch) or 'n/a'})"
+            if src != f:
+                note += "; content is derived from it"; derived += 1
             else:
-                ch = [k for k in va if k in vb and va[k] != vb[k]]
-                note = f"  <-- database snapshot moved ({', '.join(ch) or 'n/a'})"; moved += 1
+                moved += 1
+    else:
+        note = "  <-- UNATTRIBUTED: no recorded snapshot to explain this difference"
+        unattributed += 1
     print(f"  DIFFERS   {f}{note}")
+
 print()
 if defect:
     print(f"RESULT B: FAIL — {defect} artifact(s) differ while the database snapshot is identical")
     sys.exit(1)
-print(f"RESULT B: drift only ({moved} artifact(s)) — package membership stable, sizes moved"
-      " upstream, which is expected: the databases are re-downloaded when absent and Arch"
-      " updates them continuously.")
+print(f"RESULT B: drift only ({moved} artifact(s) moved, {derived} derived from those)")
+if unattributed:
+    print(f"          WARNING: {unattributed} artifact(s) differ with no snapshot recorded to explain them.")
+    print("          Not a failure, but it must be looked at: it is indistinguishable from a defect.")
 PY
 rc_b=$?
 
