@@ -1,0 +1,24 @@
+repo	stars	lang	pushed	branch	archived	kb	license	open_issues	latest_tag	tag_date
+hyprwm/Hyprland	38645	C++	2026-09-22T12:33:40Z	main	false	82057	BSD-3-Clause	203	v0.56.2	2026-08-05T14:14:01Z
+niri-wm/niri	27915	Rust	2026-09-22T15:15:23Z	main	false	12279	GPL-3.0	466	v26.04	2026-04-25T13:50:41Z
+swaywm/sway	17344	C	2026-09-21T12:28:58Z	master	false	30866	MIT	1388	1.12	2026-05-25T14:56:57Z
+riverwm/river	4291	Zig	2026-09-13T12:02:57Z	main	false	3971	-	67	v0.3.0	2024-04-16T12:29:57Z
+labwc/labwc	2813	C	2026-09-22T20:52:39Z	master	false	5940	GPL-2.0	294	0.20.2	2026-08-21T17:28:56Z
+mangowm/mango	3678	C	2026-09-23T06:31:43Z	main	false	13491	NOASSERTION	225	0.17.3	2026-09-22T06:59:57Z
+WayfireWM/wayfire	3054	C++	2026-09-20T06:17:39Z	master	false	8256	MIT	124	v0.11.0	2026-07-27T08:29:42Z
+djpohly/dwl	1973	C	2023-11-25T07:38:10Z	main	true	1113	NOASSERTION	48	v0.5	2023-11-25T07:01:40Z
+noctalia-dev/noctalia	10805	C++	2026-09-22T19:24:24Z	main	false	119596	MIT	498	v5.1.0	2026-09-10T15:13:31Z
+AvengeMedia/DankMaterialShell	8188	QML	2026-09-23T03:29:35Z	master	false	166878	MIT	499	v1.6.2	2026-09-17T15:12:12Z
+quickshell-mirror/quickshell	3060	C++	2026-09-21T05:05:51Z	master	false	1795	LGPL-3.0	581	v0.3.1	2026-08-21T02:37:12Z
+Aylur/astal	988	Vala	2026-09-22T17:10:26Z	main	false	11360	LGPL-2.1	92	{"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-the-latest-release","status":"404"}
+Jas-SinghFSU/HyprPanel	2188	TypeScript	2026-04-23T05:48:43Z	master	true	14753	MIT	226	{"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-the-latest-release","status":"404"}
+Alexays/Waybar	11979	C++	2026-09-20T21:04:48Z	master	false	7250	MIT	745	0.15.0	2026-02-06T20:15:36Z
+caelestia-dots/shell	12472	QML	2026-09-20T05:54:49Z	main	false	13678	GPL-3.0	244	v2.5.0	2026-09-18T13:11:53Z
+end-4/dots-hyprland	16188	QML	2026-09-14T02:47:37Z	main	false	24589	GPL-3.0	673	2026.05.11	2026-05-11T17:28:30Z
+Aylur/ags	3101	TypeScript	2026-04-08T23:04:21Z	main	false	1397	GPL-3.0	31	v3.1.2	2026-04-08T23:05:49Z
+nwg-piotr/nwg-shell	1089	CSS	2026-05-12T00:28:26Z	main	false	72321	NOASSERTION	5	v0.5.50	2026-03-31T23:37:06Z
+{"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/repos#get-a-repository","status":"404"}	{"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-the-latest-release","status":"404"}
+InioX/matugen	2027	Rust	2026-09-20T13:17:18Z	main	false	10725	GPL-2.0	18	v4.2.0	2026-08-17T18:04:03Z
+explosion-mental/wallust	7	Rust	2026-01-16T21:36:11Z	master	false	2188	MIT	0	{"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-the-latest-release","status":"404"}
+dylanaraps/pywal	9071	Python	2024-01-27T15:51:44Z	master	true	759	MIT	168	3.3.0	2019-01-21T06:18:21Z
+nix-community/stylix	2411	Nix	2026-09-20T20:54:36Z	master	false	4840	MIT	287	{"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-the-latest-release","status":"404"}

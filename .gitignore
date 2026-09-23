@@ -1,0 +1,17 @@
+# Arch repo databases are downloaded on demand (~10 MB) and are not committed:
+# they are third-party data that goes stale. See docs/method.md to fetch them.
+data/db/
+evidence/db/
+
+# resolver scratch
+*.part
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os noise
+.DS_Store
+Thumbs.db

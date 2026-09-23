@@ -1,0 +1,13 @@
+stack	pkgs	installed_MB	marginal_pkgs	marginal_MB	aur_roots	aur_unresolved
+river+yambar+wallust	172	622.4	45	30.0	yambar;wallust	
+mangowm+quickshell+matugen	203	948.6	76	356.2	mangowm-git	scenefx0.5
+rust-dock runtime deps	213	979.1	86	386.8		
+wayle-bin only	226	1007.7	99	415.3	wayle-bin	
+hyprland+noctalia+matugen	234	1053.6	107	461.2		
+labwc+waybar+wallust	275	1120.1	148	527.7	wallust	
+sway+waybar+wallust	274	1124.9	147	532.5	wallust	
+niri+noctalia+matugen	240	1131.6	113	539.2		
+hyprland+dms+matugen	233	1168.2	106	575.8		
+niri+dms+matugen	238	1242.2	111	649.8		
+hyprland+caelestia+matugen	393	1839.5	266	1247.2	caelestia-shell	caelestia-cli;libcava;qt6-m3shapes-git;quickshell-git;ttf-rubik-vf
+impasto (upstream pacman.txt)	629	3863.8	502	3271.4		

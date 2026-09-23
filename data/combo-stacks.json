@@ -1,0 +1,8 @@
+{
+ "hyprland+wayle+rust-dock":  [["repo","hyprland"],["aur","wayle-bin"],["repo","gtk4-layer-shell"],["repo","grim"]],
+ "wayle+rust-dock (no compositor)": [["aur","wayle-bin"],["repo","gtk4-layer-shell"],["repo","grim"]],
+ "hyprland+wayle only":       [["repo","hyprland"],["aur","wayle-bin"]],
+ "hyprland+quickshell bar":   [["repo","hyprland"],["repo","quickshell"],["repo","qt6-declarative"]],
+ "hyprland+noctalia+matugen": [["repo","hyprland"],["repo","noctalia"],["repo","matugen"]],
+ "hyprland+waybar+wallust":   [["repo","hyprland"],["repo","waybar"],["aur","wallust"]]
+}

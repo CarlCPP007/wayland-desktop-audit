@@ -1,0 +1,7 @@
+# Keep line endings LF in the repository regardless of the committer's platform,
+# so the shell script and the TSVs behave the same everywhere.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.gz  binary
