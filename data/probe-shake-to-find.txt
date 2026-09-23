@@ -1,0 +1,27 @@
+# shake-to-find: impasto's `./setup plugins` builds two Hyprland plugins with hyprpm.
+# The plugin sources are GitHub repos, not packages, so what can be measured is
+# (a) whether a package exists under that name, and (b) what hyprpm itself needs.
+# probe-names.py reads `axis<TAB>name` (bare names also work).
+#
+# the plugins themselves, as impasto names them
+compositor plugin	hypr-dynamic-cursors
+compositor plugin	hypr-dynamic-cursors-git
+compositor plugin	hyprglass
+compositor plugin	hyprglass-git
+# hyprpm, the plugin manager impasto drives
+plugin manager	hyprpm
+plugin manager	hyprland
+# hyprpm's build requirements (why cmake/meson/cpio are in impasto's package list)
+build tool	base-devel
+build tool	cmake
+build tool	meson
+build tool	cpio
+build tool	git
+# a vector cursor, which the plugin needs in order to magnify the pointer
+cursor format	hyprcursor
+cursor theme	bibata-cursor-theme
+cursor theme	bibata-modern-classic-hyprcursor
+cursor theme	bibata-icursors
+# the other things impasto's plugin stage touches
+plugin support	hyprutils
+plugin support	hyprlang

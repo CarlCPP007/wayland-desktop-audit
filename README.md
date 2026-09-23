@@ -114,6 +114,14 @@ rather than dropped quietly: `swww` (gone from both repositories, superseded by 
 `pywal16` → `python-pywal16`. One candidate, `adw-gtk3`, is packaged in neither repository and so
 appears in no table.
 
+One feature class is deliberately absent from those slots: **plugins**. Shake-to-find and glass —
+impasto's two Hyprland plugins — are not packages at all. `hyprpm` compiles them from a GitHub
+repository on first run, so they can be neither probed nor costed the way everything else here is.
+They have their own file: **[docs/plugins.md](docs/plugins.md)**, covering what the feature pulls
+in against a build that already carries a compiler toolchain (nothing — all seven of `hyprpm`'s
+dependencies are already inside impasto's closure) and against one that does not (a full
+toolchain, 79 packages / 489.4 MB on a bare Hyprland).
+
 | slot | cheapest measured | MB | dearest measured | MB | swing |
 |---|---|---|---|---|---|
 | compositor | `river` | 600.4 | `niri` | 929.6 | 329.2 |
@@ -269,6 +277,15 @@ python3 tools/why-chain.py "sway+waybar+wallust" gpsd python
 # 4. audit a build found in the wild: classify its own package list, then cost it
 python3 tools/classify-stack.py "some-build" path/to/its-package-list.txt --out data/my-stacks.json
 python3 tools/pkg-closure-v2.py --stacks data/my-stacks.json --out my-build
+
+# 5. cost every desktop slot, not every stack (writes data/features-availability.tsv, docs/features.md)
+python3 tools/pkg-features.py
+python3 tools/pkg-closure-v2.py --stacks data/features-stacks.json --out features
+python3 tools/feature-report.py docs/features.md
+
+# 6. probe an ad-hoc candidate list before costing it — "does this even exist?"
+python3 tools/probe-names.py data/probe-shake-to-find.txt data/shake-to-find.tsv
+python3 tools/pkg-closure-v2.py --stacks data/shake-to-find-stacks.json --out shake
 ```
 
 Tools accept `--stacks <file.json>` to add stack definitions and `--out <name>` to name the
@@ -282,6 +299,10 @@ probably should not.
 |---|---|
 | [`data/repos.tsv`](data/repos.tsv) | provenance facts per candidate project (GitHub API) |
 | [`data/availability.tsv`](data/availability.tsv) | official-repo vs AUR availability per component |
+| [`data/features.tsv`](data/features.tsv) | the feature hunt: 136 candidates across 41 slots, costed |
+| [`data/features-availability.tsv`](data/features-availability.tsv) | where each feature candidate actually lives |
+| [`data/shake-to-find.tsv`](data/shake-to-find.tsv) | the plugin probe: two plugins that no repository packages |
+| [`data/shake.tsv`](data/shake.tsv) | what the plugin class does cost (its build toolchain) |
 | [`data/closure.tsv`](data/closure.tsv) | the nine-stack race, resolved |
 | [`data/combos.tsv`](data/combos.tsv) | combinations, including the two-component case |
 | [`data/builds.tsv`](data/builds.tsv) | the three audited builds, costed |

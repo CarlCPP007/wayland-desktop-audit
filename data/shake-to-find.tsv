@@ -1,0 +1,18 @@
+axis	pkg	where	repo	version	votes	depends_n	installed_bytes	desc
+compositor plugin	hypr-dynamic-cursors	NONE	-	-		0	0	
+compositor plugin	hypr-dynamic-cursors-git	NONE	-	-		0	0	
+compositor plugin	hyprglass	NONE	-	-		0	0	
+compositor plugin	hyprglass-git	NONE	-	-		0	0	
+plugin manager	hyprpm	official	extra	0.56.2-3		7	550717	Plugin manager for Hyprland
+plugin manager	hyprland	official	extra	0.56.2-3		62	67126447	a highly customizable dynamic tiling Wayland compositor
+build tool	base-devel	official	core	1-2		26	0	Basic tools to build Arch Linux packages
+build tool	cmake	official	extra	4.4.3-2		13	106371443	A cross-platform open-source make system
+build tool	meson	official	extra	1.12.1-1		4	17699539	High productivity build system
+build tool	cpio	official	extra	2.15-3		1	1030201	A tool to copy files into or out of a cpio or tar archive
+build tool	git	official	extra	2.55.0-1		10	32847444	the fast distributed version control system
+cursor format	hyprcursor	official	extra	0.1.13-7		12	748221	The hyprland cursor format, library and utilities
+cursor theme	bibata-cursor-theme	AUR	-	2.0.7-1	89	0	0	Material Based Cursor Theme
+cursor theme	bibata-modern-classic-hyprcursor	NONE	-	-		0	0	
+cursor theme	bibata-icursors	NONE	-	-		0	0	
+plugin support	hyprutils	official	extra	0.14.2-1		2	630261	Hyprland utilities library used across the ecosystem
+plugin support	hyprlang	official	extra	0.6.8-5		5	304933	implementation library for the hypr config language

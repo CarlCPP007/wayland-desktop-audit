@@ -1,0 +1,13 @@
+stack	pkgs	installed_MB	marginal_pkgs	marginal_MB	aur_roots	aur_unresolved
+river+yambar+wallust	172	622.4	39	31.1	yambar;wallust	
+mangowm+quickshell+matugen	203	948.6	70	357.3	mangowm-git	scenefx0.5
+hyprland+noctalia+matugen	234	1053.6	101	462.3		
+plugins :: compositor + build chain (bare Hyprland + shake to find)	212	1080.7	79	489.4		
+labwc+waybar+wallust	275	1120.1	142	528.8	wallust	
+sway+waybar+wallust	274	1124.9	141	533.6	wallust	
+niri+noctalia+matugen	240	1131.6	107	540.3		
+hyprland+dms+matugen	233	1168.2	100	576.9		
+niri+dms+matugen	238	1242.2	105	650.9		
+plugins :: hyprpm build chain	273	1675.5	140	1084.2		
+plugins :: build chain + packaged vector cursor	273	1675.5	140	1084.2	bibata-cursor-git	
+hyprland+caelestia+matugen	393	1839.5	260	1248.3	caelestia-shell	caelestia-cli;libcava;qt6-m3shapes-git;quickshell-git;ttf-rubik-vf

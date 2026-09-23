@@ -104,6 +104,19 @@ not exist and were replaced with the real package: `swww` (gone from both reposi
 superseded by `awww`), `rofi-wayland` (folded into `rofi`), `hyprshot` → `hyprshot-git`,
 `rofimoji` → `rofimoji-git`, `pywal16` → `python-pywal16`.
 
+### `shake-to-find.tsv`, `shake-to-find-stacks.json`, `shake.*` — the plugin probe
+
+Plugins are the one feature class that is not a package: `hyprpm` compiles them from a GitHub
+repository on first run, so there is nothing in either database to find. `probe-shake-to-find.txt`
+is the candidate list for that class — both plugin names, `hyprpm` itself, the toolchain it needs,
+and the cursor chain — and `shake-to-find.tsv` is what the probe returned.
+
+Both plugin names come back `NONE`. That is a statement about the **names**, not proof of absence:
+the upstream repositories were confirmed separately with the GitHub API, and both are active. See
+`docs/plugins.md`. `shake-to-find-stacks.json` costs what the feature does pull in, and `shake.*`
+is the resulting measurement — including the finding that against a build which already carries
+the toolchain, the feature adds zero packages.
+
 ### Traceability, and where it stops
 
 `parents` records `child -> [parent, exact dependency token]` for every package pulled in through
@@ -139,9 +152,10 @@ different kinds of claims, and the files keep them apart.
 
 ## Build inputs
 
-`combo-stacks.json`, `builds-stacks.json` and `features-stacks.json` are the stack definitions fed
-to the resolver via `--stacks`. They are the reproducible input for the combination, build and
-feature tables: roots marked `repo` resolve from the official databases, roots marked `aur`
+`combo-stacks.json`, `builds-stacks.json`, `features-stacks.json` and `shake-to-find-stacks.json`
+are the stack definitions fed to the resolver via `--stacks`. They are the reproducible input for
+the combination, build and feature tables: roots marked `repo` resolve from the official databases,
+roots marked `aur`
 resolve from the AUR RPC. `features-catalog.json` is the human-edited feature catalogue that
 `tools/pkg-features.py` turns into `features-stacks.json`.
 

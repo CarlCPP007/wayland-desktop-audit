@@ -1,0 +1,29 @@
+{
+ "plugins :: hyprpm build chain": [
+  ["repo", "hyprpm"],
+  ["repo", "base-devel"],
+  ["repo", "cmake"],
+  ["repo", "meson"],
+  ["repo", "cpio"],
+  ["repo", "git"]
+ ],
+ "plugins :: build chain + packaged vector cursor": [
+  ["repo", "hyprpm"],
+  ["repo", "base-devel"],
+  ["repo", "cmake"],
+  ["repo", "meson"],
+  ["repo", "cpio"],
+  ["repo", "git"],
+  ["repo", "hyprcursor"],
+  ["aur", "bibata-cursor-git"]
+ ],
+ "plugins :: compositor + build chain (bare Hyprland + shake to find)": [
+  ["repo", "hyprland"],
+  ["repo", "hyprpm"],
+  ["repo", "cmake"],
+  ["repo", "meson"],
+  ["repo", "cpio"],
+  ["repo", "git"],
+  ["repo", "hyprcursor"]
+ ]
+}
